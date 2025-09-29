@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1465336131	Game_Resume			\MISC_WU\Game_Resume	
+

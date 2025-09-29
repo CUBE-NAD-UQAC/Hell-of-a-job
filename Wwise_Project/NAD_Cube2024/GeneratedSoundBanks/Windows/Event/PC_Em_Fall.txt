@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	626635677	PC_Em_Fall			\SFX WU\Player_Events_WU\Emotes\PC_Em_Fall	
+

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3196293788",
+    "Type": "Event",
+    "GUID": "{ADCD7436-AB45-4AF9-B4E6-82E233EEECE2}",
+    "Language": "SFX",
+    "Hash": "{DBC5C779-1283-0957-3EED-C005D6BAEBA2}",
+    "ObjectPath": "Animatique_Start",
+    "ShortName": "Animatique_Start",
+    "Path": "Event/Animatique_Start.bnk",
+    "Media": [
+     {
+      "Id": "621147370",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_Animatique_AUDIO.wav",
+      "Path": "Media/621147370.wem",
+      "CachePath": "SFX/Cube_Animatique_AUDIO_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3196293788",
+      "Name": "Animatique_Start",
+      "ObjectPath": "\\Events\\MISC_WU\\Animatique_Start",
+      "GUID": "{ADCD7436-AB45-4AF9-B4E6-82E233EEECE2}",
+      "DurationType": "OneShot",
+      "DurationMin": "95.7",
+      "DurationMax": "95.7",
+      "MediaRefs": [
+       {
+        "Id": "621147370"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{505C7128-82D5-A4F9-F8C9-7FCA89DB206A}"
+ }
+}

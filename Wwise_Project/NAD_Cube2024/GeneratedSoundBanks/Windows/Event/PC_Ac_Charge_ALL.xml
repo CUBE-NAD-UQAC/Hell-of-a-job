@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3169524572" Type="Event" GUID="{03D4C276-8806-4859-AF74-A085DD00C0D5}" Language="SFX" Hash="{97658E12-3546-F5F2-701D-829906638DD4}">
+			<ObjectPath>PC_Ac_Charge_ALL</ObjectPath>
+			<ShortName>PC_Ac_Charge_ALL</ShortName>
+			<Path>Event/PC_Ac_Charge_ALL.bnk</Path>
+			<Media>
+				<File Id="420023559" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Cube_PC_ChargeThrow_V2.wav</ShortName>
+					<Path>Media/420023559.wem</Path>
+					<CachePath>SFX/Cube_PC_ChargeThrow_V2_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3169524572" Name="PC_Ac_Charge_ALL" ObjectPath="\Events\SFX WU\Player_Events_WU\PC_Ac_Charge\PC_Ac_Charge_ALL" GUID="{03D4C276-8806-4859-AF74-A085DD00C0D5}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="1.5196389" DurationMax="1.705737">
+					<MediaRefs>
+						<MediaRef Id="420023559"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{43159156-0461-923F-D5A2-56C37F72A4A2}</FileHash>
+</SoundBanksInfo>

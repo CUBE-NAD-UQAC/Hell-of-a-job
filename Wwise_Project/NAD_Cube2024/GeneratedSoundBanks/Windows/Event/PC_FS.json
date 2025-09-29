@@ -1,0 +1,247 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3067029096",
+    "Type": "Event",
+    "GUID": "{28E9067A-597B-4434-8AA6-B48269ADC949}",
+    "Language": "SFX",
+    "Hash": "{B952FE01-BEC2-4411-5307-7A07F877C09C}",
+    "ObjectPath": "PC_FS",
+    "ShortName": "PC_FS",
+    "Path": "Event/PC_FS.bnk",
+    "Media": [
+     {
+      "Id": "26934661",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FS_Gravel_01.wav",
+      "Path": "Media/26934661.wem",
+      "CachePath": "SFX/FS_Gravel_01_818F3B66.wem"
+     },
+     {
+      "Id": "31744606",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FS_Gravel_04.wav",
+      "Path": "Media/31744606.wem",
+      "CachePath": "SFX/FS_Gravel_04_818F3B66.wem"
+     },
+     {
+      "Id": "213080547",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FS_Tile_02.wav",
+      "Path": "Media/213080547.wem",
+      "CachePath": "SFX/FS_Tile_02_818F3B66.wem"
+     },
+     {
+      "Id": "262567331",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FS_Concrete_04.wav",
+      "Path": "Media/262567331.wem",
+      "CachePath": "SFX/FS_Concrete_04_818F3B66.wem"
+     },
+     {
+      "Id": "284613170",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FS_Concrete_01.wav",
+      "Path": "Media/284613170.wem",
+      "CachePath": "SFX/FS_Concrete_01_818F3B66.wem"
+     },
+     {
+      "Id": "332157252",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FS_Gravel_02.wav",
+      "Path": "Media/332157252.wem",
+      "CachePath": "SFX/FS_Gravel_02_818F3B66.wem"
+     },
+     {
+      "Id": "399863050",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FS_Concrete_03.wav",
+      "Path": "Media/399863050.wem",
+      "CachePath": "SFX/FS_Concrete_03_818F3B66.wem"
+     },
+     {
+      "Id": "495320226",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FS_Gravel_03.wav",
+      "Path": "Media/495320226.wem",
+      "CachePath": "SFX/FS_Gravel_03_818F3B66.wem"
+     },
+     {
+      "Id": "878503785",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FS_Concrete_02.wav",
+      "Path": "Media/878503785.wem",
+      "CachePath": "SFX/FS_Concrete_02_818F3B66.wem"
+     },
+     {
+      "Id": "978845241",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FS_Tile_03.wav",
+      "Path": "Media/978845241.wem",
+      "CachePath": "SFX/FS_Tile_03_818F3B66.wem"
+     },
+     {
+      "Id": "996292346",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FS_Tile_01.wav",
+      "Path": "Media/996292346.wem",
+      "CachePath": "SFX/FS_Tile_01_818F3B66.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "3158203991",
+       "Name": "EQ_Footsteps",
+       "ObjectPath": "\\Effects\\Default Work Unit\\EQ_Footsteps",
+       "GUID": "{3F875C47-000A-4D0E-A65B-9B029C2CC600}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "3067029096",
+      "Name": "PC_FS",
+      "ObjectPath": "\\Events\\SFX WU\\Player_Events_WU\\PC_FS",
+      "GUID": "{28E9067A-597B-4434-8AA6-B48269ADC949}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.15683019",
+      "DurationMax": "0.46880698",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "63790334",
+         "Id": "2185786256",
+         "GUID": "{3DB1534D-F3A5-4FA8-8536-78F5CE3824FD}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "26934661"
+         },
+         {
+          "Id": "31744606"
+         },
+         {
+          "Id": "332157252"
+         },
+         {
+          "Id": "495320226"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "63790334",
+         "Id": "2144363834",
+         "GUID": "{B6BF5767-F291-4199-9B05-9ED309308016}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "262567331"
+         },
+         {
+          "Id": "284613170"
+         },
+         {
+          "Id": "399863050"
+         },
+         {
+          "Id": "878503785"
+         }
+        ],
+        "PluginRefs": {
+         "ShareSets": [
+          {
+           "Id": "3158203991"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "63790334",
+         "Id": "2637588553",
+         "GUID": "{C286D277-3A13-42A7-86E5-2F20F9D7521E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "213080547"
+         },
+         {
+          "Id": "978845241"
+         },
+         {
+          "Id": "996292346"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "63790334",
+      "Name": "SurfaceType",
+      "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceType",
+      "GUID": "{14FBFC82-8FB2-4EC9-9322-9E877BA9FFB8}",
+      "Switches": [
+       {
+        "Id": "2144363834",
+        "Name": "Rock",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceType\\Rock",
+        "GUID": "{B6BF5767-F291-4199-9B05-9ED309308016}"
+       },
+       {
+        "Id": "2185786256",
+        "Name": "Gravel",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceType\\Gravel",
+        "GUID": "{3DB1534D-F3A5-4FA8-8536-78F5CE3824FD}"
+       },
+       {
+        "Id": "2637588553",
+        "Name": "Tile",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceType\\Tile",
+        "GUID": "{C286D277-3A13-42A7-86E5-2F20F9D7521E}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{83B3761A-1571-F61F-0AEC-42999CF2C722}"
+ }
+}

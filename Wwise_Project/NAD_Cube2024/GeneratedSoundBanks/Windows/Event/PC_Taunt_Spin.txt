@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4117858986	PC_Taunt_Spin			\SFX WU\Player_Events_WU\Emotes\PC_Taunt_Spin	
+

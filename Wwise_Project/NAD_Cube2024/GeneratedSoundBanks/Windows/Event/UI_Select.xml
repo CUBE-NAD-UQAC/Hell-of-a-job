@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2774129122" Type="Event" GUID="{3F9CAC33-3096-421A-8520-7B7693FFE9AE}" Language="SFX" Hash="{E98E86D8-D0BD-1427-88FA-598118871DDA}">
+			<ObjectPath>UI_Select</ObjectPath>
+			<ShortName>UI_Select</ShortName>
+			<Path>Event/UI_Select.bnk</Path>
+			<Media>
+				<File Id="600132723" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bounce\UI\SFX_UI_Select.wav</ShortName>
+					<Path>Media/600132723.wem</Path>
+					<CachePath>SFX/Bounce/UI/SFX_UI_Select_6CD19AD3.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2774129122" Name="UI_Select" ObjectPath="\Events\SFX WU\UI_Events_WU\UI_Select" GUID="{3F9CAC33-3096-421A-8520-7B7693FFE9AE}" MaxAttenuation="2000" DurationType="OneShot" DurationMin="0.07140903" DurationMax="0.07140903">
+					<MediaRefs>
+						<MediaRef Id="600132723"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{D058B43A-7CBF-E431-EBE1-FC092334FB6A}</FileHash>
+</SoundBanksInfo>

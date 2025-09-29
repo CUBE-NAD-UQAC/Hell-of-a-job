@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "755505919",
+    "Type": "Event",
+    "GUID": "{03D44FD2-11EB-46D6-B038-48C5080B8747}",
+    "Language": "SFX",
+    "Hash": "{B66E2925-3470-B98A-679F-572EAD6CB590}",
+    "ObjectPath": "Win_Cinematic",
+    "ShortName": "Win_Cinematic",
+    "Path": "Event/Win_Cinematic.bnk",
+    "Media": [
+     {
+      "Id": "322615170",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cinematic_Win.wav",
+      "Path": "Media/322615170.wem",
+      "CachePath": "SFX/Cinematic_Win_9258CCD0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "755505919",
+      "Name": "Win_Cinematic",
+      "ObjectPath": "\\Events\\Cinematic\\Win_Cinematic",
+      "GUID": "{03D44FD2-11EB-46D6-B038-48C5080B8747}",
+      "DurationType": "OneShot",
+      "DurationMin": "25.6",
+      "DurationMax": "25.6",
+      "MediaRefs": [
+       {
+        "Id": "322615170"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B173C0A9-A848-CF36-CC94-759515067D80}"
+ }
+}

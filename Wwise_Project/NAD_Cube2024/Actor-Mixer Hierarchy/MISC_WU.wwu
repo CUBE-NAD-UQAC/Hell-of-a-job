@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{91B8B446-CB95-4BFE-AAD8-BB81A4C88C66}" SchemaVersion="119" RootDocumentID="{6CC8C9AB-3DF9-4F3C-85B1-045A2D9F3D42}" ParentDocumentID="{6CC8C9AB-3DF9-4F3C-85B1-045A2D9F3D42}">
+	<AudioObjects>
+		<WorkUnit Name="MISC_WU" ID="{91B8B446-CB95-4BFE-AAD8-BB81A4C88C66}" OwnerID="{6CC8C9AB-3DF9-4F3C-85B1-045A2D9F3D42}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="Stingers" ID="{30988C96-C3C5-4CB7-9C1E-1D0C97515A83}" ShortID="380599268">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX_BUS" ID="{97E48119-C4B0-4FDD-BE3B-9416779327A3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Cube_SFX_Last10Sec_Stinger" ID="{15167785-5D74-44A7-8AE9-658854D0A73D}" ShortID="235138955">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cube_SFX_Last10Sec_Stinger" ID="{DE73684A-0773-4461-8DEC-F48B4B3ABFBA}">
+									<Language>SFX</Language>
+									<AudioFile>Cube_SFX_Last10Sec_Stinger.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="422583641"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cube_SFX_Last10Sec_Stinger" ID="{DE73684A-0773-4461-8DEC-F48B4B3ABFBA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3363976608	Prop_Portal_Hum			\SFX WU\Objects_Events_WU\Prop_Portal_Hum	
+

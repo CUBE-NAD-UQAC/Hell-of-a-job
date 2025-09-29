@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2905885869	AMB_Brazier			\AMB WU\AMB_Brazier	
+
+Effect plug-ins	ID	Name	Type				Notes
+	168049331	Compressor (Custom)	Wwise Compressor			
+	963882312	Parametric EQ (Custom)	Wwise Parametric EQ			
+

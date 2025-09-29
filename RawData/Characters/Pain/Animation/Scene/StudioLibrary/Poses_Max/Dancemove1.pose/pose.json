@@ -1,0 +1,1641 @@
+{
+  "metadata": {
+    "description": "",
+    "user": "Max",
+    "ctime": "1740530861",
+    "version": "1.0.0",
+    "references": [
+      {
+        "filename": "F:/Perforce/20243_NAD_CUBE2/CUBE_24/RawData/Characters/Diable_v2/Rig/Diable_v2.0_nostetch.mb",
+        "unresolved": "F:/Perforce/20243_NAD_CUBE2/CUBE_24/RawData/Characters/Diable_v2/Rig/Diable_v2.0_nostetch.mb",
+        "namespace": "Diable_v2_0_nostetch",
+        "node": "Diable_v2_0_nostetchRN"
+      }
+    ],
+    "mayaVersion": "2024",
+    "mayaSceneFile": "F:/Perforce/20243_NAD_CUBE2/CUBE_24/RawData/Animation/VictoryDance_V_Max.mb"
+  }
+,
+  "objects": {
+    "Diable_v2_0_nostetch:R_ear2_ctrl": {
+      "attrs": {
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:L_FK_clavicule_CTR": {
+      "attrs": {
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:R_ear1_ctrl": {
+      "attrs": {
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:R_ear3_ctrl": {
+      "attrs": {
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:pelvis_inverse_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": -10.320258023338265
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 5.706931638892528
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 5.914893795591281
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:FK_tail1_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:FK_tail4_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 21.882112880163753
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:R_wing_base1_ctrl": {
+      "attrs": {
+        "Wing_Extend": {
+          "type": "double",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": -6.000520574691489
+        },
+        "Wing_Flap": {
+          "type": "double",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:FK_tail2_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 27.506635955690133
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:FK_tail3_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 21.17754509829785
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 21.01842295450986
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": -22.031175787024047
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:FK_tail5_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:FK_tail6_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": -63.308462439687354
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:FK_tail7_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:FK_tail8_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:FK_tail9_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:R_foot_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": -0.8611343088324912
+        },
+        "Roll_Foot": {
+          "type": "double",
+          "value": 0.0
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 1.9551540123163846
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:R_leg_knee_pole_vector_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:L_foot_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": -0.7343307441362299
+        },
+        "Roll_Foot": {
+          "type": "double",
+          "value": 0.0
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 3.112097281761777
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 28.39595171237978
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 14.254603972680007
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": -7.467198190703363
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 4.43923903196604
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:L_leg_knee_pole_vector_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:Root_offset_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 90.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:Root_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:character_ctrl_gr|Diable_v2_0_nostetch:MASTER_Global_ctrl|Diable_v2_0_nostetch:MASTER_Global_ctrl": {
+      "attrs": {
+        "GloabalScale": {
+          "type": "double",
+          "value": 1.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:spine1_ctrl": {
+      "attrs": {
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": -5.5871756523483995
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": -0.4056052054371488
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 4.1499343728569755
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:rig_settings_gear_ctrl": {
+      "attrs": {
+        "Both_Arms_SWITCH": {
+          "type": "enum",
+          "value": 1
+        },
+        "Wings_CTRL": {
+          "type": "enum",
+          "value": 0
+        },
+        "L_Arm_SWITCH": {
+          "type": "enum",
+          "value": 1
+        },
+        "Eyebrows_CTRL": {
+          "type": "enum",
+          "value": 0
+        },
+        "FaceIKsCTRL": {
+          "type": "enum",
+          "value": 0
+        },
+        "Tail_SWITCH": {
+          "type": "enum",
+          "value": 0
+        },
+        "Mouth_IKs_CTRL": {
+          "type": "enum",
+          "value": 0
+        },
+        "R_Arm_SWITCH": {
+          "type": "enum",
+          "value": 1
+        },
+        "visibility": {
+          "type": "bool",
+          "value": true
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:pelvis_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": -0.07050782475891992
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": -36.67297431406695
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:spine2_ctrl": {
+      "attrs": {
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": -5.304730106925937
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": -0.38516073151762203
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 4.151878376696753
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:spine3_ctrl": {
+      "attrs": {
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": -4.574184536254064
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 4.883013126668275
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 8.193745028982784
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:neck_ctrl": {
+      "attrs": {
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": -3.870219189119342
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": -2.1163863713540487
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": -7.474710560168018
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:head_ctrl": {
+      "attrs": {
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 2.4736009832682213
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 3.7766370128454962
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.5954429837340994
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:L_Eyebrow_OUT_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:L_Eyebrow_IN_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:L_Eyebrow_MID_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:R_Eyebrow_IN_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:R_Eyebrow_MID_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:R_Eyebrow_OUT_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:L_DOWN_Eyelid_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": -3.2267091806833044
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 8.068303837210731
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:L_R_rectangle_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 3.6079263158446224
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 7.869824894543193
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:L_UP_Eyelid_ctrl____________": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 2.9561987214389287
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": -11.930270893424387
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:R_DOWN_Eyelid_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": -3.2267091806833044
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 8.068303837210731
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:R_UP_Eyelid_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 3.323482441786398
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": -11.930270893424375
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:Jaw_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": -2.067176460930585
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:DOWN_L_mouth_side_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": -26.51691397427229
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.7298083146871157
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 164.72486189422796
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": -9.215046460362988
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 44.17895306502037
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 14.441286442457937
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:L_Eye_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 3.607926315844608
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 7.869824894543193
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "blendPoint1": {
+          "type": "double",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:R_Eye_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 3.607926315844608
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": -7.869824894543193
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "blendPoint2": {
+          "type": "double",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:UP_L_mouth_side_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": -26.516913974272285
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.28682512571807095
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 164.72486189422796
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 13.865582222103011
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 44.17895306502037
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 25.350623541749044
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:UP_L_mouth_mid_side_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": -13.028279301155466
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 5.25935932784574
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": -8.810775431922869
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 11.704917097056878
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 22.069668375424357
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 25.33017713834323
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:L_mouth_corner_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": -45.20390319824215
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": -14.93063827441365
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": -25.209420380377114
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 8.797227694207828
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 75.83425309204709
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 20.556157378848297
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:DOWN_L_mouth_mid_side_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": -13.028279301155466
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 5.2962959740364255
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": -8.810775431922863
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": -11.375711585409125
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 22.069668375424342
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 12.473113456221157
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:UP_R_mouth_mid_side_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 13.028279301155502
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 5.259359327845754
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 8.810775431922957
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 11.704917097056846
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": -22.069668375424328
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 25.330177138343203
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:DOWN_R_mouth_mid_side_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 13.028279301155484
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 5.29629597403644
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 8.81077543192293
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": -11.375711585409146
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": -22.069668375424275
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 12.473113456221128
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:UP_R_mouth_side_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 26.516913974272327
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.28682512571809937
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": -164.72486189422781
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 13.86558222210293
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": -44.17895306502035
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 25.350623541749016
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:R_mouth_corner_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 45.203903198242195
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": -14.930638274413607
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 25.209420380377455
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 8.797227694207555
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": -75.83425309204705
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 20.55615737884824
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:DOWN_Mouth_middle_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 1.2778522188519025e-06
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 6.055130740112361
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 179.9999971260866
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": -14.150718276841019
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": -2.200600599052661e-06
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 10.677392039884253
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:Jaw_ctrl|Diable_v2_0_nostetch:UP_Mouth_middle": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 1.2778522239922594e-06
+        },
+        "scaleX": {
+          "type": "double",
+          "value": 1.0000000000000004
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 6.661422154712508
+        },
+        "scaleZ": {
+          "type": "double",
+          "value": 0.9999999999999996
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 179.99999712608658
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 8.929910405624934
+        },
+        "scaleY": {
+          "type": "double",
+          "value": 1.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": -2.2006005998506984e-06
+        },
+        "visibility": {
+          "type": "bool",
+          "value": true
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 23.975678915083066
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:DOWN_R_mouth_side_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 26.516913974272317
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 0.7298083146871441
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": -164.72486189422787
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": -9.215046460363046
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": -44.17895306502032
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": 14.441286442457908
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:L_ear2_ctrl": {
+      "attrs": {
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:L_ear1_ctrl": {
+      "attrs": {
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:L_ear3_ctrl": {
+      "attrs": {
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:L_IK_elbow_PV_ctrl": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 14.3034467834856
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": -30.922552117864434
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": -31.67587458719939
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:L_IK_Hand_CTRL": {
+      "attrs": {
+        "translateZ": {
+          "type": "doubleLinear",
+          "value": 54.73888132048877
+        },
+        "translateX": {
+          "type": "doubleLinear",
+          "value": 20.589397911302058
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": -35.62800105576347
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 164.1860244149406
+        },
+        "Grabby_Hands": {
+          "type": "double",
+          "value": 4.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 45.08777789094116
+        },
+        "translateY": {
+          "type": "doubleLinear",
+          "value": -25.95589912925158
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:R_FK_shoulder2_CTR": {
+      "attrs": {
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:R_FK_clavicule_CTR": {
+      "attrs": {
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:R_FK_shoulder1_CTR": {
+      "attrs": {
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:R_FK_hand_CTR": {
+      "attrs": {
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "Grabby_Hands": {
+          "type": "double",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:R_FK_elbow1_CTR": {
+      "attrs": {
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:R_FK_elbow2_CTR": {
+      "attrs": {
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        }
+      }
+    },
+    "Diable_v2_0_nostetch:L_wing_base1_ctrl": {
+      "attrs": {
+        "WingExtend": {
+          "type": "double",
+          "value": 0.0
+        },
+        "rotateX": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateZ": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "rotateY": {
+          "type": "doubleAngle",
+          "value": 0.0
+        },
+        "Wing_Flap": {
+          "type": "double",
+          "value": 0.0
+        }
+      }
+    }
+  }
+}

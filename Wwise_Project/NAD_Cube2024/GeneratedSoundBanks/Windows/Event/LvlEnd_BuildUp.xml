@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2828756762" Type="Event" GUID="{AE2BDCDA-884F-4794-B2D7-35AF2CAF72C2}" Language="SFX" Hash="{CD2F4422-5F2F-03DE-A64F-8C4116D0956D}">
+			<ObjectPath>LvlEnd_BuildUp</ObjectPath>
+			<ShortName>LvlEnd_BuildUp</ShortName>
+			<Path>Event/LvlEnd_BuildUp.bnk</Path>
+			<Events>
+				<Event Id="2828756762" Name="LvlEnd_BuildUp" ObjectPath="\Events\MUS WU\LvlEnd_BuildUp" GUID="{AE2BDCDA-884F-4794-B2D7-35AF2CAF72C2}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3514626634" Id="2149848048" Name="BuildUp" ObjectPath="\States\Default Work Unit\MUS_VictorySeq\BuildUp" GUID="{C7715DA3-0A2B-487F-ACB7-5506BC6011B4}"/>
+					</ActionSetState>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="3514626634" Name="MUS_VictorySeq" ObjectPath="\States\Default Work Unit\MUS_VictorySeq" GUID="{58BE40E9-2BED-4AF7-B555-EF55EC9AD47F}">
+					<States>
+						<State Id="529726532" Name="End" ObjectPath="\States\Default Work Unit\MUS_VictorySeq\End" GUID="{EAF696A7-1238-48EC-8AC5-AD066A257A76}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\MUS_VictorySeq\None" GUID="{9D0FF694-CDAD-42EA-A4C4-D2C273D19412}"/>
+						<State Id="1281810935" Name="Start" ObjectPath="\States\Default Work Unit\MUS_VictorySeq\Start" GUID="{94C5C768-ADD8-4F21-8A6A-1A04748EDDC4}"/>
+						<State Id="2149848048" Name="BuildUp" ObjectPath="\States\Default Work Unit\MUS_VictorySeq\BuildUp" GUID="{C7715DA3-0A2B-487F-ACB7-5506BC6011B4}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{D0E5A0F3-F2A7-ECD5-A077-AB53D7C63017}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3363976608",
+    "Type": "Event",
+    "GUID": "{EDCE8F5A-1C21-4F0A-8C77-3B47BA1CCC10}",
+    "Language": "SFX",
+    "Hash": "{4F276FA7-9423-8D84-640D-1B02E717BF91}",
+    "ObjectPath": "Prop_Portal_Hum",
+    "ShortName": "Prop_Portal_Hum",
+    "Path": "Event/Prop_Portal_Hum.bnk",
+    "Media": [
+     {
+      "Id": "482092795",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Amb_Portal_Loop 01.wav",
+      "Path": "Media/482092795.wem",
+      "CachePath": "SFX/Amb_Portal_Loop 01_FDD589F2.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3363976608",
+      "Name": "Prop_Portal_Hum",
+      "ObjectPath": "\\Events\\SFX WU\\Objects_Events_WU\\Prop_Portal_Hum",
+      "GUID": "{EDCE8F5A-1C21-4F0A-8C77-3B47BA1CCC10}",
+      "MaxAttenuation": "3000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "482092795"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{99336E11-B56B-86D4-A71E-962D7A349307}"
+ }
+}

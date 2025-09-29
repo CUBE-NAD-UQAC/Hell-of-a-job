@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="4036719384" Type="Event" GUID="{759D95A7-0517-4403-BF17-6E6820F33B96}" Language="SFX" Hash="{787824F1-414E-A1E2-6CC8-85400D9428A3}">
+			<ObjectPath>UI_Score_Update</ObjectPath>
+			<ShortName>UI_Score_Update</ShortName>
+			<Path>Event/UI_Score_Update.bnk</Path>
+			<Events>
+				<Event Id="4036719384" Name="UI_Score_Update" ObjectPath="\Events\SFX WU\UI_Events_WU\UI_Score_Update" GUID="{759D95A7-0517-4403-BF17-6E6820F33B96}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{F43222A3-C10F-1FA6-AC16-5ADDCAACD123}</FileHash>
+</SoundBanksInfo>

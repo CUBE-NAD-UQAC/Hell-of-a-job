@@ -1,0 +1,20 @@
+{
+    "../../Poses_Max": {
+        "name": "Poses_Max",
+        "path": "../../Poses_Max",
+        "type": "Folder",
+        "folder": "../..",
+        "category": "StudioLibrary",
+        "modified": 1740530846.0,
+        "__class__": "studiolibrary.folderitem.FolderItem"
+    },
+    "../../Poses_Max/Dancemove1.pose": {
+        "name": "Dancemove1.pose",
+        "path": "../../Poses_Max/Dancemove1.pose",
+        "type": ".pose",
+        "folder": "../../Poses_Max",
+        "category": "Poses_Max",
+        "modified": 1740530862.0,
+        "__class__": "studiolibrarymaya.poseitem.PoseItem"
+    }
+}

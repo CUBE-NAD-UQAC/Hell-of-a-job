@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2416459655" Type="Event" GUID="{01265BB2-41B3-4DA8-B3ED-E71C388A3B0B}" Language="SFX" Hash="{AD6CDE3A-14CF-736A-5E1B-D9DB38BFDE01}">
+			<ObjectPath>Prop_Portal_Ready</ObjectPath>
+			<ShortName>Prop_Portal_Ready</ShortName>
+			<Path>Event/Prop_Portal_Ready.bnk</Path>
+			<Media>
+				<File Id="260306579" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bounce\Portal\SFX_Object_Portal_Ready.wav</ShortName>
+					<Path>Media/260306579.wem</Path>
+					<CachePath>SFX/Bounce/Portal/SFX_Object_Portal_Ready_8585CE1F.wem</CachePath>
+				</File>
+				<File Id="482092795" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Amb_Portal_Loop 01.wav</ShortName>
+					<Path>Media/482092795.wem</Path>
+					<CachePath>SFX/Amb_Portal_Loop 01_FDD589F2.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3363976608" Name="Prop_Portal_Hum" ObjectPath="\Events\SFX WU\Objects_Events_WU\Prop_Portal_Hum" GUID="{EDCE8F5A-1C21-4F0A-8C77-3B47BA1CCC10}" MaxAttenuation="3000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="482092795"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2416459655" Name="Prop_Portal_Ready" ObjectPath="\Events\SFX WU\Objects_Events_WU\Prop_Portal_Ready" GUID="{01265BB2-41B3-4DA8-B3ED-E71C388A3B0B}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="2.1795058" DurationMax="2.1795058">
+					<MediaRefs>
+						<MediaRef Id="260306579"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3363976608" Name="Prop_Portal_Hum" ObjectPath="\Events\SFX WU\Objects_Events_WU\Prop_Portal_Hum" GUID="{EDCE8F5A-1C21-4F0A-8C77-3B47BA1CCC10}"/>
+					</ActionPostEvent>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{C01660F8-53E8-C3FA-0717-2AC9F501C125}</FileHash>
+</SoundBanksInfo>

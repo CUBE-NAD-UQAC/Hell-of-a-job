@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2792155208",
+    "Type": "Event",
+    "GUID": "{A56B724C-F64B-490A-A9E4-7987C560BA46}",
+    "Language": "SFX",
+    "Hash": "{6D42E570-EA68-00D0-74E6-B121EC5C85BD}",
+    "ObjectPath": "UI_Pause",
+    "ShortName": "UI_Pause",
+    "Path": "Event/UI_Pause.bnk",
+    "Media": [
+     {
+      "Id": "926633259",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_UI_Pause.wav",
+      "Path": "Media/926633259.wem",
+      "CachePath": "SFX/SFX_UI_Pause_2009493B.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2792155208",
+      "Name": "UI_Pause",
+      "ObjectPath": "\\Events\\SFX WU\\UI_Events_WU\\UI_Pause",
+      "GUID": "{A56B724C-F64B-490A-A9E4-7987C560BA46}",
+      "MaxAttenuation": "2000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8715864",
+      "DurationMax": "0.8715864",
+      "MediaRefs": [
+       {
+        "Id": "926633259"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7AAA0772-58F1-DA64-745E-FCB9696142A9}"
+ }
+}

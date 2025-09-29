@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{65774BEE-261D-4EC1-99F1-D56BCB76CC29}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{65774BEE-261D-4EC1-99F1-D56BCB76CC29}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="OLD_PC_Ac_Charge" ID="{2FAE2D2B-5CFC-4402-A9EB-4D51F40BF985}">
+					<ChildrenList>
+						<Action Name="" ID="{F7285479-2E40-4B3B-B06A-330DA4DBB9C5}" ShortID="948766411">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Charge_seq" ID="{6F4FAB5A-3C20-42A7-A1BB-51CBB5F828DE}" WorkUnitID="{F783C58A-C7F3-44DC-9BDB-2B33640573EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

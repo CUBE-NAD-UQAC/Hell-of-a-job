@@ -1,0 +1,115 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1730664413",
+    "Type": "Event",
+    "GUID": "{7201C1BA-99FD-4C3C-AE3B-D4DB1988C75D}",
+    "Language": "SFX",
+    "Hash": "{CFBBC841-6465-599F-001E-534950D663F5}",
+    "ObjectPath": "Prop_Collectible_Spawn",
+    "ShortName": "Prop_Collectible_Spawn",
+    "Path": "Event/Prop_Collectible_Spawn.bnk",
+    "Media": [
+     {
+      "Id": "56447798",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Collectible_Spawn_04.wav",
+      "Path": "Media/56447798.wem",
+      "CachePath": "SFX/SFX_Collectible_Spawn_04_818F3B66.wem"
+     },
+     {
+      "Id": "134562296",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Collectibles\\SFX_Collectible_Loop.wav",
+      "Path": "Media/134562296.wem",
+      "CachePath": "SFX/Collectibles/SFX_Collectible_Loop_FBC78EF0.wem"
+     },
+     {
+      "Id": "769548581",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Collectible_Spawn_01.wav",
+      "Path": "Media/769548581.wem",
+      "CachePath": "SFX/SFX_Collectible_Spawn_01_818F3B66.wem"
+     },
+     {
+      "Id": "928470425",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Collectible_Spawn_03.wav",
+      "Path": "Media/928470425.wem",
+      "CachePath": "SFX/SFX_Collectible_Spawn_03_818F3B66.wem"
+     },
+     {
+      "Id": "1072873759",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Collectible_Spawn_02.wav",
+      "Path": "Media/1072873759.wem",
+      "CachePath": "SFX/SFX_Collectible_Spawn_02_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3410528690",
+      "Name": "Prop_Collectible_Hum",
+      "ObjectPath": "\\Events\\SFX WU\\Objects_Events_WU\\Collectibles\\Prop_Collectible_Hum",
+      "GUID": "{11D8B906-9527-4F9C-9E13-CC01CB5B4A54}",
+      "MaxAttenuation": "2000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "134562296"
+       }
+      ]
+     },
+     {
+      "Id": "1730664413",
+      "Name": "Prop_Collectible_Spawn",
+      "ObjectPath": "\\Events\\SFX WU\\Objects_Events_WU\\Collectibles\\Prop_Collectible_Spawn",
+      "GUID": "{7201C1BA-99FD-4C3C-AE3B-D4DB1988C75D}",
+      "MaxAttenuation": "2000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.6925979",
+      "DurationMax": "2.8527083",
+      "MediaRefs": [
+       {
+        "Id": "56447798"
+       },
+       {
+        "Id": "769548581"
+       },
+       {
+        "Id": "928470425"
+       },
+       {
+        "Id": "1072873759"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "3410528690",
+        "Name": "Prop_Collectible_Hum",
+        "ObjectPath": "\\Events\\SFX WU\\Objects_Events_WU\\Collectibles\\Prop_Collectible_Hum",
+        "GUID": "{11D8B906-9527-4F9C-9E13-CC01CB5B4A54}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{16C33367-2494-A6B1-C19A-4D0053A10F1B}"
+ }
+}

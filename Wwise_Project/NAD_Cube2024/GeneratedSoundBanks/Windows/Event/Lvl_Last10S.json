@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2969289918",
+    "Type": "Event",
+    "GUID": "{4CA016E2-0A5F-4AF5-B50C-43E5F6859F43}",
+    "Language": "SFX",
+    "Hash": "{70EF4D6B-6852-8811-CBDB-826871A60759}",
+    "ObjectPath": "Lvl_Last10S",
+    "ShortName": "Lvl_Last10S",
+    "Path": "Event/Lvl_Last10S.bnk",
+    "Media": [
+     {
+      "Id": "422583641",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_SFX_Last10Sec_Stinger.wav",
+      "Path": "Media/422583641.wem",
+      "CachePath": "SFX/Cube_SFX_Last10Sec_Stinger_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2969289918",
+      "Name": "Lvl_Last10S",
+      "ObjectPath": "\\Events\\MUS WU\\Lvl_Last10S",
+      "GUID": "{4CA016E2-0A5F-4AF5-B50C-43E5F6859F43}",
+      "DurationType": "OneShot",
+      "DurationMin": "17.5",
+      "DurationMax": "17.5",
+      "MediaRefs": [
+       {
+        "Id": "422583641"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9855E49B-4BF4-4FC6-ADE8-882A04B3D885}"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1576149955",
+    "Type": "Event",
+    "GUID": "{F5BF90A8-96E8-49F0-ADBE-79A7DFA8FB47}",
+    "Language": "SFX",
+    "Hash": "{CD29C8BE-553A-80BA-4C95-FA5D65F4FEDD}",
+    "ObjectPath": "PC_Taunt_Twerk",
+    "ShortName": "PC_Taunt_Twerk",
+    "Path": "Event/PC_Taunt_Twerk.bnk",
+    "Media": [
+     {
+      "Id": "876281863",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_PC_Taunt_Twerk.wav",
+      "Path": "Media/876281863.wem",
+      "CachePath": "SFX/SFX_PC_Taunt_Twerk_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1576149955",
+      "Name": "PC_Taunt_Twerk",
+      "ObjectPath": "\\Events\\SFX WU\\Player_Events_WU\\Emotes\\PC_Taunt_Twerk",
+      "GUID": "{F5BF90A8-96E8-49F0-ADBE-79A7DFA8FB47}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.27776212",
+      "DurationMax": "0.34995833",
+      "MediaRefs": [
+       {
+        "Id": "876281863"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B60114FF-30F7-5964-45A5-42F7924FFE65}"
+ }
+}

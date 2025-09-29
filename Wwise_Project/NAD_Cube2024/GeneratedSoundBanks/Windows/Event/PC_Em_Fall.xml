@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="626635677" Type="Event" GUID="{9CAC7CF1-AADA-4D7B-8547-4CCA42B4CDC1}" Language="SFX" Hash="{0451F58A-7E14-11EB-FD1E-6BB850DBCF48}">
+			<ObjectPath>PC_Em_Fall</ObjectPath>
+			<ShortName>PC_Em_Fall</ShortName>
+			<Path>Event/PC_Em_Fall.bnk</Path>
+			<Events>
+				<Event Id="626635677" Name="PC_Em_Fall" ObjectPath="\Events\SFX WU\Player_Events_WU\Emotes\PC_Em_Fall" GUID="{9CAC7CF1-AADA-4D7B-8547-4CCA42B4CDC1}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{249521AF-9E32-E477-11B9-8EBEC52DD8D9}</FileHash>
+</SoundBanksInfo>

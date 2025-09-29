@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2286643994" Type="Event" GUID="{8A0E3FCA-0EB4-401F-8D99-DB637C332739}" Language="SFX" Hash="{4585822B-D1FE-466F-7FE0-7117895C9E40}">
+			<ObjectPath>AMB_Tree_Rustle</ObjectPath>
+			<ShortName>AMB_Tree_Rustle</ShortName>
+			<Path>Event/AMB_Tree_Rustle.bnk</Path>
+			<Events>
+				<Event Id="2286643994" Name="AMB_Tree_Rustle" ObjectPath="\Events\AMB WU\AMB_Tree_Rustle" GUID="{8A0E3FCA-0EB4-401F-8D99-DB637C332739}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{98E90F55-7EC7-B581-329B-82BB2E692340}</FileHash>
+</SoundBanksInfo>

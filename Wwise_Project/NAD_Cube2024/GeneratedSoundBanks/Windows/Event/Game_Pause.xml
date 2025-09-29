@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2772308904" Type="Event" GUID="{1CB147EA-D6EA-4288-A6EE-1E344D687783}" Language="SFX" Hash="{6A3F6F11-45B3-CAE8-956E-BA010AF16F9A}">
+			<ObjectPath>Game_Pause</ObjectPath>
+			<ShortName>Game_Pause</ShortName>
+			<Path>Event/Game_Pause.bnk</Path>
+			<Media>
+				<File Id="926633259" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_UI_Pause.wav</ShortName>
+					<Path>Media/926633259.wem</Path>
+					<CachePath>SFX/SFX_UI_Pause_2009493B.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2772308904" Name="Game_Pause" ObjectPath="\Events\MISC_WU\Game_Pause" GUID="{1CB147EA-D6EA-4288-A6EE-1E344D687783}" MaxAttenuation="2000" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2792155208" Name="UI_Pause" ObjectPath="\Events\SFX WU\UI_Events_WU\UI_Pause" GUID="{A56B724C-F64B-490A-A9E4-7987C560BA46}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="1045871717" Id="161398697" Name="InGame_Pause" ObjectPath="\States\Default Work Unit\GameStatus\InGame_Pause" GUID="{E4F69771-C9B8-4E29-A675-3910AB78E134}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2792155208" Name="UI_Pause" ObjectPath="\Events\SFX WU\UI_Events_WU\UI_Pause" GUID="{A56B724C-F64B-490A-A9E4-7987C560BA46}" MaxAttenuation="2000" DurationType="OneShot" DurationMin="0.8715864" DurationMax="0.8715864">
+					<MediaRefs>
+						<MediaRef Id="926633259"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="1045871717" Name="GameStatus" ObjectPath="\States\Default Work Unit\GameStatus" GUID="{7D6F9397-A79E-40FE-B5E9-98EDF4F34EDE}">
+					<States>
+						<State Id="136448968" Name="InGame_Ending" ObjectPath="\States\Default Work Unit\GameStatus\InGame_Ending" GUID="{450175B8-BC5B-468C-8DA0-3427C1146D59}"/>
+						<State Id="161398697" Name="InGame_Pause" ObjectPath="\States\Default Work Unit\GameStatus\InGame_Pause" GUID="{E4F69771-C9B8-4E29-A675-3910AB78E134}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\GameStatus\None" GUID="{5E792DF5-0830-43CD-B95B-39437647AAAC}"/>
+						<State Id="966734798" Name="GameMenu" ObjectPath="\States\Default Work Unit\GameStatus\GameMenu" GUID="{61B9A9E5-B14A-42FF-AC8C-F548574E6172}"/>
+						<State Id="1862095286" Name="InGame_Lvl1" ObjectPath="\States\Default Work Unit\GameStatus\InGame_Lvl1" GUID="{A5F1AF65-D5B4-45E0-9835-1BCC4E3A7117}"/>
+						<State Id="3573931707" Name="Loading" ObjectPath="\States\Default Work Unit\GameStatus\Loading" GUID="{1DD02C6A-2CE8-4691-A283-B7271BDEFE70}"/>
+						<State Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\GameStatus\MainMenu" GUID="{0FB1CB68-DAA1-4F0B-A308-CB5D0BA9E9D5}"/>
+						<State Id="4075332698" Name="Beach" ObjectPath="\States\Default Work Unit\GameStatus\Beach" GUID="{B2A1CC93-F6FB-462F-9482-B291CF8347B4}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{1F44711C-60EC-1314-2FA7-08DAC2C605DE}</FileHash>
+</SoundBanksInfo>

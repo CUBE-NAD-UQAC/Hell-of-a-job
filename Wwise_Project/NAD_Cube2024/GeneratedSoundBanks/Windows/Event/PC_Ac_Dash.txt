@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3017656208	PC_Ac_Dash			\SFX WU\Player_Events_WU\PC_Ac_Dash	
+

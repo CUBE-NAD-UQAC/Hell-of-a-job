@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	501555810	PC_Em_ExDef			\SFX WU\Player_Events_WU\Emotes\PC_Em_ExDef	
+

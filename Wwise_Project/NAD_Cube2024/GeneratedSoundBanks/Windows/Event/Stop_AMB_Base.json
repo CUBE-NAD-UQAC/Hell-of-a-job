@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3459467952",
+    "Type": "Event",
+    "GUID": "{32070643-9094-4B1B-9250-01861339750C}",
+    "Language": "SFX",
+    "Hash": "{9C12B4FE-D5E8-9DFE-ADE1-60EAA82D6E6E}",
+    "ObjectPath": "Stop_AMB_Base",
+    "ShortName": "Stop_AMB_Base",
+    "Path": "Event/Stop_AMB_Base.bnk",
+    "Events": [
+     {
+      "Id": "3459467952",
+      "Name": "Stop_AMB_Base",
+      "ObjectPath": "\\Events\\AMB WU\\Stop_AMB_Base",
+      "GUID": "{32070643-9094-4B1B-9250-01861339750C}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E4F87270-2403-6BD7-78F4-9B07C7F7B891}"
+ }
+}

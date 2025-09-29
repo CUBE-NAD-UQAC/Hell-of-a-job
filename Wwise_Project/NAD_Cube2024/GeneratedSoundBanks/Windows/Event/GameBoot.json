@@ -1,0 +1,133 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2891409319",
+    "Type": "Event",
+    "GUID": "{5C0C2899-B832-44AD-B640-753470E3611D}",
+    "Language": "SFX",
+    "Hash": "{12BB144C-E538-283D-E430-6F3F219CF00F}",
+    "ObjectPath": "GameBoot",
+    "ShortName": "GameBoot",
+    "Path": "Event/GameBoot.bnk",
+    "Events": [
+     {
+      "Id": "2891409319",
+      "Name": "GameBoot",
+      "ObjectPath": "\\Events\\MISC_WU\\GameBoot",
+      "GUID": "{5C0C2899-B832-44AD-B640-753470E3611D}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "568686771",
+        "Id": "1160234136",
+        "Name": "Normal",
+        "ObjectPath": "\\States\\Default Work Unit\\LevelStatus\\Normal",
+        "GUID": "{EAD1EAEC-4088-4F70-9C07-3FCFBE3F9200}"
+       },
+       {
+        "GroupId": "1045871717",
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\MainMenu",
+        "GUID": "{0FB1CB68-DAA1-4F0B-A308-CB5D0BA9E9D5}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "568686771",
+      "Name": "LevelStatus",
+      "ObjectPath": "\\States\\Default Work Unit\\LevelStatus",
+      "GUID": "{8757E62A-3B7E-44A0-AA19-4255058685BF}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\LevelStatus\\None",
+        "GUID": "{324CCBD5-48CC-42E8-A778-21D1B2572FFE}"
+       },
+       {
+        "Id": "1160234136",
+        "Name": "Normal",
+        "ObjectPath": "\\States\\Default Work Unit\\LevelStatus\\Normal",
+        "GUID": "{EAD1EAEC-4088-4F70-9C07-3FCFBE3F9200}"
+       },
+       {
+        "Id": "2326237925",
+        "Name": "Last10Sec",
+        "ObjectPath": "\\States\\Default Work Unit\\LevelStatus\\Last10Sec",
+        "GUID": "{23B3B7CF-6F98-4D6B-8D45-24FC7C18EDB5}"
+       }
+      ]
+     },
+     {
+      "Id": "1045871717",
+      "Name": "GameStatus",
+      "ObjectPath": "\\States\\Default Work Unit\\GameStatus",
+      "GUID": "{7D6F9397-A79E-40FE-B5E9-98EDF4F34EDE}",
+      "States": [
+       {
+        "Id": "136448968",
+        "Name": "InGame_Ending",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\InGame_Ending",
+        "GUID": "{450175B8-BC5B-468C-8DA0-3427C1146D59}"
+       },
+       {
+        "Id": "161398697",
+        "Name": "InGame_Pause",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\InGame_Pause",
+        "GUID": "{E4F69771-C9B8-4E29-A675-3910AB78E134}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\None",
+        "GUID": "{5E792DF5-0830-43CD-B95B-39437647AAAC}"
+       },
+       {
+        "Id": "966734798",
+        "Name": "GameMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\GameMenu",
+        "GUID": "{61B9A9E5-B14A-42FF-AC8C-F548574E6172}"
+       },
+       {
+        "Id": "1862095286",
+        "Name": "InGame_Lvl1",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\InGame_Lvl1",
+        "GUID": "{A5F1AF65-D5B4-45E0-9835-1BCC4E3A7117}"
+       },
+       {
+        "Id": "3573931707",
+        "Name": "Loading",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\Loading",
+        "GUID": "{1DD02C6A-2CE8-4691-A283-B7271BDEFE70}"
+       },
+       {
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\MainMenu",
+        "GUID": "{0FB1CB68-DAA1-4F0B-A308-CB5D0BA9E9D5}"
+       },
+       {
+        "Id": "4075332698",
+        "Name": "Beach",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\Beach",
+        "GUID": "{B2A1CC93-F6FB-462F-9482-B291CF8347B4}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D036ABAF-40C6-394F-F23F-7CE856546044}"
+ }
+}

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3604309382	PC_Ac_Interact			\SFX WU\Player_Events_WU\PC_Ac_Interact	
+

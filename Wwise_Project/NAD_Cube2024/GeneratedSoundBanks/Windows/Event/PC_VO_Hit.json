@@ -1,0 +1,104 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1663388922",
+    "Type": "Event",
+    "GUID": "{6502044A-58DF-47D8-BAE4-CEAE91ABED6B}",
+    "Language": "SFX",
+    "Hash": "{F0A48CBB-7FB7-C3DD-69E2-2C7923A36A42}",
+    "ObjectPath": "PC_VO_Hit",
+    "ShortName": "PC_VO_Hit",
+    "Path": "Event/PC_VO_Hit.bnk",
+    "Media": [
+     {
+      "Id": "117651983",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Voice_lines\\VO_Player_Hit\\VO_Player_Hit_4.wav",
+      "Path": "Media/117651983.wem",
+      "CachePath": "SFX/Voice_lines/VO_Player_Hit/VO_Player_Hit_4_F5712D19.wem"
+     },
+     {
+      "Id": "266478146",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Voice_lines\\VO_Player_Hit\\VO_Player_Hit_5.wav",
+      "Path": "Media/266478146.wem",
+      "CachePath": "SFX/Voice_lines/VO_Player_Hit/VO_Player_Hit_5_C4E5FA11.wem"
+     },
+     {
+      "Id": "930739228",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Voice_lines\\VO_Player_Hit\\VO_Player_Hit_1.wav",
+      "Path": "Media/930739228.wem",
+      "CachePath": "SFX/Voice_lines/VO_Player_Hit/VO_Player_Hit_1_91FB0D2C.wem"
+     },
+     {
+      "Id": "961673772",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Voice_lines\\VO_Player_Hit\\VO_Player_Hit_3.wav",
+      "Path": "Media/961673772.wem",
+      "CachePath": "SFX/Voice_lines/VO_Player_Hit/VO_Player_Hit_3_EFEF03C8.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "3550485865",
+       "Name": "Sidechain_SFX_Player",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Sidechain_SFX_Player",
+       "GUID": "{865B9898-411B-4EE5-A064-7B7ECC430BEA}",
+       "LibName": "Wwise Meter",
+       "LibId": "8454147"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "1663388922",
+      "Name": "PC_VO_Hit",
+      "ObjectPath": "\\Events\\SFX WU\\Player_Events_WU\\PC_VO_Hit",
+      "GUID": "{6502044A-58DF-47D8-BAE4-CEAE91ABED6B}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.1739347",
+      "DurationMax": "0.30262658",
+      "MediaRefs": [
+       {
+        "Id": "117651983"
+       },
+       {
+        "Id": "266478146"
+       },
+       {
+        "Id": "930739228"
+       },
+       {
+        "Id": "961673772"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3550485865"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{19E6B3B1-1A37-100C-BA43-80846EFABF9D}"
+ }
+}

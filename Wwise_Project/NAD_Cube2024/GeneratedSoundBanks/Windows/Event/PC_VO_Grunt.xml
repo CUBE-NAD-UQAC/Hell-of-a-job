@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3887629727" Type="Event" GUID="{EF2D2385-8061-4C44-885A-CC2337121990}" Language="SFX" Hash="{DF47DBA6-0C8E-33C8-7A88-7E24A8DC2189}">
+			<ObjectPath>PC_VO_Grunt</ObjectPath>
+			<ShortName>PC_VO_Grunt</ShortName>
+			<Path>Event/PC_VO_Grunt.bnk</Path>
+			<Media>
+				<File Id="157040810" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Voice_lines\VO_Player_Grunt\VO_Player_Grunt_3.wav</ShortName>
+					<Path>Media/157040810.wem</Path>
+					<CachePath>SFX/Voice_lines/VO_Player_Grunt/VO_Player_Grunt_3_2C034C53.wem</CachePath>
+				</File>
+				<File Id="404908008" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Voice_lines\VO_Player_Grunt\VO_Player_Grunt_4.wav</ShortName>
+					<Path>Media/404908008.wem</Path>
+					<CachePath>SFX/Voice_lines/VO_Player_Grunt/VO_Player_Grunt_4_EC593E13.wem</CachePath>
+				</File>
+				<File Id="538930784" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Voice_lines\VO_Player_Grunt\VO_Player_Grunt_2.wav</ShortName>
+					<Path>Media/538930784.wem</Path>
+					<CachePath>SFX/Voice_lines/VO_Player_Grunt/VO_Player_Grunt_2_901AD594.wem</CachePath>
+				</File>
+				<File Id="894871724" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Voice_lines\VO_Player_Grunt\VO_Player_Grunt_1.wav</ShortName>
+					<Path>Media/894871724.wem</Path>
+					<CachePath>SFX/Voice_lines/VO_Player_Grunt/VO_Player_Grunt_1_D1154F09.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="3550485865" Name="Sidechain_SFX_Player" ObjectPath="\Effects\Default Work Unit\Sidechain_SFX_Player" GUID="{865B9898-411B-4EE5-A064-7B7ECC430BEA}" LibName="Wwise Meter" LibId="8454147"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="3887629727" Name="PC_VO_Grunt" ObjectPath="\Events\SFX WU\Player_Events_WU\PC_VO_Grunt" GUID="{EF2D2385-8061-4C44-885A-CC2337121990}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="0.29972836" DurationMax="0.47373837">
+					<MediaRefs>
+						<MediaRef Id="157040810"/>
+						<MediaRef Id="404908008"/>
+						<MediaRef Id="538930784"/>
+						<MediaRef Id="894871724"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3550485865"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{7D464E2F-1C7B-7E96-157B-ED8E87F21F04}</FileHash>
+</SoundBanksInfo>

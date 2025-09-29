@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1372405066	Prop_Collectible_Dropped			\SFX WU\Objects_Events_WU\Collectibles\Prop_Collectible_Dropped	
+

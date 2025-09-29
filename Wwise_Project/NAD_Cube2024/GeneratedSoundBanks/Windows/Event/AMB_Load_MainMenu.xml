@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1877570311" Type="Event" GUID="{7BD19E3B-8ABF-4590-9AFE-AC55D31755E3}" Language="SFX" Hash="{9C39112F-0366-E9D9-A97F-754723CA6983}">
+			<ObjectPath>AMB_Load_MainMenu</ObjectPath>
+			<ShortName>AMB_Load_MainMenu</ShortName>
+			<Path>Event/AMB_Load_MainMenu.bnk</Path>
+			<Events>
+				<Event Id="1877570311" Name="AMB_Load_MainMenu" ObjectPath="\Events\AMB WU\AMB_Load_MainMenu" GUID="{7BD19E3B-8ABF-4590-9AFE-AC55D31755E3}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{DCF8AE52-3D6A-6B38-CF14-9DA3907DAF80}</FileHash>
+</SoundBanksInfo>

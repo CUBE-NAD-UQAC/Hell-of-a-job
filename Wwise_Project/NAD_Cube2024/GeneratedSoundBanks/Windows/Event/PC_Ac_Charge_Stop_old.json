@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1060934777",
+    "Type": "Event",
+    "GUID": "{A50FB888-9C4C-47D8-9348-BBA58EA7D838}",
+    "Language": "SFX",
+    "Hash": "{EE68E37A-7804-A93C-8250-BD3AEAFA1FA6}",
+    "ObjectPath": "PC_Ac_Charge_Stop_old",
+    "ShortName": "PC_Ac_Charge_Stop_old",
+    "Path": "Event/PC_Ac_Charge_Stop_old.bnk",
+    "Events": [
+     {
+      "Id": "1060934777",
+      "Name": "PC_Ac_Charge_Stop_old",
+      "ObjectPath": "\\Events\\SFX WU\\Player_Events_WU\\PC_Ac_Charge_Stop_old",
+      "GUID": "{A50FB888-9C4C-47D8-9348-BBA58EA7D838}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{71AD9349-7029-53F3-7FA8-DF1CD9A96458}"
+ }
+}

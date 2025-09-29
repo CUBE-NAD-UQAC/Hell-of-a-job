@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="735601780" Type="Event" GUID="{DB6ABB18-7C27-4C84-812E-E141CA02DC73}" Language="SFX" Hash="{99736441-4AA7-FEE4-D620-6995335A0931}">
+			<ObjectPath>AMB_Waves</ObjectPath>
+			<ShortName>AMB_Waves</ShortName>
+			<Path>Event/AMB_Waves.bnk</Path>
+			<Events>
+				<Event Id="735601780" Name="AMB_Waves" ObjectPath="\Events\AMB WU\AMB_Waves" GUID="{DB6ABB18-7C27-4C84-812E-E141CA02DC73}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{5B00B879-8798-2AD6-4D2A-78E2E8419FCC}</FileHash>
+</SoundBanksInfo>

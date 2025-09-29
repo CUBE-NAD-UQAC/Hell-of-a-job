@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{223804A0-9DDA-4117-AD4C-00839DFA545B}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="AMB WU" ID="{223804A0-9DDA-4117-AD4C-00839DFA545B}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="5"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="AMB_Brazier" ID="{FCDA8A88-45F5-4000-8ED5-E8502FBF7BAC}">
+					<ChildrenList>
+						<Action Name="" ID="{E177FD91-03C3-4475-87F6-7493CEBE77FA}" ShortID="335780554">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_3D_Brazier" ID="{01BD0AF8-0F4A-4282-944D-2661E768A990}" WorkUnitID="{74457123-D75F-4E8F-A395-16DE7294385D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TEST_AMB" ID="{5F8D433F-04EF-4D44-B2FD-DF075B9D81D8}">
+					<ChildrenList>
+						<Action Name="" ID="{FA156349-920C-46C1-B0D6-B75FDD9A7E34}" ShortID="252093049">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Rain_Test" ID="{9859089F-4F99-4BDF-B784-03E5EDB741DA}" WorkUnitID="{3AE2F69E-FB0A-437D-8143-34144182E546}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AMB_Base" ID="{DF5AF39F-2629-4FAD-9661-D9C3CE4259D5}">
+					<ChildrenList>
+						<Action Name="" ID="{2F518F8B-632C-4E12-A4AC-23BB37FDD172}" ShortID="69653267">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiances" ID="{68E4A238-1E33-4AB6-A4D0-728278DCC072}" WorkUnitID="{74457123-D75F-4E8F-A395-16DE7294385D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AMB_Lava" ID="{EB5705B3-9A21-4E03-B1D5-0B4541C236EE}">
+					<ChildrenList>
+						<Action Name="" ID="{E9D975BE-A9F2-42F5-906D-6B161A6A80A6}" ShortID="685977805">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Smoke_Blend" ID="{C24138A7-B598-4592-A49D-80951714AAAC}" WorkUnitID="{74457123-D75F-4E8F-A395-16DE7294385D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AMB_Smoke" ID="{6465F4A8-7D06-41E9-BACE-A406C7A6CCB0}"/>
+				<Event Name="AMB_Waves" ID="{DB6ABB18-7C27-4C84-812E-E141CA02DC73}">
+					<ChildrenList>
+						<Action Name="" ID="{0F7F5F49-CC28-4B75-96A9-4411798CF7D0}" ShortID="636696332">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Waves" ID="{B6CC3061-C994-406B-90AA-AE4F470A3382}" WorkUnitID="{74457123-D75F-4E8F-A395-16DE7294385D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AMB_Tree_Rustle" ID="{8A0E3FCA-0EB4-401F-8D99-DB637C332739}">
+					<ChildrenList>
+						<Action Name="" ID="{73E1EE78-1E03-45FF-9C1A-8480CCE983EF}" ShortID="52994894">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Tree_Rustling" ID="{BBB35970-707D-4785-816A-88B1C1DF678B}" WorkUnitID="{74457123-D75F-4E8F-A395-16DE7294385D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_AMB_Base" ID="{32070643-9094-4B1B-9250-01861339750C}">
+					<ChildrenList>
+						<Action Name="" ID="{187E6847-AFAF-456D-A9EB-679A7C40336E}" ShortID="526811008">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_2D" ID="{058F3385-D075-4BE9-8E54-1E43341BEDB0}" WorkUnitID="{74457123-D75F-4E8F-A395-16DE7294385D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DAF71CA8-5901-4C73-B1E1-1C8979FB3EBD}" ShortID="19177836">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_3D" ID="{53E4DA09-42B8-432B-B62E-819786851F54}" WorkUnitID="{74457123-D75F-4E8F-A395-16DE7294385D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AMB_Beach" ID="{52D19F4C-1702-4151-9907-46827CC0B319}">
+					<ChildrenList>
+						<Action Name="" ID="{1441385E-3377-497F-9AA1-AEE2954F0A29}" ShortID="984839566">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Beach" ID="{C17C95AE-CA97-4748-BE11-8B03C836B769}" WorkUnitID="{74457123-D75F-4E8F-A395-16DE7294385D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AD563E8B-DA19-4851-BBE1-D933C8BEBF44}" ShortID="896470930">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Level1_Blend" ID="{411515B8-122D-40DE-B0EF-2A82F4CD8BE5}" WorkUnitID="{74457123-D75F-4E8F-A395-16DE7294385D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AMB_Load_MainMenu" ID="{7BD19E3B-8ABF-4590-9AFE-AC55D31755E3}">
+					<ChildrenList>
+						<Action Name="" ID="{A1C871E8-F9C3-44A0-BB97-5270B0DCE3D3}" ShortID="840352833">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Beach" ID="{C17C95AE-CA97-4748-BE11-8B03C836B769}" WorkUnitID="{74457123-D75F-4E8F-A395-16DE7294385D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

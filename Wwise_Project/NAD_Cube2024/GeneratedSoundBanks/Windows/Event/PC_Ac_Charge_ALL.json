@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3169524572",
+    "Type": "Event",
+    "GUID": "{03D4C276-8806-4859-AF74-A085DD00C0D5}",
+    "Language": "SFX",
+    "Hash": "{97658E12-3546-F5F2-701D-829906638DD4}",
+    "ObjectPath": "PC_Ac_Charge_ALL",
+    "ShortName": "PC_Ac_Charge_ALL",
+    "Path": "Event/PC_Ac_Charge_ALL.bnk",
+    "Media": [
+     {
+      "Id": "420023559",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_PC_ChargeThrow_V2.wav",
+      "Path": "Media/420023559.wem",
+      "CachePath": "SFX/Cube_PC_ChargeThrow_V2_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3169524572",
+      "Name": "PC_Ac_Charge_ALL",
+      "ObjectPath": "\\Events\\SFX WU\\Player_Events_WU\\PC_Ac_Charge\\PC_Ac_Charge_ALL",
+      "GUID": "{03D4C276-8806-4859-AF74-A085DD00C0D5}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5196389",
+      "DurationMax": "1.705737",
+      "MediaRefs": [
+       {
+        "Id": "420023559"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F8589565-C4ED-56FE-6B56-E809A78B42DC}"
+ }
+}

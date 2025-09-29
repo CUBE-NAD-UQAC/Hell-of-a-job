@@ -1,0 +1,115 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2118900976",
+    "Type": "Event",
+    "GUID": "{00F7509C-D58A-48AB-80FC-43F172F254FD}",
+    "Language": "SFX",
+    "Hash": "{4B813B90-2292-06B9-6C51-EC7962AA482A}",
+    "ObjectPath": "UI_Hover",
+    "ShortName": "UI_Hover",
+    "Path": "Event/UI_Hover.bnk",
+    "Media": [
+     {
+      "Id": "361158892",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bounce\\UI\\SFX_UI_Hover_3.wav",
+      "Path": "Media/361158892.wem",
+      "CachePath": "SFX/Bounce/UI/SFX_UI_Hover_3_0F87393B.wem"
+     },
+     {
+      "Id": "378725774",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bounce\\UI\\SFX_UI_Hover_2.wav",
+      "Path": "Media/378725774.wem",
+      "CachePath": "SFX/Bounce/UI/SFX_UI_Hover_2_968464A8.wem"
+     },
+     {
+      "Id": "494403533",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bounce\\UI\\SFX_UI_Hover_4.wav",
+      "Path": "Media/494403533.wem",
+      "CachePath": "SFX/Bounce/UI/SFX_UI_Hover_4_D924D6A3.wem"
+     },
+     {
+      "Id": "956732755",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bounce\\UI\\SFX_UI_Hover_1.wav",
+      "Path": "Media/956732755.wem",
+      "CachePath": "SFX/Bounce/UI/SFX_UI_Hover_1_B90C606F.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "858619041",
+       "Name": "Parametric EQ (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\SFX_WU\\UI_WU\\SFX_UI\\RC_UI_Hover\\[Effect Slot [1]: (Parametric EQ)]\\Parametric EQ (Custom)",
+       "GUID": "{5B4433E0-CCC8-4A6A-BB9B-2C7537280F8C}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "874138928",
+       "Name": "Compressor (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\SFX_WU\\UI_WU\\SFX_UI\\RC_UI_Hover\\[Effect Slot [0]: (Compressor)]\\Compressor (Custom)",
+       "GUID": "{7F630E68-FC3F-46F4-98A4-627444F40D4A}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "2118900976",
+      "Name": "UI_Hover",
+      "ObjectPath": "\\Events\\SFX WU\\UI_Events_WU\\UI_Hover",
+      "GUID": "{00F7509C-D58A-48AB-80FC-43F172F254FD}",
+      "MaxAttenuation": "2000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.02700476",
+      "DurationMax": "0.03538191",
+      "MediaRefs": [
+       {
+        "Id": "361158892"
+       },
+       {
+        "Id": "378725774"
+       },
+       {
+        "Id": "494403533"
+       },
+       {
+        "Id": "956732755"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "858619041"
+        },
+        {
+         "Id": "874138928"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{85C1AC12-819F-4210-DE5B-19F02C9E1B06}"
+ }
+}

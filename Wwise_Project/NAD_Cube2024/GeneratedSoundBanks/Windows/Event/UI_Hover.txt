@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2118900976	UI_Hover			\SFX WU\UI_Events_WU\UI_Hover	
+
+Effect plug-ins	ID	Name	Type				Notes
+	858619041	Parametric EQ (Custom)	Wwise Parametric EQ			
+	874138928	Compressor (Custom)	Wwise Compressor			
+

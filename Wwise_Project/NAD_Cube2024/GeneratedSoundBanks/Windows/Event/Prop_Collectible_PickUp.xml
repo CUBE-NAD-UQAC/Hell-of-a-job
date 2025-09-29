@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1383479036" Type="Event" GUID="{43E7408A-2341-4BE6-82A5-57B4FE304F2E}" Language="SFX" Hash="{DAFC36E0-FF86-D582-C28C-ABEAEAEB2E4F}">
+			<ObjectPath>Prop_Collectible_PickUp</ObjectPath>
+			<ShortName>Prop_Collectible_PickUp</ShortName>
+			<Path>Event/Prop_Collectible_PickUp.bnk</Path>
+			<Media>
+				<File Id="157040810" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Voice_lines\VO_Player_Grunt\VO_Player_Grunt_3.wav</ShortName>
+					<Path>Media/157040810.wem</Path>
+					<CachePath>SFX/Voice_lines/VO_Player_Grunt/VO_Player_Grunt_3_2C034C53.wem</CachePath>
+				</File>
+				<File Id="404908008" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Voice_lines\VO_Player_Grunt\VO_Player_Grunt_4.wav</ShortName>
+					<Path>Media/404908008.wem</Path>
+					<CachePath>SFX/Voice_lines/VO_Player_Grunt/VO_Player_Grunt_4_EC593E13.wem</CachePath>
+				</File>
+				<File Id="415411895" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bounce\Collectibles\SFX_Object_Collectible_Pick Up.wav</ShortName>
+					<Path>Media/415411895.wem</Path>
+					<CachePath>SFX/Bounce/Collectibles/SFX_Object_Collectible_Pick Up_F6232FCF.wem</CachePath>
+				</File>
+				<File Id="538930784" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Voice_lines\VO_Player_Grunt\VO_Player_Grunt_2.wav</ShortName>
+					<Path>Media/538930784.wem</Path>
+					<CachePath>SFX/Voice_lines/VO_Player_Grunt/VO_Player_Grunt_2_901AD594.wem</CachePath>
+				</File>
+				<File Id="894871724" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Voice_lines\VO_Player_Grunt\VO_Player_Grunt_1.wav</ShortName>
+					<Path>Media/894871724.wem</Path>
+					<CachePath>SFX/Voice_lines/VO_Player_Grunt/VO_Player_Grunt_1_D1154F09.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="3550485865" Name="Sidechain_SFX_Player" ObjectPath="\Effects\Default Work Unit\Sidechain_SFX_Player" GUID="{865B9898-411B-4EE5-A064-7B7ECC430BEA}" LibName="Wwise Meter" LibId="8454147"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="3887629727" Name="PC_VO_Grunt" ObjectPath="\Events\SFX WU\Player_Events_WU\PC_VO_Grunt" GUID="{EF2D2385-8061-4C44-885A-CC2337121990}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="0.29972836" DurationMax="0.47373837">
+					<MediaRefs>
+						<MediaRef Id="157040810"/>
+						<MediaRef Id="404908008"/>
+						<MediaRef Id="538930784"/>
+						<MediaRef Id="894871724"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3550485865"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="1383479036" Name="Prop_Collectible_PickUp" ObjectPath="\Events\SFX WU\Objects_Events_WU\Collectibles\Prop_Collectible_PickUp" GUID="{43E7408A-2341-4BE6-82A5-57B4FE304F2E}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="0.0964165" DurationMax="0.24535182">
+					<MediaRefs>
+						<MediaRef Id="415411895"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3887629727" Name="PC_VO_Grunt" ObjectPath="\Events\SFX WU\Player_Events_WU\PC_VO_Grunt" GUID="{EF2D2385-8061-4C44-885A-CC2337121990}"/>
+					</ActionPostEvent>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{A37430C5-9BF5-05B9-EF19-BCD201C86682}</FileHash>
+</SoundBanksInfo>

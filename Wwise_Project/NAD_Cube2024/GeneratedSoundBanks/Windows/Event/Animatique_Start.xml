@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3196293788" Type="Event" GUID="{ADCD7436-AB45-4AF9-B4E6-82E233EEECE2}" Language="SFX" Hash="{DBC5C779-1283-0957-3EED-C005D6BAEBA2}">
+			<ObjectPath>Animatique_Start</ObjectPath>
+			<ShortName>Animatique_Start</ShortName>
+			<Path>Event/Animatique_Start.bnk</Path>
+			<Media>
+				<File Id="621147370" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Cube_Animatique_AUDIO.wav</ShortName>
+					<Path>Media/621147370.wem</Path>
+					<CachePath>SFX/Cube_Animatique_AUDIO_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3196293788" Name="Animatique_Start" ObjectPath="\Events\MISC_WU\Animatique_Start" GUID="{ADCD7436-AB45-4AF9-B4E6-82E233EEECE2}" DurationType="OneShot" DurationMin="95.7" DurationMax="95.7">
+					<MediaRefs>
+						<MediaRef Id="621147370"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{FCDBE6CB-6D4D-F3C4-BEF0-1D50341535D8}</FileHash>
+</SoundBanksInfo>

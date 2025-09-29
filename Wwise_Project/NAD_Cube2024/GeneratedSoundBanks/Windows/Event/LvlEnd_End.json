@@ -1,0 +1,76 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "607454950",
+    "Type": "Event",
+    "GUID": "{067F73CF-7343-4B65-9C17-A2226F6401BC}",
+    "Language": "SFX",
+    "Hash": "{550BE480-2539-E841-F44B-B4A630A61259}",
+    "ObjectPath": "LvlEnd_End",
+    "ShortName": "LvlEnd_End",
+    "Path": "Event/LvlEnd_End.bnk",
+    "Events": [
+     {
+      "Id": "607454950",
+      "Name": "LvlEnd_End",
+      "ObjectPath": "\\Events\\MUS WU\\LvlEnd_End",
+      "GUID": "{067F73CF-7343-4B65-9C17-A2226F6401BC}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "3514626634",
+        "Id": "529726532",
+        "Name": "End",
+        "ObjectPath": "\\States\\Default Work Unit\\MUS_VictorySeq\\End",
+        "GUID": "{EAF696A7-1238-48EC-8AC5-AD066A257A76}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3514626634",
+      "Name": "MUS_VictorySeq",
+      "ObjectPath": "\\States\\Default Work Unit\\MUS_VictorySeq",
+      "GUID": "{58BE40E9-2BED-4AF7-B555-EF55EC9AD47F}",
+      "States": [
+       {
+        "Id": "529726532",
+        "Name": "End",
+        "ObjectPath": "\\States\\Default Work Unit\\MUS_VictorySeq\\End",
+        "GUID": "{EAF696A7-1238-48EC-8AC5-AD066A257A76}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\MUS_VictorySeq\\None",
+        "GUID": "{9D0FF694-CDAD-42EA-A4C4-D2C273D19412}"
+       },
+       {
+        "Id": "1281810935",
+        "Name": "Start",
+        "ObjectPath": "\\States\\Default Work Unit\\MUS_VictorySeq\\Start",
+        "GUID": "{94C5C768-ADD8-4F21-8A6A-1A04748EDDC4}"
+       },
+       {
+        "Id": "2149848048",
+        "Name": "BuildUp",
+        "ObjectPath": "\\States\\Default Work Unit\\MUS_VictorySeq\\BuildUp",
+        "GUID": "{C7715DA3-0A2B-487F-ACB7-5506BC6011B4}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{6A1AD677-7E27-6C31-0C37-A0775B023EB7}"
+ }
+}

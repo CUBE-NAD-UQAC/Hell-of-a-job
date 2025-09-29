@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "805241836",
+    "Type": "Event",
+    "GUID": "{43CEAD40-6A47-4FD8-9A24-7BFCE6D60BE1}",
+    "Language": "SFX",
+    "Hash": "{333F07F6-703D-D4C2-BE92-9DC18B468BAD}",
+    "ObjectPath": "Stop_Charge",
+    "ShortName": "Stop_Charge",
+    "Path": "Event/Stop_Charge.bnk",
+    "Events": [
+     {
+      "Id": "805241836",
+      "Name": "Stop_Charge",
+      "ObjectPath": "\\Events\\SFX WU\\Player_Events_WU\\PC_Ac_Charge\\Stop_Charge",
+      "GUID": "{43CEAD40-6A47-4FD8-9A24-7BFCE6D60BE1}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B520B2AB-2C6C-B535-5B8C-038BB131C631}"
+ }
+}

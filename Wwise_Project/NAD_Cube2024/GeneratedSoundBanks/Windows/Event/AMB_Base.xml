@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2291972081" Type="Event" GUID="{DF5AF39F-2629-4FAD-9661-D9C3CE4259D5}" Language="SFX" Hash="{247592B3-F82B-82FA-D66D-D96A3E59CA05}">
+			<ObjectPath>AMB_Base</ObjectPath>
+			<ShortName>AMB_Base</ShortName>
+			<Path>Event/AMB_Base.bnk</Path>
+			<Media>
+				<File Id="79650856" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AMB_Beach.wav</ShortName>
+					<Path>Media/79650856.wem</Path>
+					<CachePath>SFX/AMB_Beach_C825EF6B.wem</CachePath>
+				</File>
+				<File Id="417501249" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Ambiance_Cave.wav</ShortName>
+					<Path>Media/417501249.wem</Path>
+					<CachePath>SFX/SFX_Ambiance_Cave_856BB2BD.wem</CachePath>
+				</File>
+				<File Id="790000215" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AMB_2D_Lava.wav</ShortName>
+					<Path>Media/790000215.wem</Path>
+					<CachePath>SFX/AMB_2D_Lava_64FA7E39.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="427150303" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\AMB_WU\AMB_2D\Ambiances\Amb_Silence\Silence" GUID="{11274BB7-7AF3-4233-9248-5AAA71483480}" LibName="Wwise Silence" LibId="6619138"/>
+					<Plugin Id="911967538" Name="Parametric EQ (Custom)" ObjectPath="\Actor-Mixer Hierarchy\AMB_WU\AMB_2D\Ambiances\Amb_Level1_Blend\SFX_Ambiance_Cave\[Effect Slot [0]: (Parametric EQ)]\Parametric EQ (Custom)" GUID="{2B0F9E56-7B7C-4176-B40C-D7272DC39A6A}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+					<Plugin Id="926917454" Name="Compressor (Custom)" ObjectPath="\Actor-Mixer Hierarchy\AMB_WU\AMB_2D\Ambiances\Amb_Level1_Blend\SFX_Ambiance_Cave\[Effect Slot [1]: (Compressor)]\Compressor (Custom)" GUID="{AA546AAE-284D-412A-8715-23635D57A48A}" LibName="Wwise Compressor" LibId="7077891"/>
+				</Custom>
+				<ShareSets>
+					<Plugin Id="3894244893" Name="FX_Verb_AMB_Lava" ObjectPath="\Effects\Default Work Unit\FX_Verb_AMB_Lava" GUID="{68C721A7-AC86-4B4E-A93B-F7397AB90C01}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="2291972081" Name="AMB_Base" ObjectPath="\Events\AMB WU\AMB_Base" GUID="{DF5AF39F-2629-4FAD-9661-D9C3CE4259D5}" DurationType="Mixed" DurationMin="1" DurationMax="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1045871717" Id="1862095286" GUID="{A5F1AF65-D5B4-45E0-9835-1BCC4E3A7117}"/>
+							<MediaRefs>
+								<MediaRef Id="417501249"/>
+								<MediaRef Id="790000215"/>
+							</MediaRefs>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="911967538"/>
+									<PluginRef Id="926917454"/>
+								</Custom>
+								<ShareSets>
+									<PluginRef Id="3894244893"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1045871717" Id="3604647259" GUID="{0FB1CB68-DAA1-4F0B-A308-CB5D0BA9E9D5}"/>
+							<MediaRefs>
+								<MediaRef Id="417501249"/>
+								<MediaRef Id="790000215"/>
+							</MediaRefs>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="911967538"/>
+									<PluginRef Id="926917454"/>
+								</Custom>
+								<ShareSets>
+									<PluginRef Id="3894244893"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1045871717" Id="3573931707" GUID="{1DD02C6A-2CE8-4691-A283-B7271BDEFE70}"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="427150303"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1045871717" Id="4075332698" GUID="{B2A1CC93-F6FB-462F-9482-B291CF8347B4}"/>
+							<MediaRefs>
+								<MediaRef Id="79650856"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1045871717" Id="136448968" GUID="{450175B8-BC5B-468C-8DA0-3427C1146D59}"/>
+							<MediaRefs>
+								<MediaRef Id="417501249"/>
+								<MediaRef Id="790000215"/>
+							</MediaRefs>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="911967538"/>
+									<PluginRef Id="926917454"/>
+								</Custom>
+								<ShareSets>
+									<PluginRef Id="3894244893"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1045871717" Id="966734798" GUID="{61B9A9E5-B14A-42FF-AC8C-F548574E6172}"/>
+							<MediaRefs>
+								<MediaRef Id="417501249"/>
+								<MediaRef Id="790000215"/>
+							</MediaRefs>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="911967538"/>
+									<PluginRef Id="926917454"/>
+								</Custom>
+								<ShareSets>
+									<PluginRef Id="3894244893"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="2835450985" Name="CameraDistance" ObjectPath="\Game Parameters\Default Work Unit\CameraDistance" GUID="{FBCF16DF-664E-4ABB-A6E2-EBDBB6675700}"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1045871717" Name="GameStatus" ObjectPath="\States\Default Work Unit\GameStatus" GUID="{7D6F9397-A79E-40FE-B5E9-98EDF4F34EDE}">
+					<States>
+						<State Id="136448968" Name="InGame_Ending" ObjectPath="\States\Default Work Unit\GameStatus\InGame_Ending" GUID="{450175B8-BC5B-468C-8DA0-3427C1146D59}"/>
+						<State Id="161398697" Name="InGame_Pause" ObjectPath="\States\Default Work Unit\GameStatus\InGame_Pause" GUID="{E4F69771-C9B8-4E29-A675-3910AB78E134}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\GameStatus\None" GUID="{5E792DF5-0830-43CD-B95B-39437647AAAC}"/>
+						<State Id="966734798" Name="GameMenu" ObjectPath="\States\Default Work Unit\GameStatus\GameMenu" GUID="{61B9A9E5-B14A-42FF-AC8C-F548574E6172}"/>
+						<State Id="1862095286" Name="InGame_Lvl1" ObjectPath="\States\Default Work Unit\GameStatus\InGame_Lvl1" GUID="{A5F1AF65-D5B4-45E0-9835-1BCC4E3A7117}"/>
+						<State Id="3573931707" Name="Loading" ObjectPath="\States\Default Work Unit\GameStatus\Loading" GUID="{1DD02C6A-2CE8-4691-A283-B7271BDEFE70}"/>
+						<State Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\GameStatus\MainMenu" GUID="{0FB1CB68-DAA1-4F0B-A308-CB5D0BA9E9D5}"/>
+						<State Id="4075332698" Name="Beach" ObjectPath="\States\Default Work Unit\GameStatus\Beach" GUID="{B2A1CC93-F6FB-462F-9482-B291CF8347B4}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{B27EBBB8-B267-BDC6-D76C-58AE8AFA8612}</FileHash>
+</SoundBanksInfo>

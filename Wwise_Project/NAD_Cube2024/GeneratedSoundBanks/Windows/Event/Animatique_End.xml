@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1412279167" Type="Event" GUID="{50A505CD-BB7F-4CBA-92F6-A7BF4AA3571E}" Language="SFX" Hash="{F60C511B-0BFF-B3AC-8BA4-903C327B3DE3}">
+			<ObjectPath>Animatique_End</ObjectPath>
+			<ShortName>Animatique_End</ShortName>
+			<Path>Event/Animatique_End.bnk</Path>
+			<Events>
+				<Event Id="1412279167" Name="Animatique_End" ObjectPath="\Events\MISC_WU\Animatique_End" GUID="{50A505CD-BB7F-4CBA-92F6-A7BF4AA3571E}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{F3B7F7EF-AEB2-31BC-0386-BE0C38B83CEC}</FileHash>
+</SoundBanksInfo>

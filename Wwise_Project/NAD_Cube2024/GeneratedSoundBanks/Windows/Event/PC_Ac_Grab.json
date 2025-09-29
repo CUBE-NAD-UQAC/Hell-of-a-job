@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "162111914",
+    "Type": "Event",
+    "GUID": "{BB478AB5-320D-453F-96F1-72B582FC99B0}",
+    "Language": "SFX",
+    "Hash": "{7D6C39C6-C00E-CBBC-806D-8FD6FAB78C8F}",
+    "ObjectPath": "PC_Ac_Grab",
+    "ShortName": "PC_Ac_Grab",
+    "Path": "Event/PC_Ac_Grab.bnk",
+    "Events": [
+     {
+      "Id": "162111914",
+      "Name": "PC_Ac_Grab",
+      "ObjectPath": "\\Events\\SFX WU\\Player_Events_WU\\PC_Ac_Grab",
+      "GUID": "{BB478AB5-320D-453F-96F1-72B582FC99B0}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{4F5FE9F8-16AA-AC6F-EE8F-244F7112329B}"
+ }
+}

@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1383479036	Prop_Collectible_PickUp			\SFX WU\Objects_Events_WU\Collectibles\Prop_Collectible_PickUp	
+	3887629727	PC_VO_Grunt			\SFX WU\Player_Events_WU\PC_VO_Grunt	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3550485865	Sidechain_SFX_Player	Wwise Meter			
+

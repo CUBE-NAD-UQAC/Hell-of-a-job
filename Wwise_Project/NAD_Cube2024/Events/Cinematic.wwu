@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DA13FB2A-4CD7-4C83-BFA9-17F3E4B3AFEA}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Cinematic" ID="{DA13FB2A-4CD7-4C83-BFA9-17F3E4B3AFEA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Win_Cinematic_Green" ID="{18BD2341-9576-4A4E-BC81-BFE3F80C8BE2}">
+					<ChildrenList>
+						<Action Name="" ID="{03A38257-95E3-4FCA-B21D-D6AF50853362}" ShortID="842806297">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BdC_Green_Win_Stack" ID="{DDFC0436-6A29-4D8C-A9DE-F02675D17EEE}" WorkUnitID="{4FFC08EE-721E-4238-96F2-3911B32F014A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{86D7B9E7-381C-4023-88D6-E5754A164067}" ShortID="503898771">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cinematic_Win" ID="{007E1BDD-3E54-4BA9-9CF9-ED5CA5B93283}" WorkUnitID="{4FFC08EE-721E-4238-96F2-3911B32F014A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Win_Cinematic_Blue" ID="{BC570B92-7A57-4496-80EB-8AB6982F322F}">
+					<ChildrenList>
+						<Action Name="" ID="{BB035635-FA93-4485-9619-E30C311242F9}" ShortID="469058687">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BdC_Blue_Win_Stack" ID="{E87B5832-D3DF-4BED-9AF2-62D84B408500}" WorkUnitID="{4FFC08EE-721E-4238-96F2-3911B32F014A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4560F172-C2F9-4CDA-B2EA-F56EA8E6233A}" ShortID="53969765">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cinematic_Win" ID="{007E1BDD-3E54-4BA9-9CF9-ED5CA5B93283}" WorkUnitID="{4FFC08EE-721E-4238-96F2-3911B32F014A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Win_Cinematic" ID="{03D44FD2-11EB-46D6-B038-48C5080B8747}">
+					<ChildrenList>
+						<Action Name="" ID="{F9C74DAD-1074-402F-979F-12F12B63122A}" ShortID="774906017">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cinematic_Win" ID="{007E1BDD-3E54-4BA9-9CF9-ED5CA5B93283}" WorkUnitID="{4FFC08EE-721E-4238-96F2-3911B32F014A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Cinematic_Win_Mute_Unmute_FS" ID="{939E06A6-8918-4A5A-9051-965CAC906665}">
+					<ChildrenList>
+						<Action Name="" ID="{4874383E-EB2E-4D5E-8A1F-6348D6E6B1EE}" ShortID="778114264">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="Volume" Type="Real64" Value="-96"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footstpes_Surface" ID="{CE38BF94-FC74-4B88-B9C0-DECC2973A4D8}" WorkUnitID="{F783C58A-C7F3-44DC-9BDB-2B33640573EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9685702D-1796-4CAD-B6EA-BB20B14022D8}" ShortID="472450753">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="Delay" Type="Real64" Value="2.3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footstpes_Surface" ID="{CE38BF94-FC74-4B88-B9C0-DECC2973A4D8}" WorkUnitID="{F783C58A-C7F3-44DC-9BDB-2B33640573EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BeepFrame" ID="{7A403BF4-7F7A-454F-AEA2-223FBC2AA2D5}">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool" Value="False"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{D3D39A9B-0329-444C-92B1-F1A72271123C}" ShortID="892849433">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="1kHz_BeepFrame" ID="{079A72B8-15D4-4751-8416-18D4EC7F5FF8}" WorkUnitID="{3AE2F69E-FB0A-437D-8143-34144182E546}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

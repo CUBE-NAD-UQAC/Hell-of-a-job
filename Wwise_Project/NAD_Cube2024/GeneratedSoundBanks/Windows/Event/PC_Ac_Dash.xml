@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3017656208" Type="Event" GUID="{856C6B65-D6EA-426A-B0F2-2DD5C1B95983}" Language="SFX" Hash="{32D78D70-E603-1099-A046-7CB88FBADA66}">
+			<ObjectPath>PC_Ac_Dash</ObjectPath>
+			<ShortName>PC_Ac_Dash</ShortName>
+			<Path>Event/PC_Ac_Dash.bnk</Path>
+			<Media>
+				<File Id="467015783" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_PC_Dash_03.wav</ShortName>
+					<Path>Media/467015783.wem</Path>
+					<CachePath>SFX/SFX_PC_Dash_03_8F41A570.wem</CachePath>
+				</File>
+				<File Id="519205978" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_PC_Dash_02.wav</ShortName>
+					<Path>Media/519205978.wem</Path>
+					<CachePath>SFX/SFX_PC_Dash_02_50F025BC.wem</CachePath>
+				</File>
+				<File Id="949525903" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_PC_Dash_01.wav</ShortName>
+					<Path>Media/949525903.wem</Path>
+					<CachePath>SFX/SFX_PC_Dash_01_E07FE42B.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3017656208" Name="PC_Ac_Dash" ObjectPath="\Events\SFX WU\Player_Events_WU\PC_Ac_Dash" GUID="{856C6B65-D6EA-426A-B0F2-2DD5C1B95983}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="1.4618634" DurationMax="1.7099537">
+					<MediaRefs>
+						<MediaRef Id="467015783"/>
+						<MediaRef Id="519205978"/>
+						<MediaRef Id="949525903"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{46D7CED8-9523-092F-AB4E-9B63B31129A4}</FileHash>
+</SoundBanksInfo>

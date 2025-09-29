@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}" SchemaVersion="119">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{9AB2772F-4656-441C-BC33-A202D0135A0F}" WorkUnitID="{4E3CBF93-260A-409A-849B-D945DEC82789}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="AMB_BUS" ID="{F40EAD15-E769-4CAE-A4EF-1A3E43D0AFA3}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Color" Type="int16" Value="5"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{4C52E4C5-AB69-4673-A6A7-49CF5168E23F}" ShortID="186994943">
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{CC93440A-BBC2-4EFD-B5AF-B8BBDDAB317B}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>InvertedSCurve</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>71.70139</XPos>
+																	<YPos>-22.33593</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>97.65625</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>InvertedSCurve</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+												<ObstructionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionVolumeUsage>
+												<ObstructionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionLPFUsage>
+												<ObstructionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionHPFUsage>
+												<OcclusionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionVolumeUsage>
+												<OcclusionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionLPFUsage>
+												<OcclusionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionHPFUsage>
+												<DiffractionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionVolumeUsage>
+												<DiffractionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionLPFUsage>
+												<DiffractionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionHPFUsage>
+												<TransmissionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionVolumeUsage>
+												<TransmissionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionLPFUsage>
+												<TransmissionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionHPFUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Bus Name="2D_Bus" ID="{27FA26FA-66A3-4A6F-BF25-F1AE17AB0020}"/>
+								<Bus Name="3D_Bus" ID="{7880811C-68AF-4795-8ED3-7EFE5E5FD9A2}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="19"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{4BDE62B3-C155-4FF5-8CE2-2F1BB53236A1}" ShortID="1001930499">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="CameraDistance" ID="{FBCF16DF-664E-4ABB-A6E2-EBDBB6675700}" WorkUnitID="{775D7E34-CBAF-473A-934B-8F28C4C7C44E}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{6602E648-C6C4-4712-B9D7-42B91D0BFF19}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{BCAB6367-1AE9-4E91-973D-E19778EDFD38}" ShortID="1005035799">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Highpass"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="CameraDistance" ID="{FBCF16DF-664E-4ABB-A6E2-EBDBB6675700}" WorkUnitID="{775D7E34-CBAF-473A-934B-8F28C4C7C44E}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{C58ED0BA-8D86-4FA7-812B-4233A66229ED}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>25</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Bus>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{EDC5B3AC-3417-4F0F-A29D-8809D67626C5}">
+									<ChildrenList>
+										<Path2D Name="3D_AMB_Path" ID="{0A4DD774-FDA9-44EB-8948-E12B156AF3D9}">
+											<PropertyList>
+												<Property Name="RandomX" Type="Real64" Value="100"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>-4.65631</XPos>
+													<YPos>19.26406</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameStatus" ID="{7D6F9397-A79E-40FE-B5E9-98EDF4F34EDE}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="GameMenu" ID="{61B9A9E5-B14A-42FF-AC8C-F548574E6172}"/>
+										<CustomState Name="" ID="{76B38179-1A6B-44A0-9C5A-665B9008D37C}" ShortID="593812913">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-6"/>
+												<Property Name="Lowpass" Type="int16" Value="30"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InGame_Lvl1" ID="{A5F1AF65-D5B4-45E0-9835-1BCC4E3A7117}"/>
+										<CustomState Name="" ID="{56054D86-418F-4E99-A497-A1452737BF8D}" ShortID="317232312"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Beach" ID="{B2A1CC93-F6FB-462F-9482-B291CF8347B4}"/>
+										<CustomState Name="" ID="{B40AEF74-CCD0-43D6-8D91-F84C7B4AE9B3}" ShortID="1049863457"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InGame_Ending" ID="{450175B8-BC5B-468C-8DA0-3427C1146D59}"/>
+										<CustomState Name="" ID="{46E927AA-C1C3-4758-BB2A-D7C9B26DD8EE}" ShortID="109324787">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-15"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Loading" ID="{1DD02C6A-2CE8-4691-A283-B7271BDEFE70}"/>
+										<CustomState Name="" ID="{6631835C-CC89-4207-8A8D-07195C2DF170}" ShortID="519027303">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InGame_Pause" ID="{E4F69771-C9B8-4E29-A675-3910AB78E134}"/>
+										<CustomState Name="" ID="{103A5C64-65B7-470E-B117-3C794C66F57C}" ShortID="630690778">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16" Value="45"/>
+												<Property Name="Lowpass" Type="int16" Value="45"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MainMenu" ID="{0FB1CB68-DAA1-4F0B-A308-CB5D0BA9E9D5}"/>
+										<CustomState Name="" ID="{A1D692A1-4A29-4F82-9C96-E284B3379D75}" ShortID="300120155">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-9"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{70A9F3A2-FB4E-4D05-BD60-7C31F83066D0}" ShortID="541771871">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Sidechain_SFX_Player" ID="{A8CAF82F-7AB3-4A5A-8D03-2CA4329161BA}" WorkUnitID="{775D7E34-CBAF-473A-934B-8F28C4C7C44E}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{861F08BD-2717-4DFF-A71A-9F0290A38E68}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-48</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Log1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-37.72072</XPos>
+																		<YPos>0.09192</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-4.58402</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+						<Bus Name="MUSIC_BUS" ID="{F9BFB4C6-29BC-41A1-9103-2A4144F05BC4}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Color" Type="int16" Value="16"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Main_Bus" ID="{6902B98F-782E-40C9-89BA-21C556C841CA}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{E7A2B1A2-35B1-4A5A-AE67-2D8D7F97C53C}" ShortID="791000573">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Meter (Custom)" ID="{F6D4D78F-B8A4-41C1-89C6-189D327184B0}" ShortID="855959824" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+																		<PropertyList>
+																			<Property Name="ReleaseTime" Type="Real32" Value="1"/>
+																		</PropertyList>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{A4084185-9BE9-4FB8-B633-1A513C814F7D}" ShortID="316766783">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Music_Stinger_Ducking" ID="{72F45571-BA9C-4148-9DA2-FFAE8D2110C2}" WorkUnitID="{775D7E34-CBAF-473A-934B-8F28C4C7C44E}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{DD5A6073-5A0B-4012-A93E-5D745017BA11}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-48</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>-32.4324324324324</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-9</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Bus>
+								<Bus Name="Stingers_Bus" ID="{6ECB4F81-A3D2-40B5-9EFF-1BAEA72B654D}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{164B50E3-037A-47F5-BE14-827A9F531CC5}" ShortID="187229705">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Meter (Custom)" ID="{987C20B6-200F-4E3A-8F63-136B45DB266E}" ShortID="212873195" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">																		<PluginData>
+	<GameParameter Name="Music_Stinger_Ducking" ID="{72F45571-BA9C-4148-9DA2-FFAE8D2110C2}"/>
+</PluginData>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Bus>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{5383287F-E856-4E46-BBAC-D1A9764D317D}"/>
+							</PositioningInfo>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameStatus" ID="{7D6F9397-A79E-40FE-B5E9-98EDF4F34EDE}"/>
+									</StateGroupInfo>
+									<StateGroupInfo>
+										<StateGroupRef Name="LevelStatus" ID="{8757E62A-3B7E-44A0-AA19-4255058685BF}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="GameMenu" ID="{61B9A9E5-B14A-42FF-AC8C-F548574E6172}"/>
+										<CustomState Name="" ID="{44E6DBEB-B5D4-4BB1-9E6F-6DDCFA288775}" ShortID="75492872">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-6"/>
+												<Property Name="Lowpass" Type="int16" Value="30"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InGame_Lvl1" ID="{A5F1AF65-D5B4-45E0-9835-1BCC4E3A7117}"/>
+										<CustomState Name="" ID="{9538A26B-45A1-4B31-A5BB-A63933E386DB}" ShortID="1004260154"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Beach" ID="{B2A1CC93-F6FB-462F-9482-B291CF8347B4}"/>
+										<CustomState Name="" ID="{D724346E-9AFD-4BC5-B60E-56653CE3DF01}" ShortID="1038910368">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="6"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InGame_Ending" ID="{450175B8-BC5B-468C-8DA0-3427C1146D59}"/>
+										<CustomState Name="" ID="{648A29F6-062B-47B9-86C4-F271CB2310E6}" ShortID="925415929">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="11"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Loading" ID="{1DD02C6A-2CE8-4691-A283-B7271BDEFE70}"/>
+										<CustomState Name="" ID="{BE7495C3-7CF0-46ED-8B09-6E936B1C1DD7}" ShortID="926494869">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Last10Sec" ID="{23B3B7CF-6F98-4D6B-8D45-24FC7C18EDB5}"/>
+										<CustomState Name="" ID="{8895FD9C-7852-4BE0-BA25-3B2989C5871F}" ShortID="310174389">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-2"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InGame_Pause" ID="{E4F69771-C9B8-4E29-A675-3910AB78E134}"/>
+										<CustomState Name="" ID="{C26E8003-B659-4938-AA4B-745729D30262}" ShortID="929962254">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-1"/>
+												<Property Name="Highpass" Type="int16" Value="40"/>
+												<Property Name="Lowpass" Type="int16" Value="45"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MainMenu" ID="{0FB1CB68-DAA1-4F0B-A308-CB5D0BA9E9D5}"/>
+										<CustomState Name="" ID="{E6F27895-8130-4F3F-ADAB-BBB722C37C77}" ShortID="212563332">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="6"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Normal" ID="{EAD1EAEC-4088-4F70-9C07-3FCFBE3F9200}"/>
+										<CustomState Name="" ID="{D4EF2944-2022-44EA-8A6A-BCB5B0875013}" ShortID="946993994"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{0FA043BF-4C78-495B-9C16-54AD3730768D}" ShortID="336262247">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="SFX_Bus_Volume" ID="{4C9B8BF9-6592-4471-9F39-E71E1A0A4196}" WorkUnitID="{775D7E34-CBAF-473A-934B-8F28C4C7C44E}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{6D0C72E0-E740-4EEB-BF13-8F8E951B57A8}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-48</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>-26</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-22.49585</XPos>
+																		<YPos>-2.50955</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-2.40032</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+						<Bus Name="SFX_BUS" ID="{97E48119-C4B0-4FDD-BE3B-9416779327A3}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Color" Type="int16" Value="15"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Objects_Bus" ID="{F0B261D0-F6CD-44C4-B6D7-04EEAB12BC13}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Color" Type="int16" Value="23"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="GameStatus" ID="{7D6F9397-A79E-40FE-B5E9-98EDF4F34EDE}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="GameMenu" ID="{61B9A9E5-B14A-42FF-AC8C-F548574E6172}"/>
+												<CustomState Name="" ID="{4FD0B9E4-DA76-4775-B688-BF9F43FCA5B2}" ShortID="623756406">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-6"/>
+														<Property Name="Lowpass" Type="int16" Value="30"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="InGame_Lvl1" ID="{A5F1AF65-D5B4-45E0-9835-1BCC4E3A7117}"/>
+												<CustomState Name="" ID="{73949966-9F77-4991-810E-A23335C11371}" ShortID="811392727"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Beach" ID="{B2A1CC93-F6FB-462F-9482-B291CF8347B4}"/>
+												<CustomState Name="" ID="{7649479B-8096-4217-B9A4-B653E62AA541}" ShortID="24534521"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="InGame_Ending" ID="{450175B8-BC5B-468C-8DA0-3427C1146D59}"/>
+												<CustomState Name="" ID="{870B8AE2-89C7-4717-AB35-A3C1FD77A6F4}" ShortID="276132310"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Loading" ID="{1DD02C6A-2CE8-4691-A283-B7271BDEFE70}"/>
+												<CustomState Name="" ID="{C6F5342A-B0A2-4130-971B-7057696BDBB4}" ShortID="79318010">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="InGame_Pause" ID="{E4F69771-C9B8-4E29-A675-3910AB78E134}"/>
+												<CustomState Name="" ID="{D5EAC71A-88E7-40A8-98F1-4B51AC690D61}" ShortID="48065075">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16" Value="45"/>
+														<Property Name="Lowpass" Type="int16" Value="45"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="MainMenu" ID="{0FB1CB68-DAA1-4F0B-A308-CB5D0BA9E9D5}"/>
+												<CustomState Name="" ID="{6A62F39F-DF90-46F0-91DD-3A8BE5407E4A}" ShortID="500670164"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{F6ED6C2A-913F-47FD-A939-CCE75DA9EE43}" ShortID="509866585">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+																<ObjectRef Name="Sidechain_SFX_Player" ID="{865B9898-411B-4EE5-A064-7B7ECC430BEA}" WorkUnitID="{F664F52D-3850-4B8A-9CF2-533EBBB19372}"/>
+															</Reference>
+														</ReferenceList>
+														<StateInfo>
+															<CustomStateList>
+																<CustomState>
+																	<StateRef Name="GameMenu" ID="{61B9A9E5-B14A-42FF-AC8C-F548574E6172}"/>
+																	<CustomState Name="" ID="{F5CA7BE8-3F0C-43FD-9572-CCE8EB399DF8}" ShortID="911762179"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="InGame_Lvl1" ID="{A5F1AF65-D5B4-45E0-9835-1BCC4E3A7117}"/>
+																	<CustomState Name="" ID="{F64E32DE-966C-42B6-9B42-57BD0D859B6F}" ShortID="633341192"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="Beach" ID="{B2A1CC93-F6FB-462F-9482-B291CF8347B4}"/>
+																	<CustomState Name="" ID="{D677270E-B080-44BD-A336-FA3A12155770}" ShortID="368051209"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="InGame_Ending" ID="{450175B8-BC5B-468C-8DA0-3427C1146D59}"/>
+																	<CustomState Name="" ID="{C13C6ABB-7010-4D28-9C2D-F8615539F5E8}" ShortID="285921521"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="Loading" ID="{1DD02C6A-2CE8-4691-A283-B7271BDEFE70}"/>
+																	<CustomState Name="" ID="{FBDD4D2C-ED81-4217-9AF5-F184F59D2C55}" ShortID="793940596"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="InGame_Pause" ID="{E4F69771-C9B8-4E29-A675-3910AB78E134}"/>
+																	<CustomState Name="" ID="{07684C46-582D-45E5-B95D-38E80447B7CF}" ShortID="778566279"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="MainMenu" ID="{0FB1CB68-DAA1-4F0B-A308-CB5D0BA9E9D5}"/>
+																	<CustomState Name="" ID="{F5BCAA3B-CB24-487D-B459-3CF7B2595D82}" ShortID="374421984"/>
+																</CustomState>
+															</CustomStateList>
+														</StateInfo>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{7EA74EA0-8BE5-4B96-89B6-561AEA196B43}" ShortID="169276032">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="CameraDistance" ID="{FBCF16DF-664E-4ABB-A6E2-EBDBB6675700}" WorkUnitID="{775D7E34-CBAF-473A-934B-8F28C4C7C44E}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{F20DF1A1-15D0-4DF4-A0EB-23461D3F8229}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>SCurve</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>84.95374</XPos>
+																				<YPos>-2.49341</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>SCurve</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-4.06189</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{621F7742-9277-4992-B715-5A04926F233A}" ShortID="937572037">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Highpass"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="CameraDistance" ID="{FBCF16DF-664E-4ABB-A6E2-EBDBB6675700}" WorkUnitID="{775D7E34-CBAF-473A-934B-8F28C4C7C44E}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{83A66E7C-E2F3-43DB-AE38-77CC456B7DB1}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>22</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Bus>
+								<Bus Name="Player_Bus" ID="{260603E1-FEC3-4FAF-8CDB-CAE7F40A4E5B}">
+									<ChildrenList>
+										<Bus Name="VO" ID="{3589BC58-3E97-44B3-A556-D37F72B8A24F}">
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{67CB70D5-E17D-418F-855B-7F62536A454D}" ShortID="423068863">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+																		<ObjectRef Name="Sidechain_SFX_Player" ID="{865B9898-411B-4EE5-A064-7B7ECC430BEA}" WorkUnitID="{F664F52D-3850-4B8A-9CF2-533EBBB19372}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</Bus>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="GameStatus" ID="{7D6F9397-A79E-40FE-B5E9-98EDF4F34EDE}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="GameMenu" ID="{61B9A9E5-B14A-42FF-AC8C-F548574E6172}"/>
+												<CustomState Name="" ID="{816EB830-FB14-4C40-98A5-62F09BB75EF8}" ShortID="969718720">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-6"/>
+														<Property Name="Lowpass" Type="int16" Value="30"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="InGame_Lvl1" ID="{A5F1AF65-D5B4-45E0-9835-1BCC4E3A7117}"/>
+												<CustomState Name="" ID="{21180E58-0CD1-4C02-9B3D-2474414E25F9}" ShortID="155505881"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Beach" ID="{B2A1CC93-F6FB-462F-9482-B291CF8347B4}"/>
+												<CustomState Name="" ID="{23C54452-152A-4864-96A7-F139C40479E0}" ShortID="996607759"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="InGame_Ending" ID="{450175B8-BC5B-468C-8DA0-3427C1146D59}"/>
+												<CustomState Name="" ID="{978F3077-8286-489D-ACC9-B34A5B037E72}" ShortID="901317127"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Loading" ID="{1DD02C6A-2CE8-4691-A283-B7271BDEFE70}"/>
+												<CustomState Name="" ID="{06738D01-0FA9-46FA-A46D-16C61ECE3C0D}" ShortID="626821048">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="InGame_Pause" ID="{E4F69771-C9B8-4E29-A675-3910AB78E134}"/>
+												<CustomState Name="" ID="{62FCC1A5-7B1E-4F3C-B77E-8F991C17443D}" ShortID="599126597">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16" Value="45"/>
+														<Property Name="Lowpass" Type="int16" Value="45"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="MainMenu" ID="{0FB1CB68-DAA1-4F0B-A308-CB5D0BA9E9D5}"/>
+												<CustomState Name="" ID="{17277496-50B8-4DAB-AB30-4042F4DCF55D}" ShortID="772079394"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{8AE7E71A-A0AB-4CEC-ADE6-5BEA05B19CFD}" ShortID="619449845">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+																<ObjectRef Name="Sidechain_SFX_Player" ID="{865B9898-411B-4EE5-A064-7B7ECC430BEA}" WorkUnitID="{F664F52D-3850-4B8A-9CF2-533EBBB19372}"/>
+															</Reference>
+														</ReferenceList>
+														<StateInfo>
+															<CustomStateList>
+																<CustomState>
+																	<StateRef Name="GameMenu" ID="{61B9A9E5-B14A-42FF-AC8C-F548574E6172}"/>
+																	<CustomState Name="" ID="{516AD3D4-49AA-4E38-A10A-1F551BA1C6AF}" ShortID="79192512"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="InGame_Lvl1" ID="{A5F1AF65-D5B4-45E0-9835-1BCC4E3A7117}"/>
+																	<CustomState Name="" ID="{A3C3C795-7B1F-4FFC-AFB6-E046F9E17439}" ShortID="1050241535"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="Beach" ID="{B2A1CC93-F6FB-462F-9482-B291CF8347B4}"/>
+																	<CustomState Name="" ID="{B4514962-A8D0-4159-8A8D-AD5D2F7AB249}" ShortID="904245069"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="InGame_Ending" ID="{450175B8-BC5B-468C-8DA0-3427C1146D59}"/>
+																	<CustomState Name="" ID="{B324CB24-AADF-4855-AD0E-4F36CB16890B}" ShortID="954444788"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="Loading" ID="{1DD02C6A-2CE8-4691-A283-B7271BDEFE70}"/>
+																	<CustomState Name="" ID="{FD75FA7F-6D62-4B66-A260-3589069D1E23}" ShortID="524293976"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="InGame_Pause" ID="{E4F69771-C9B8-4E29-A675-3910AB78E134}"/>
+																	<CustomState Name="" ID="{FC579221-D658-4BF8-955A-65FCF8180812}" ShortID="714167709"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="MainMenu" ID="{0FB1CB68-DAA1-4F0B-A308-CB5D0BA9E9D5}"/>
+																	<CustomState Name="" ID="{1F247379-B03B-40C8-A901-6BC6CE9ED0DA}" ShortID="713107998"/>
+																</CustomState>
+															</CustomStateList>
+														</StateInfo>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{D0502C92-A427-45E3-801E-DEA972B3031D}" ShortID="519207665">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="CameraDistance" ID="{FBCF16DF-664E-4ABB-A6E2-EBDBB6675700}" WorkUnitID="{775D7E34-CBAF-473A-934B-8F28C4C7C44E}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{BD7F3EEC-C2AE-4938-8AFF-2756AAC47142}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-1.29915</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{6EBAA637-FB51-4B6A-BBEB-1368BA6BB029}" ShortID="412162748">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Highpass"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="CameraDistance" ID="{FBCF16DF-664E-4ABB-A6E2-EBDBB6675700}" WorkUnitID="{775D7E34-CBAF-473A-934B-8F28C4C7C44E}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{575588A1-33D5-426E-A9AB-1DCC8750D244}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>21</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{EA6BD6BD-2DE4-4F24-B93F-D421B2C84F61}" ShortID="118358659">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Lowpass"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="CameraDistance" ID="{FBCF16DF-664E-4ABB-A6E2-EBDBB6675700}" WorkUnitID="{775D7E34-CBAF-473A-934B-8F28C4C7C44E}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{BA6D5D87-8EB4-4321-9B6D-392F2E20EA7B}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>SCurve</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>11</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Bus>
+								<Bus Name="UI_Bus" ID="{1C759CB5-B00C-4AED-86C8-D7670678127E}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Color" Type="int16" Value="25"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Cinematic BUS" ID="{1E4F76C7-C245-4894-AF83-A8AFDA214D3D}"/>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{B3EEC547-C7D2-43CB-99F8-67A805B67228}" ShortID="793952164">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="MASTER_BUS_Vol" ID="{83A45E87-C5CE-4CA0-925A-64F2EEC26CE5}" WorkUnitID="{775D7E34-CBAF-473A-934B-8F28C4C7C44E}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{0BCA4F87-981F-4903-AE4F-FD990FDFCF74}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

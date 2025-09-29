@@ -1,0 +1,128 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "4286512364",
+    "Type": "Event",
+    "GUID": "{BD349991-DB82-4FD5-8B7C-6FD62496B49B}",
+    "Language": "SFX",
+    "Hash": "{F03B9C13-54EA-0E2C-F701-35F5E765EB45}",
+    "ObjectPath": "PC_Ac_Throw",
+    "ShortName": "PC_Ac_Throw",
+    "Path": "Event/PC_Ac_Throw.bnk",
+    "Media": [
+     {
+      "Id": "73073453",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Voice_lines\\VO_Player_Hit\\VO_Player_Hit_6.wav",
+      "Path": "Media/73073453.wem",
+      "CachePath": "SFX/Voice_lines/VO_Player_Hit/VO_Player_Hit_6_5E8EFEF5.wem"
+     },
+     {
+      "Id": "157359123",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Collectibles\\SFX_Collectible_Throw_03.wav",
+      "Path": "Media/157359123.wem",
+      "CachePath": "SFX/Collectibles/SFX_Collectible_Throw_03_818F3B66.wem"
+     },
+     {
+      "Id": "325886207",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Voice_lines\\VO_Player_Hit\\VO_Player_Hit_2.wav",
+      "Path": "Media/325886207.wem",
+      "CachePath": "SFX/Voice_lines/VO_Player_Hit/VO_Player_Hit_2_B3880EAB.wem"
+     },
+     {
+      "Id": "709384343",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Collectibles\\SFX_Collectible_Throw_02.wav",
+      "Path": "Media/709384343.wem",
+      "CachePath": "SFX/Collectibles/SFX_Collectible_Throw_02_818F3B66.wem"
+     },
+     {
+      "Id": "737456411",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Collectibles\\SFX_Collectible_Throw_01.wav",
+      "Path": "Media/737456411.wem",
+      "CachePath": "SFX/Collectibles/SFX_Collectible_Throw_01_818F3B66.wem"
+     },
+     {
+      "Id": "917494571",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Collectibles\\SFX_Collectible_Throw_04.wav",
+      "Path": "Media/917494571.wem",
+      "CachePath": "SFX/Collectibles/SFX_Collectible_Throw_04_818F3B66.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "3550485865",
+       "Name": "Sidechain_SFX_Player",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Sidechain_SFX_Player",
+       "GUID": "{865B9898-411B-4EE5-A064-7B7ECC430BEA}",
+       "LibName": "Wwise Meter",
+       "LibId": "8454147"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "4286512364",
+      "Name": "PC_Ac_Throw",
+      "ObjectPath": "\\Events\\SFX WU\\Player_Events_WU\\PC_Ac_Throw",
+      "GUID": "{BD349991-DB82-4FD5-8B7C-6FD62496B49B}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.8623543",
+      "DurationMax": "3.209125",
+      "MediaRefs": [
+       {
+        "Id": "73073453"
+       },
+       {
+        "Id": "157359123"
+       },
+       {
+        "Id": "325886207"
+       },
+       {
+        "Id": "709384343"
+       },
+       {
+        "Id": "737456411"
+       },
+       {
+        "Id": "917494571"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3550485865"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5FFD167C-2B90-30A5-5A17-CBA2D8CC9D29}"
+ }
+}

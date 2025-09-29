@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1412279167",
+    "Type": "Event",
+    "GUID": "{50A505CD-BB7F-4CBA-92F6-A7BF4AA3571E}",
+    "Language": "SFX",
+    "Hash": "{F60C511B-0BFF-B3AC-8BA4-903C327B3DE3}",
+    "ObjectPath": "Animatique_End",
+    "ShortName": "Animatique_End",
+    "Path": "Event/Animatique_End.bnk",
+    "Events": [
+     {
+      "Id": "1412279167",
+      "Name": "Animatique_End",
+      "ObjectPath": "\\Events\\MISC_WU\\Animatique_End",
+      "GUID": "{50A505CD-BB7F-4CBA-92F6-A7BF4AA3571E}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{BD9C1EA8-3C1A-E18E-8625-1A2191B6153A}"
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "501555810",
+    "Type": "Event",
+    "GUID": "{105EA35F-F70F-4E33-BCA3-E8572D32CCBB}",
+    "Language": "SFX",
+    "Hash": "{79C80591-6669-4D6C-E7CD-7FC62745B208}",
+    "ObjectPath": "PC_Em_ExDef",
+    "ShortName": "PC_Em_ExDef",
+    "Path": "Event/PC_Em_ExDef.bnk",
+    "Events": [
+     {
+      "Id": "501555810",
+      "Name": "PC_Em_ExDef",
+      "ObjectPath": "\\Events\\SFX WU\\Player_Events_WU\\Emotes\\PC_Em_ExDef",
+      "GUID": "{105EA35F-F70F-4E33-BCA3-E8572D32CCBB}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8DFC2DD0-2EF3-4465-9F13-FD28029DD72C}"
+ }
+}

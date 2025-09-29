@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C26AB768-0151-4676-9F2D-9D2BFFD89E0F}" SchemaVersion="119">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{C26AB768-0151-4676-9F2D-9D2BFFD89E0F}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="GameStatus" ID="{7D6F9397-A79E-40FE-B5E9-98EDF4F34EDE}">
+					<ChildrenList>
+						<State Name="None" ID="{5E792DF5-0830-43CD-B95B-39437647AAAC}"/>
+						<State Name="GameMenu" ID="{61B9A9E5-B14A-42FF-AC8C-F548574E6172}"/>
+						<State Name="InGame_Lvl1" ID="{A5F1AF65-D5B4-45E0-9835-1BCC4E3A7117}"/>
+						<State Name="Loading" ID="{1DD02C6A-2CE8-4691-A283-B7271BDEFE70}"/>
+						<State Name="MainMenu" ID="{0FB1CB68-DAA1-4F0B-A308-CB5D0BA9E9D5}"/>
+						<State Name="InGame_Ending" ID="{450175B8-BC5B-468C-8DA0-3427C1146D59}"/>
+						<State Name="Beach" ID="{B2A1CC93-F6FB-462F-9482-B291CF8347B4}"/>
+						<State Name="InGame_Pause" ID="{E4F69771-C9B8-4E29-A675-3910AB78E134}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="LevelStatus" ID="{8757E62A-3B7E-44A0-AA19-4255058685BF}">
+					<ChildrenList>
+						<State Name="None" ID="{324CCBD5-48CC-42E8-A778-21D1B2572FFE}"/>
+						<State Name="Normal" ID="{EAD1EAEC-4088-4F70-9C07-3FCFBE3F9200}"/>
+						<State Name="Last10Sec" ID="{23B3B7CF-6F98-4D6B-8D45-24FC7C18EDB5}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="MUS_VictorySeq" ID="{58BE40E9-2BED-4AF7-B555-EF55EC9AD47F}">
+					<ChildrenList>
+						<State Name="None" ID="{9D0FF694-CDAD-42EA-A4C4-D2C273D19412}"/>
+						<State Name="Start" ID="{94C5C768-ADD8-4F21-8A6A-1A04748EDDC4}"/>
+						<State Name="BuildUp" ID="{C7715DA3-0A2B-487F-ACB7-5506BC6011B4}"/>
+						<State Name="End" ID="{EAF696A7-1238-48EC-8AC5-AD066A257A76}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

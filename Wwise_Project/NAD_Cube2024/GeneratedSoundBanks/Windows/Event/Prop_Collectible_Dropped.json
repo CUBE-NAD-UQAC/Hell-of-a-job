@@ -1,0 +1,109 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1372405066",
+    "Type": "Event",
+    "GUID": "{E0F2FA30-D54A-4072-ACC2-1AF9CE20EAA0}",
+    "Language": "SFX",
+    "Hash": "{0128CFA9-5223-C643-AC7A-9F9C7B939AE1}",
+    "ObjectPath": "Prop_Collectible_Dropped",
+    "ShortName": "Prop_Collectible_Dropped",
+    "Path": "Event/Prop_Collectible_Dropped.bnk",
+    "Media": [
+     {
+      "Id": "79961679",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Collectible_Break_1.wav",
+      "Path": "Media/79961679.wem",
+      "CachePath": "SFX/Collectible_Break_1_818F3B66.wem"
+     },
+     {
+      "Id": "311826737",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Collectible_Break_2.wav",
+      "Path": "Media/311826737.wem",
+      "CachePath": "SFX/Collectible_Break_2_818F3B66.wem"
+     },
+     {
+      "Id": "329488252",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Collectible_Break_5.wav",
+      "Path": "Media/329488252.wem",
+      "CachePath": "SFX/Collectible_Break_5_818F3B66.wem"
+     },
+     {
+      "Id": "624224527",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Collectible_Break_6.wav",
+      "Path": "Media/624224527.wem",
+      "CachePath": "SFX/Collectible_Break_6_818F3B66.wem"
+     },
+     {
+      "Id": "894963030",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Collectible_Break_3.wav",
+      "Path": "Media/894963030.wem",
+      "CachePath": "SFX/Collectible_Break_3_818F3B66.wem"
+     },
+     {
+      "Id": "966663696",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Collectible_Break_4.wav",
+      "Path": "Media/966663696.wem",
+      "CachePath": "SFX/Collectible_Break_4_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1372405066",
+      "Name": "Prop_Collectible_Dropped",
+      "ObjectPath": "\\Events\\SFX WU\\Objects_Events_WU\\Collectibles\\Prop_Collectible_Dropped",
+      "GUID": "{E0F2FA30-D54A-4072-ACC2-1AF9CE20EAA0}",
+      "MaxAttenuation": "2000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.64",
+      "DurationMax": "2.0855",
+      "MediaRefs": [
+       {
+        "Id": "79961679"
+       },
+       {
+        "Id": "311826737"
+       },
+       {
+        "Id": "329488252"
+       },
+       {
+        "Id": "624224527"
+       },
+       {
+        "Id": "894963030"
+       },
+       {
+        "Id": "966663696"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{3CBD2B16-B915-C6ED-397C-93012BEC4003}"
+ }
+}

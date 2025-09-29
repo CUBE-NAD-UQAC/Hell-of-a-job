@@ -1,0 +1,79 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2416459655",
+    "Type": "Event",
+    "GUID": "{01265BB2-41B3-4DA8-B3ED-E71C388A3B0B}",
+    "Language": "SFX",
+    "Hash": "{AD6CDE3A-14CF-736A-5E1B-D9DB38BFDE01}",
+    "ObjectPath": "Prop_Portal_Ready",
+    "ShortName": "Prop_Portal_Ready",
+    "Path": "Event/Prop_Portal_Ready.bnk",
+    "Media": [
+     {
+      "Id": "260306579",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bounce\\Portal\\SFX_Object_Portal_Ready.wav",
+      "Path": "Media/260306579.wem",
+      "CachePath": "SFX/Bounce/Portal/SFX_Object_Portal_Ready_8585CE1F.wem"
+     },
+     {
+      "Id": "482092795",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Amb_Portal_Loop 01.wav",
+      "Path": "Media/482092795.wem",
+      "CachePath": "SFX/Amb_Portal_Loop 01_FDD589F2.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3363976608",
+      "Name": "Prop_Portal_Hum",
+      "ObjectPath": "\\Events\\SFX WU\\Objects_Events_WU\\Prop_Portal_Hum",
+      "GUID": "{EDCE8F5A-1C21-4F0A-8C77-3B47BA1CCC10}",
+      "MaxAttenuation": "3000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "482092795"
+       }
+      ]
+     },
+     {
+      "Id": "2416459655",
+      "Name": "Prop_Portal_Ready",
+      "ObjectPath": "\\Events\\SFX WU\\Objects_Events_WU\\Prop_Portal_Ready",
+      "GUID": "{01265BB2-41B3-4DA8-B3ED-E71C388A3B0B}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.1795058",
+      "DurationMax": "2.1795058",
+      "MediaRefs": [
+       {
+        "Id": "260306579"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "3363976608",
+        "Name": "Prop_Portal_Hum",
+        "ObjectPath": "\\Events\\SFX WU\\Objects_Events_WU\\Prop_Portal_Hum",
+        "GUID": "{EDCE8F5A-1C21-4F0A-8C77-3B47BA1CCC10}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{6B16CB19-2CCC-B2D1-05E7-322A7D0C29C9}"
+ }
+}

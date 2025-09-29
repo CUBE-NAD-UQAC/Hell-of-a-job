@@ -1,0 +1,84 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2733664987",
+    "Type": "Event",
+    "GUID": "{18BD2341-9576-4A4E-BC81-BFE3F80C8BE2}",
+    "Language": "SFX",
+    "Hash": "{6ECB1449-9EEC-5357-EC14-8E33D989A5E1}",
+    "ObjectPath": "Win_Cinematic_Green",
+    "ShortName": "Win_Cinematic_Green",
+    "Path": "Event/Win_Cinematic_Green.bnk",
+    "Media": [
+     {
+      "Id": "238513824",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Green_Win_Stack_02.wav",
+      "Path": "Media/238513824.wem",
+      "CachePath": "SFX/SFX_Green_Win_Stack_02_C4C9F6F1.wem"
+     },
+     {
+      "Id": "322615170",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cinematic_Win.wav",
+      "Path": "Media/322615170.wem",
+      "CachePath": "SFX/Cinematic_Win_9258CCD0.wem"
+     },
+     {
+      "Id": "542311118",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cinematic_Win_Green.wav",
+      "Path": "Media/542311118.wem",
+      "CachePath": "SFX/Cinematic_Win_Green_78A4C8E9.wem"
+     },
+     {
+      "Id": "963231674",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Green_Win_Stack_01.wav",
+      "Path": "Media/963231674.wem",
+      "CachePath": "SFX/SFX_Green_Win_Stack_01_F3EA6574.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2733664987",
+      "Name": "Win_Cinematic_Green",
+      "ObjectPath": "\\Events\\Cinematic\\Win_Cinematic_Green",
+      "GUID": "{18BD2341-9576-4A4E-BC81-BFE3F80C8BE2}",
+      "DurationType": "OneShot",
+      "DurationMin": "25.6",
+      "DurationMax": "25.6",
+      "MediaRefs": [
+       {
+        "Id": "238513824"
+       },
+       {
+        "Id": "322615170"
+       },
+       {
+        "Id": "542311118"
+       },
+       {
+        "Id": "963231674"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F4239698-C254-56E1-37B3-BCB1B5994C17}"
+ }
+}

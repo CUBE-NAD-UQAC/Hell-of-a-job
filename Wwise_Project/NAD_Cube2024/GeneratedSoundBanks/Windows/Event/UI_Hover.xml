@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2118900976" Type="Event" GUID="{00F7509C-D58A-48AB-80FC-43F172F254FD}" Language="SFX" Hash="{4B813B90-2292-06B9-6C51-EC7962AA482A}">
+			<ObjectPath>UI_Hover</ObjectPath>
+			<ShortName>UI_Hover</ShortName>
+			<Path>Event/UI_Hover.bnk</Path>
+			<Media>
+				<File Id="361158892" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bounce\UI\SFX_UI_Hover_3.wav</ShortName>
+					<Path>Media/361158892.wem</Path>
+					<CachePath>SFX/Bounce/UI/SFX_UI_Hover_3_0F87393B.wem</CachePath>
+				</File>
+				<File Id="378725774" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bounce\UI\SFX_UI_Hover_2.wav</ShortName>
+					<Path>Media/378725774.wem</Path>
+					<CachePath>SFX/Bounce/UI/SFX_UI_Hover_2_968464A8.wem</CachePath>
+				</File>
+				<File Id="494403533" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bounce\UI\SFX_UI_Hover_4.wav</ShortName>
+					<Path>Media/494403533.wem</Path>
+					<CachePath>SFX/Bounce/UI/SFX_UI_Hover_4_D924D6A3.wem</CachePath>
+				</File>
+				<File Id="956732755" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bounce\UI\SFX_UI_Hover_1.wav</ShortName>
+					<Path>Media/956732755.wem</Path>
+					<CachePath>SFX/Bounce/UI/SFX_UI_Hover_1_B90C606F.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="858619041" Name="Parametric EQ (Custom)" ObjectPath="\Actor-Mixer Hierarchy\SFX_WU\UI_WU\SFX_UI\RC_UI_Hover\[Effect Slot [1]: (Parametric EQ)]\Parametric EQ (Custom)" GUID="{5B4433E0-CCC8-4A6A-BB9B-2C7537280F8C}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+					<Plugin Id="874138928" Name="Compressor (Custom)" ObjectPath="\Actor-Mixer Hierarchy\SFX_WU\UI_WU\SFX_UI\RC_UI_Hover\[Effect Slot [0]: (Compressor)]\Compressor (Custom)" GUID="{7F630E68-FC3F-46F4-98A4-627444F40D4A}" LibName="Wwise Compressor" LibId="7077891"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="2118900976" Name="UI_Hover" ObjectPath="\Events\SFX WU\UI_Events_WU\UI_Hover" GUID="{00F7509C-D58A-48AB-80FC-43F172F254FD}" MaxAttenuation="2000" DurationType="OneShot" DurationMin="0.02700476" DurationMax="0.03538191">
+					<MediaRefs>
+						<MediaRef Id="361158892"/>
+						<MediaRef Id="378725774"/>
+						<MediaRef Id="494403533"/>
+						<MediaRef Id="956732755"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="858619041"/>
+							<PluginRef Id="874138928"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{F96B49BF-DE93-7067-3F4E-EF46C365A171}</FileHash>
+</SoundBanksInfo>

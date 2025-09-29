@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	755505919	Win_Cinematic			\Cinematic\Win_Cinematic	
+

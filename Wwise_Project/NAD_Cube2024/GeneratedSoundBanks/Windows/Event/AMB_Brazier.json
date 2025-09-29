@@ -1,0 +1,77 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2905885869",
+    "Type": "Event",
+    "GUID": "{FCDA8A88-45F5-4000-8ED5-E8502FBF7BAC}",
+    "Language": "SFX",
+    "Hash": "{B14314C1-D948-5664-14FC-2C404F670ADD}",
+    "ObjectPath": "AMB_Brazier",
+    "ShortName": "AMB_Brazier",
+    "Path": "Event/AMB_Brazier.bnk",
+    "Media": [
+     {
+      "Id": "5444238",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bounce\\Ambiences\\AMB_3D_Brasier.wav",
+      "Path": "Media/5444238.wem",
+      "CachePath": "SFX/Bounce/Ambiences/AMB_3D_Brasier_3B8BCD5C.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "168049331",
+       "Name": "Compressor (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\AMB_WU\\AMB_3D\\AMB_Brazier\\AMB_3D_Brazier\\[Effect Slot [1]: (Compressor)]\\Compressor (Custom)",
+       "GUID": "{F1ECF39D-1695-4A79-8659-FECB7F6AFB21}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
+      {
+       "Id": "963882312",
+       "Name": "Parametric EQ (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\AMB_WU\\AMB_3D\\AMB_Brazier\\AMB_3D_Brazier\\[Effect Slot [0]: (Parametric EQ)]\\Parametric EQ (Custom)",
+       "GUID": "{3E3989F2-79BF-42E2-A5F3-C4E9B32077A9}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "2905885869",
+      "Name": "AMB_Brazier",
+      "ObjectPath": "\\Events\\AMB WU\\AMB_Brazier",
+      "GUID": "{FCDA8A88-45F5-4000-8ED5-E8502FBF7BAC}",
+      "MaxAttenuation": "3000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "5444238"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "168049331"
+        },
+        {
+         "Id": "963882312"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{596DB579-E896-AE66-D34E-7AB1A03860A4}"
+ }
+}

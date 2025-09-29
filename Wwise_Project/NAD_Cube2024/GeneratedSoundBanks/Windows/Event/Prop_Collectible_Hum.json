@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3410528690",
+    "Type": "Event",
+    "GUID": "{11D8B906-9527-4F9C-9E13-CC01CB5B4A54}",
+    "Language": "SFX",
+    "Hash": "{5E440429-C62D-40BC-C3DB-A5AA057C873D}",
+    "ObjectPath": "Prop_Collectible_Hum",
+    "ShortName": "Prop_Collectible_Hum",
+    "Path": "Event/Prop_Collectible_Hum.bnk",
+    "Media": [
+     {
+      "Id": "134562296",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Collectibles\\SFX_Collectible_Loop.wav",
+      "Path": "Media/134562296.wem",
+      "CachePath": "SFX/Collectibles/SFX_Collectible_Loop_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3410528690",
+      "Name": "Prop_Collectible_Hum",
+      "ObjectPath": "\\Events\\SFX WU\\Objects_Events_WU\\Collectibles\\Prop_Collectible_Hum",
+      "GUID": "{11D8B906-9527-4F9C-9E13-CC01CB5B4A54}",
+      "MaxAttenuation": "2000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "134562296"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5C6A41A0-67FA-9B00-BD00-F87C6345A6EA}"
+ }
+}

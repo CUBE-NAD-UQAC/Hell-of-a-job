@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2518911374	OLD_PC_Ac_Charge			\Default Work Unit\OLD_PC_Ac_Charge	
+

@@ -1,0 +1,4 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2772308904	Game_Pause			\MISC_WU\Game_Pause	
+	2792155208	UI_Pause			\SFX WU\UI_Events_WU\UI_Pause	
+

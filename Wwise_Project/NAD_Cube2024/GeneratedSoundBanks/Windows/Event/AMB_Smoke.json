@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "831791309",
+    "Type": "Event",
+    "GUID": "{6465F4A8-7D06-41E9-BACE-A406C7A6CCB0}",
+    "Language": "SFX",
+    "Hash": "{4358191B-422A-FDAB-4B6C-6D06D0A39501}",
+    "ObjectPath": "AMB_Smoke",
+    "ShortName": "AMB_Smoke",
+    "Path": "Event/AMB_Smoke.bnk",
+    "Events": [
+     {
+      "Id": "831791309",
+      "Name": "AMB_Smoke",
+      "ObjectPath": "\\Events\\AMB WU\\AMB_Smoke",
+      "GUID": "{6465F4A8-7D06-41E9-BACE-A406C7A6CCB0}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{395BD4F5-4E86-F7AC-F53C-425986476F48}"
+ }
+}

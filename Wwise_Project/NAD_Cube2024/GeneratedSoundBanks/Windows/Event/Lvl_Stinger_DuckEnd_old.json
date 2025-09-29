@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "265204843",
+    "Type": "Event",
+    "GUID": "{8EF9AF46-9220-4E1B-B9F4-F8A0EAA1632E}",
+    "Language": "SFX",
+    "Hash": "{78262BDB-E1A3-DCF4-5F53-8E537BAE1CB6}",
+    "ObjectPath": "Lvl_Stinger_DuckEnd_old",
+    "ShortName": "Lvl_Stinger_DuckEnd_old",
+    "Path": "Event/Lvl_Stinger_DuckEnd_old.bnk",
+    "Events": [
+     {
+      "Id": "265204843",
+      "Name": "Lvl_Stinger_DuckEnd_old",
+      "ObjectPath": "\\Events\\MUS WU\\Lvl_Stinger_DuckEnd_old",
+      "GUID": "{8EF9AF46-9220-4E1B-B9F4-F8A0EAA1632E}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D2F53BA4-364B-B2B7-57F5-9B1D920BBBD5}"
+ }
+}

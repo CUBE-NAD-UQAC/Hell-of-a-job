@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3329746189	Prop_Collectible_Break			\SFX WU\Objects_Events_WU\Collectibles\Prop_Collectible_Break	
+

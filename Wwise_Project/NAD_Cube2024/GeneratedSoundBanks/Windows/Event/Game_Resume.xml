@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1465336131" Type="Event" GUID="{3BA8A4D0-4288-40E6-837E-C6F0C03E2A2B}" Language="SFX" Hash="{42CF2CE3-CFBF-22FA-3CA3-C75CC0AB4B57}">
+			<ObjectPath>Game_Resume</ObjectPath>
+			<ShortName>Game_Resume</ShortName>
+			<Path>Event/Game_Resume.bnk</Path>
+			<Events>
+				<Event Id="1465336131" Name="Game_Resume" ObjectPath="\Events\MISC_WU\Game_Resume" GUID="{3BA8A4D0-4288-40E6-837E-C6F0C03E2A2B}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{60F423AE-97EB-E7F2-E588-DFFD915DCDD8}</FileHash>
+</SoundBanksInfo>

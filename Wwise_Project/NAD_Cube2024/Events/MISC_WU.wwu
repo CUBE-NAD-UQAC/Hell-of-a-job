@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ECA8866C-8288-4997-86EF-51237F703A90}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="MISC_WU" ID="{ECA8866C-8288-4997-86EF-51237F703A90}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="GameBoot" ID="{5C0C2899-B832-44AD-B640-753470E3611D}">
+					<ChildrenList>
+						<Action Name="" ID="{E18611F0-F408-4919-B522-EACA0047DABE}" ShortID="971217580">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Base" ID="{DF5AF39F-2629-4FAD-9661-D9C3CE4259D5}" WorkUnitID="{223804A0-9DDA-4117-AD4C-00839DFA545B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{87441EDE-DF03-41D6-8942-55BB7638D839}" ShortID="473263620">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="StartMus" ID="{1FC3EB83-5BE8-42CA-B32C-24BCA239F891}" WorkUnitID="{8A738ED8-635D-41A2-AE46-146017022389}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E8BDB5BF-3B14-43D1-BB48-5837501DA220}" ShortID="1017958954">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenu" ID="{0FB1CB68-DAA1-4F0B-A308-CB5D0BA9E9D5}" WorkUnitID="{C26AB768-0151-4676-9F2D-9D2BFFD89E0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4D024200-8F76-4025-A1DC-F06FB926718B}" ShortID="847983224">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CameraDistance" ID="{FBCF16DF-664E-4ABB-A6E2-EBDBB6675700}" WorkUnitID="{775D7E34-CBAF-473A-934B-8F28C4C7C44E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{08D48E2B-1CDD-4A85-B9DD-6DF7BEC41EFC}" ShortID="778850106">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MASTER_BUS_Vol" ID="{83A45E87-C5CE-4CA0-925A-64F2EEC26CE5}" WorkUnitID="{775D7E34-CBAF-473A-934B-8F28C4C7C44E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5683CE2D-9210-43DB-8AF5-1D74CD5989EB}" ShortID="499032897">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{EAD1EAEC-4088-4F70-9C07-3FCFBE3F9200}" WorkUnitID="{C26AB768-0151-4676-9F2D-9D2BFFD89E0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="KillAll" ID="{5F782BDA-56DB-4FF0-BACF-4954C7839FFC}">
+					<ChildrenList>
+						<Action Name="" ID="{4F468444-CAA3-4A48-97C4-7611DA9E064B}" ShortID="27849869">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="IntroCinematic_Start" ID="{62E78C2B-FDAC-4355-8396-A0A61DCAD0AE}">
+					<ChildrenList>
+						<Action Name="" ID="{497E3AB4-3DF2-4224-9BF5-F220B46F831A}" ShortID="520418549">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Loading" ID="{1DD02C6A-2CE8-4691-A283-B7271BDEFE70}" WorkUnitID="{C26AB768-0151-4676-9F2D-9D2BFFD89E0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="IntroCinematic_End" ID="{F0ABFC14-641B-4EF9-9C94-1730DFBEA8CC}">
+					<ChildrenList>
+						<Action Name="" ID="{2BFD024C-8A66-4451-87D9-A1725AC9690F}" ShortID="216978809">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="InGame_Lvl1" ID="{A5F1AF65-D5B4-45E0-9835-1BCC4E3A7117}" WorkUnitID="{C26AB768-0151-4676-9F2D-9D2BFFD89E0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Animatique_Start" ID="{ADCD7436-AB45-4AF9-B4E6-82E233EEECE2}">
+					<ChildrenList>
+						<Action Name="" ID="{BC5A11B6-A21D-4EFC-A567-664D37CB1238}" ShortID="1057966364">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cube_Animatique_AUDIO" ID="{C8A4799B-1691-4E07-9514-53003DF6A4A1}" WorkUnitID="{4FFC08EE-721E-4238-96F2-3911B32F014A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Animatique_End" ID="{50A505CD-BB7F-4CBA-92F6-A7BF4AA3571E}">
+					<ChildrenList>
+						<Action Name="" ID="{CCF9909B-58F3-47F2-ADC1-842677FE04E1}" ShortID="102284874">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cube_Animatique_AUDIO" ID="{C8A4799B-1691-4E07-9514-53003DF6A4A1}" WorkUnitID="{4FFC08EE-721E-4238-96F2-3911B32F014A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Game_Pause" ID="{1CB147EA-D6EA-4288-A6EE-1E344D687783}">
+					<ChildrenList>
+						<Action Name="" ID="{5FA23E57-DA54-4023-876D-DFE5BC775C9E}" ShortID="1014533282">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Pause" ID="{A56B724C-F64B-490A-A9E4-7987C560BA46}" WorkUnitID="{0B9F854D-F8AB-4013-91A1-447D2611B4C1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{42538A1F-371F-407B-AC57-39133EFBB668}" ShortID="703515944">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="InGame_Pause" ID="{E4F69771-C9B8-4E29-A675-3910AB78E134}" WorkUnitID="{C26AB768-0151-4676-9F2D-9D2BFFD89E0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E7B3EB1C-B59A-4E79-BCE3-296C6186D686}" ShortID="281368280">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Objects_Bus" ID="{F0B261D0-F6CD-44C4-B6D7-04EEAB12BC13}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2D60F922-F0F5-4970-86D8-457C0579ABF6}" ShortID="799833628">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_BUS" ID="{F40EAD15-E769-4CAE-A4EF-1A3E43D0AFA3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6A7CA4EA-5D61-42CD-9ECC-2B56E6CE9A03}" ShortID="645516441">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUSIC_BUS" ID="{F9BFB4C6-29BC-41A1-9103-2A4144F05BC4}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FAE20E8F-9BDE-4F3E-A97D-BDA5DAF6D786}" ShortID="681609965">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Bus" ID="{260603E1-FEC3-4FAF-8CDB-CAE7F40A4E5B}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Game_Resume" ID="{3BA8A4D0-4288-40E6-837E-C6F0C03E2A2B}">
+					<ChildrenList>
+						<Action Name="" ID="{F0914BFE-B658-489E-AE02-41B88E9299F2}" ShortID="901859999">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="10"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

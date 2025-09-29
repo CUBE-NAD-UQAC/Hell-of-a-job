@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1300159727	PC_Stat_Spawn			\SFX WU\Player_Events_WU\PC_Stat_Spawn	
+

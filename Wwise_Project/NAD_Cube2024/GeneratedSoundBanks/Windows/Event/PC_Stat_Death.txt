@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	892926468	PC_Stat_Death			\SFX WU\Player_Events_WU\PC_Stat_Death	
+	1909705819	PC_VO_Death			\SFX WU\Player_Events_WU\PC_VO_Death	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3550485865	Sidechain_SFX_Player	Wwise Meter			
+

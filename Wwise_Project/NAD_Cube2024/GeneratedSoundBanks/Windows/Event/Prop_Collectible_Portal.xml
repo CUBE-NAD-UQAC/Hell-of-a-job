@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="736385962" Type="Event" GUID="{3E4A1A3F-1A08-42BD-8E99-D5D3CECE36EA}" Language="SFX" Hash="{13700997-9D2E-42B8-B9F8-9E1DC62C22D9}">
+			<ObjectPath>Prop_Collectible_Portal</ObjectPath>
+			<ShortName>Prop_Collectible_Portal</ShortName>
+			<Path>Event/Prop_Collectible_Portal.bnk</Path>
+			<Media>
+				<File Id="424808052" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Collectible_Portal.wav</ShortName>
+					<Path>Media/424808052.wem</Path>
+					<CachePath>SFX/SFX_Collectible_Portal_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="736385962" Name="Prop_Collectible_Portal" ObjectPath="\Events\SFX WU\Objects_Events_WU\Collectibles\Prop_Collectible_Portal" GUID="{3E4A1A3F-1A08-42BD-8E99-D5D3CECE36EA}" DurationType="OneShot" DurationMin="1.1223959" DurationMax="1.1223959">
+					<MediaRefs>
+						<MediaRef Id="424808052"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{00A0477F-FF6A-AA01-7A53-BB724B32B84D}</FileHash>
+</SoundBanksInfo>

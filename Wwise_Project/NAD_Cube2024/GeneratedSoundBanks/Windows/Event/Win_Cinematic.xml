@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="755505919" Type="Event" GUID="{03D44FD2-11EB-46D6-B038-48C5080B8747}" Language="SFX" Hash="{B66E2925-3470-B98A-679F-572EAD6CB590}">
+			<ObjectPath>Win_Cinematic</ObjectPath>
+			<ShortName>Win_Cinematic</ShortName>
+			<Path>Event/Win_Cinematic.bnk</Path>
+			<Media>
+				<File Id="322615170" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Cinematic_Win.wav</ShortName>
+					<Path>Media/322615170.wem</Path>
+					<CachePath>SFX/Cinematic_Win_9258CCD0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="755505919" Name="Win_Cinematic" ObjectPath="\Events\Cinematic\Win_Cinematic" GUID="{03D44FD2-11EB-46D6-B038-48C5080B8747}" DurationType="OneShot" DurationMin="25.6" DurationMax="25.6">
+					<MediaRefs>
+						<MediaRef Id="322615170"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{E8F5BF1C-23F0-01AA-9549-49B5C43083A4}</FileHash>
+</SoundBanksInfo>

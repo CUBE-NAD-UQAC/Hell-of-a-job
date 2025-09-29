@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1576149955	PC_Taunt_Twerk			\SFX WU\Player_Events_WU\Emotes\PC_Taunt_Twerk	
+

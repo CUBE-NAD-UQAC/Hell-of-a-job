@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1DE544E3-9E5F-4E7B-83B8-78D436492738}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="SFX WU" ID="{1DE544E3-9E5F-4E7B-83B8-78D436492738}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="15"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="Player_Events_WU" ID="{C8FAF46F-54A1-4EA8-818E-C346D0C0A392}" PersistMode="Reference"/>
+				<WorkUnit Name="Objects_Events_WU" ID="{97BA7E9A-C1A6-406C-AAE8-9B96959C7342}" PersistMode="Reference"/>
+				<WorkUnit Name="UI_Events_WU" ID="{0B9F854D-F8AB-4013-91A1-447D2611B4C1}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

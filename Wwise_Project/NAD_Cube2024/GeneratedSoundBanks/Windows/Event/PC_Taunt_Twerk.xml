@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1576149955" Type="Event" GUID="{F5BF90A8-96E8-49F0-ADBE-79A7DFA8FB47}" Language="SFX" Hash="{CD29C8BE-553A-80BA-4C95-FA5D65F4FEDD}">
+			<ObjectPath>PC_Taunt_Twerk</ObjectPath>
+			<ShortName>PC_Taunt_Twerk</ShortName>
+			<Path>Event/PC_Taunt_Twerk.bnk</Path>
+			<Media>
+				<File Id="876281863" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_PC_Taunt_Twerk.wav</ShortName>
+					<Path>Media/876281863.wem</Path>
+					<CachePath>SFX/SFX_PC_Taunt_Twerk_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1576149955" Name="PC_Taunt_Twerk" ObjectPath="\Events\SFX WU\Player_Events_WU\Emotes\PC_Taunt_Twerk" GUID="{F5BF90A8-96E8-49F0-ADBE-79A7DFA8FB47}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="0.27776212" DurationMax="0.34995833">
+					<MediaRefs>
+						<MediaRef Id="876281863"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{364F734A-FAC6-3FAE-71DF-26C403F178AB}</FileHash>
+</SoundBanksInfo>

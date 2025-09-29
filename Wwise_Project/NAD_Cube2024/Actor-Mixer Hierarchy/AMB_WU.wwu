@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{74457123-D75F-4E8F-A395-16DE7294385D}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="AMB_WU" ID="{74457123-D75F-4E8F-A395-16DE7294385D}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="5"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="AMB_2D" ID="{058F3385-D075-4BE9-8E54-1E43341BEDB0}" ShortID="605486410">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="2D_Bus" ID="{27FA26FA-66A3-4A6F-BF25-F1AE17AB0020}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SwitchContainer Name="Ambiances" ID="{68E4A238-1E33-4AB6-A4D0-728278DCC072}" ShortID="987123637">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="None" ID="{5E792DF5-0830-43CD-B95B-39437647AAAC}" WorkUnitID="{C26AB768-0151-4676-9F2D-9D2BFFD89E0F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="GameStatus" ID="{7D6F9397-A79E-40FE-B5E9-98EDF4F34EDE}" WorkUnitID="{C26AB768-0151-4676-9F2D-9D2BFFD89E0F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="Amb_Level1_Blend" ID="{411515B8-122D-40DE-B0EF-2A82F4CD8BE5}" ShortID="173932912">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Ambiance_Cave" ID="{FB1213B5-8926-4A0C-B231-002C56C4AAE8}" ShortID="177096292">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>23</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Ambiance_Cave" ID="{00152B2C-7E84-4189-ADE3-CE4967E1F4AA}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="1922.754"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.594001096330931"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.585148491242919"/>
+														<Property Name="LoopBegin" Type="Real64" Value="5.78041881041559"/>
+														<Property Name="LoopEnd" Type="Real64" Value="27.0134502812853"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.25388962409197"/>
+														<Property Name="TrimEnd" Type="Real64" Value="36.9365025724987"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>SFX_Ambiance_Cave.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="417501249"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{AAC7B32B-959D-4B91-B2CB-F3549A4D3603}" ShortID="345154040">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom>
+																			<Effect Name="Parametric EQ (Custom)" ID="{2B0F9E56-7B7C-4176-B40C-D7272DC39A6A}" ShortID="911967538" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																				<PropertyList>
+																					<Property Name="FrequencyBand1" Type="Real32" Value="390"/>
+																					<Property Name="GainBand1" Type="Real32" Value="-4"/>
+																				</PropertyList>
+																			</Effect>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{55AC7F06-EB20-45C5-AC69-B402D0FBE8DD}" ShortID="830775166">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom>
+																			<Effect Name="Compressor (Custom)" ID="{AA546AAE-284D-412A-8715-23635D57A48A}" ShortID="926917454" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+																				<PropertyList>
+																					<Property Name="AttackTime" Type="Real32" Value="0.59"/>
+																					<Property Name="OutputGain" Type="Real32" Value="8.2"/>
+																					<Property Name="Ratio" Type="Real32" Value="3"/>
+																					<Property Name="Threshold" Type="Real32" Value="-36.5"/>
+																				</PropertyList>
+																			</Effect>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Ambiance_Cave" ID="{00152B2C-7E84-4189-ADE3-CE4967E1F4AA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_2D_Lava" ID="{E9DEEDA7-479D-485C-A219-65B91A541240}" ShortID="172121954">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D_Bus" ID="{7880811C-68AF-4795-8ED3-7EFE5E5FD9A2}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_2D_Lava" ID="{44786CD8-3A5F-44AE-9F25-41379F8B3020}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="1039.986"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.436540016168149"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.242522231204529"/>
+														<Property Name="LoopBegin" Type="Real64" Value="11.9368875732111"/>
+														<Property Name="LoopEnd" Type="Real64" Value="25.5223916147456"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="8.17467787114847"/>
+														<Property Name="TrimEnd" Type="Real64" Value="28.3634741692627"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>AMB_2D_Lava.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="790000215"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{22F0BF2F-C0C8-4E24-B398-1AEBDFAD735C}" ShortID="686447768">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																		<ObjectRef Name="FX_Verb_AMB_Lava" ID="{68C721A7-AC86-4B4E-A93B-F7397AB90C01}" WorkUnitID="{F664F52D-3850-4B8A-9CF2-533EBBB19372}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{5A6D4BAE-7653-4D80-91E9-B58FAB6F9142}" ShortID="100408823">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Volume"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="CameraDistance" ID="{FBCF16DF-664E-4ABB-A6E2-EBDBB6675700}" WorkUnitID="{775D7E34-CBAF-473A-934B-8F28C4C7C44E}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{B81AF615-C623-4036-9D1B-193C37A81CFB}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>-12</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{91CE6640-A01B-4941-AD69-19C1A228DCA2}" ShortID="799645596">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Highpass"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="CameraDistance" ID="{FBCF16DF-664E-4ABB-A6E2-EBDBB6675700}" WorkUnitID="{775D7E34-CBAF-473A-934B-8F28C4C7C44E}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{11396B94-11AF-4B68-90FA-6C5945117A76}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="65537"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>15</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_2D_Lava" ID="{44786CD8-3A5F-44AE-9F25-41379F8B3020}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="New Blend Track" ID="{4C0BD208-D856-4645-9800-AF22548F72E4}" ShortID="1007492260">
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<Custom>
+														<ModulatorTime Name="Modulator Time (Custom)" ID="{1399021D-1486-4219-92EA-1B1EBFDAFA56}" ShortID="381774157"/>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="AMB_2D_Lava" ID="{E9DEEDA7-479D-485C-A219-65B91A541240}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>0.5</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="SFX_Ambiance_Cave" ID="{FB1213B5-8926-4A0C-B231-002C56C4AAE8}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0.5</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>1</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<BlendContainer Name="Amb_Beach" ID="{C17C95AE-CA97-4748-BE11-8B03C836B769}" ShortID="712371904">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AMB_Beach" ID="{A12701B2-F58B-4707-9BA7-4E493ED30E6D}" ShortID="146586949">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_Beach" ID="{57070C23-48C4-474A-A920-ABA57E17EB96}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="1133.333"/>
+														<Property Name="LoopBegin" Type="Real64" Value="1.09943411479386"/>
+														<Property Name="LoopEnd" Type="Real64" Value="21.182430611695"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>AMB_Beach.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="79650856"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_Beach" ID="{57070C23-48C4-474A-A920-ABA57E17EB96}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="AMB_Beach" ID="{1D4DF603-13DC-4C90-B9CB-06A1EB9110DF}" ShortID="309278918">
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="AMB_Beach" ID="{A12701B2-F58B-4707-9BA7-4E493ED30E6D}"/>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<Sound Name="Amb_Silence" ID="{25117A22-7786-4332-B634-C2C3C9187CD8}" ShortID="693848132">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Silence" ID="{11274BB7-7AF3-4233-9248-5AAA71483480}" ShortID="427150303" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Silence" ID="{11274BB7-7AF3-4233-9248-5AAA71483480}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Amb_Silence" ID="{25117A22-7786-4332-B634-C2C3C9187CD8}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Amb_Beach" ID="{C17C95AE-CA97-4748-BE11-8B03C836B769}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Amb_Level1_Blend" ID="{411515B8-122D-40DE-B0EF-2A82F4CD8BE5}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="InGame_Lvl1" ID="{A5F1AF65-D5B4-45E0-9835-1BCC4E3A7117}"/>
+										<ItemList>
+											<ItemRef Name="Amb_Level1_Blend" ID="{411515B8-122D-40DE-B0EF-2A82F4CD8BE5}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="MainMenu" ID="{0FB1CB68-DAA1-4F0B-A308-CB5D0BA9E9D5}"/>
+										<ItemList>
+											<ItemRef Name="Amb_Level1_Blend" ID="{411515B8-122D-40DE-B0EF-2A82F4CD8BE5}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Loading" ID="{1DD02C6A-2CE8-4691-A283-B7271BDEFE70}"/>
+										<ItemList>
+											<ItemRef Name="Amb_Silence" ID="{25117A22-7786-4332-B634-C2C3C9187CD8}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Beach" ID="{B2A1CC93-F6FB-462F-9482-B291CF8347B4}"/>
+										<ItemList>
+											<ItemRef Name="Amb_Beach" ID="{C17C95AE-CA97-4748-BE11-8B03C836B769}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="InGame_Ending" ID="{450175B8-BC5B-468C-8DA0-3427C1146D59}"/>
+										<ItemList>
+											<ItemRef Name="Amb_Level1_Blend" ID="{411515B8-122D-40DE-B0EF-2A82F4CD8BE5}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="GameMenu" ID="{61B9A9E5-B14A-42FF-AC8C-F548574E6172}"/>
+										<ItemList>
+											<ItemRef Name="Amb_Level1_Blend" ID="{411515B8-122D-40DE-B0EF-2A82F4CD8BE5}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="AMB_3D" ID="{53E4DA09-42B8-432B-B62E-819786851F54}" ShortID="801211840">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="70"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="PlayerAttenuation" ID="{654ED55E-5E02-4FAD-B1AA-034D3B4E37DE}" WorkUnitID="{51C98A60-AFDE-4CA8-8989-70F869A2E2DF}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="3D_Bus" ID="{7880811C-68AF-4795-8ED3-7EFE5E5FD9A2}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="AMB_Brazier" ID="{4FBCDB2E-64D8-40BB-A4C6-CA6E13E735F5}" ShortID="375804385">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="PlayerAttenuation" ID="{654ED55E-5E02-4FAD-B1AA-034D3B4E37DE}" WorkUnitID="{51C98A60-AFDE-4CA8-8989-70F869A2E2DF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_3D_Brazier" ID="{01BD0AF8-0F4A-4282-944D-2661E768A990}" ShortID="71081623">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>18</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>25</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="3D_Bus" ID="{7880811C-68AF-4795-8ED3-7EFE5E5FD9A2}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_3D_Brasier" ID="{5BBE0CF4-0F15-4B44-BE4E-732FD49CEA2B}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0.451737451737452"/>
+												<Property Name="LoopEnd" Type="Real64" Value="11.4607464607465"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="12.1132561132561"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Bounce\Ambiences\AMB_3D_Brasier.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="5444238"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{596D6198-5C3B-4F35-92F6-4695A166A93F}" ShortID="548690899">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Parametric EQ (Custom)" ID="{3E3989F2-79BF-42E2-A5F3-C4E9B32077A9}" ShortID="963882312" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																		<PropertyList>
+																			<Property Name="FilterTypeBand2" Type="int32" Value="3"/>
+																			<Property Name="FilterTypeBand3" Type="int32" Value="3"/>
+																			<Property Name="FrequencyBand1" Type="Real32" Value="186"/>
+																			<Property Name="FrequencyBand2" Type="Real32" Value="950"/>
+																			<Property Name="FrequencyBand3" Type="Real32" Value="789"/>
+																			<Property Name="GainBand1" Type="Real32" Value="-1.5"/>
+																			<Property Name="GainBand3" Type="Real32" Value="-12"/>
+																			<Property Name="QFactorBand2" Type="Real32" Value="23"/>
+																		</PropertyList>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{2112D2DB-2CB1-41D8-A84A-71DD5A6A84E9}" ShortID="536469622">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Compressor (Custom)" ID="{F1ECF39D-1695-4A79-8659-FECB7F6AFB21}" ShortID="168049331" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+																		<PropertyList>
+																			<Property Name="AttackTime" Type="Real32" Value="0.32"/>
+																			<Property Name="OutputGain" Type="Real32" Value="2.1"/>
+																			<Property Name="Ratio" Type="Real32" Value="3.3"/>
+																			<Property Name="ReleaseTime" Type="Real32" Value="0.41"/>
+																			<Property Name="Threshold" Type="Real32" Value="-26.8"/>
+																		</PropertyList>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{973CB401-4B77-4FA8-82FC-2B3DEB09FD45}" ShortID="58522063"/>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_3D_Brasier" ID="{5BBE0CF4-0F15-4B44-BE4E-732FD49CEA2B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{E8D59009-E641-48A8-952C-F0C27628B52C}"/>
+							</PositioningInfo>
+						</ActorMixer>
+						<ActorMixer Name="AMB_Smoke" ID="{B4A35E91-FF1C-4E1E-B16F-2EA330913A17}" ShortID="457956028">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="AMB_Smoke_Blend" ID="{C24138A7-B598-4592-A49D-80951714AAAC}" ShortID="350098540">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+										</Reference>
+									</ReferenceList>
+								</BlendContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="AMB_Waves" ID="{83268B81-1998-4E20-9CD3-5AC53FAA0EF7}" ShortID="885366866">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="AMB_Waves" ID="{B6CC3061-C994-406B-90AA-AE4F470A3382}" ShortID="109023088">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+										</Reference>
+									</ReferenceList>
+								</BlendContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="AMB_Trees" ID="{8F17F8FE-F181-4B08-A112-A9FBAEAD3DE0}" ShortID="894013437">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="Amb_Tree_Rustling" ID="{BBB35970-707D-4785-816A-88B1C1DF678B}" ShortID="538771584">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+										</Reference>
+									</ReferenceList>
+								</BlendContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="AMB_Portal" ID="{0B10E833-B181-4F2F-BD52-DB38C0F890BB}" ShortID="528672935">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>14</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="PlayerAttenuation" ID="{654ED55E-5E02-4FAD-B1AA-034D3B4E37DE}" WorkUnitID="{51C98A60-AFDE-4CA8-8989-70F869A2E2DF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Amb_Portal_Loop" ID="{AAE30B77-25AF-427D-BD38-A66293582C39}" ShortID="1063100858">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="40"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="PlayerAttenuation" ID="{654ED55E-5E02-4FAD-B1AA-034D3B4E37DE}" WorkUnitID="{51C98A60-AFDE-4CA8-8989-70F869A2E2DF}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="3D_Bus" ID="{7880811C-68AF-4795-8ED3-7EFE5E5FD9A2}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_Portal_Loop 01" ID="{524432C9-610C-4838-B6EC-4779099F3096}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="575.981"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.785814925222312"/>
+												<Property Name="LoopEnd" Type="Real64" Value="5.29254158245756"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Amb_Portal_Loop 01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="482092795"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_Portal_Loop 01" ID="{524432C9-610C-4838-B6EC-4779099F3096}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{FDCF6E1C-02C7-45E1-B07C-975CEFC9DEE2}"/>
+							</PositioningInfo>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="4286512364" Type="Event" GUID="{BD349991-DB82-4FD5-8B7C-6FD62496B49B}" Language="SFX" Hash="{F03B9C13-54EA-0E2C-F701-35F5E765EB45}">
+			<ObjectPath>PC_Ac_Throw</ObjectPath>
+			<ShortName>PC_Ac_Throw</ShortName>
+			<Path>Event/PC_Ac_Throw.bnk</Path>
+			<Media>
+				<File Id="73073453" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Voice_lines\VO_Player_Hit\VO_Player_Hit_6.wav</ShortName>
+					<Path>Media/73073453.wem</Path>
+					<CachePath>SFX/Voice_lines/VO_Player_Hit/VO_Player_Hit_6_5E8EFEF5.wem</CachePath>
+				</File>
+				<File Id="157359123" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Collectibles\SFX_Collectible_Throw_03.wav</ShortName>
+					<Path>Media/157359123.wem</Path>
+					<CachePath>SFX/Collectibles/SFX_Collectible_Throw_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="325886207" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Voice_lines\VO_Player_Hit\VO_Player_Hit_2.wav</ShortName>
+					<Path>Media/325886207.wem</Path>
+					<CachePath>SFX/Voice_lines/VO_Player_Hit/VO_Player_Hit_2_B3880EAB.wem</CachePath>
+				</File>
+				<File Id="709384343" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Collectibles\SFX_Collectible_Throw_02.wav</ShortName>
+					<Path>Media/709384343.wem</Path>
+					<CachePath>SFX/Collectibles/SFX_Collectible_Throw_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="737456411" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Collectibles\SFX_Collectible_Throw_01.wav</ShortName>
+					<Path>Media/737456411.wem</Path>
+					<CachePath>SFX/Collectibles/SFX_Collectible_Throw_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="917494571" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Collectibles\SFX_Collectible_Throw_04.wav</ShortName>
+					<Path>Media/917494571.wem</Path>
+					<CachePath>SFX/Collectibles/SFX_Collectible_Throw_04_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="3550485865" Name="Sidechain_SFX_Player" ObjectPath="\Effects\Default Work Unit\Sidechain_SFX_Player" GUID="{865B9898-411B-4EE5-A064-7B7ECC430BEA}" LibName="Wwise Meter" LibId="8454147"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="4286512364" Name="PC_Ac_Throw" ObjectPath="\Events\SFX WU\Player_Events_WU\PC_Ac_Throw" GUID="{BD349991-DB82-4FD5-8B7C-6FD62496B49B}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="2.8623543" DurationMax="3.209125">
+					<MediaRefs>
+						<MediaRef Id="73073453"/>
+						<MediaRef Id="157359123"/>
+						<MediaRef Id="325886207"/>
+						<MediaRef Id="709384343"/>
+						<MediaRef Id="737456411"/>
+						<MediaRef Id="917494571"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3550485865"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{973487BF-EEDB-773E-9BA4-86EFD2EA8347}</FileHash>
+</SoundBanksInfo>

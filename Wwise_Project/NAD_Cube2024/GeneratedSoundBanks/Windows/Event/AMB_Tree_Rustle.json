@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2286643994",
+    "Type": "Event",
+    "GUID": "{8A0E3FCA-0EB4-401F-8D99-DB637C332739}",
+    "Language": "SFX",
+    "Hash": "{4585822B-D1FE-466F-7FE0-7117895C9E40}",
+    "ObjectPath": "AMB_Tree_Rustle",
+    "ShortName": "AMB_Tree_Rustle",
+    "Path": "Event/AMB_Tree_Rustle.bnk",
+    "Events": [
+     {
+      "Id": "2286643994",
+      "Name": "AMB_Tree_Rustle",
+      "ObjectPath": "\\Events\\AMB WU\\AMB_Tree_Rustle",
+      "GUID": "{8A0E3FCA-0EB4-401F-8D99-DB637C332739}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{471437C0-26D1-E465-1C10-50C8E019B409}"
+ }
+}

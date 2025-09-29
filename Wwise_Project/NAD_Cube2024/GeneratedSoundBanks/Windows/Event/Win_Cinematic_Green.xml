@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2733664987" Type="Event" GUID="{18BD2341-9576-4A4E-BC81-BFE3F80C8BE2}" Language="SFX" Hash="{6ECB1449-9EEC-5357-EC14-8E33D989A5E1}">
+			<ObjectPath>Win_Cinematic_Green</ObjectPath>
+			<ShortName>Win_Cinematic_Green</ShortName>
+			<Path>Event/Win_Cinematic_Green.bnk</Path>
+			<Media>
+				<File Id="238513824" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Green_Win_Stack_02.wav</ShortName>
+					<Path>Media/238513824.wem</Path>
+					<CachePath>SFX/SFX_Green_Win_Stack_02_C4C9F6F1.wem</CachePath>
+				</File>
+				<File Id="322615170" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Cinematic_Win.wav</ShortName>
+					<Path>Media/322615170.wem</Path>
+					<CachePath>SFX/Cinematic_Win_9258CCD0.wem</CachePath>
+				</File>
+				<File Id="542311118" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Cinematic_Win_Green.wav</ShortName>
+					<Path>Media/542311118.wem</Path>
+					<CachePath>SFX/Cinematic_Win_Green_78A4C8E9.wem</CachePath>
+				</File>
+				<File Id="963231674" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Green_Win_Stack_01.wav</ShortName>
+					<Path>Media/963231674.wem</Path>
+					<CachePath>SFX/SFX_Green_Win_Stack_01_F3EA6574.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2733664987" Name="Win_Cinematic_Green" ObjectPath="\Events\Cinematic\Win_Cinematic_Green" GUID="{18BD2341-9576-4A4E-BC81-BFE3F80C8BE2}" DurationType="OneShot" DurationMin="25.6" DurationMax="25.6">
+					<MediaRefs>
+						<MediaRef Id="238513824"/>
+						<MediaRef Id="322615170"/>
+						<MediaRef Id="542311118"/>
+						<MediaRef Id="963231674"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{BC71C798-68E9-1E20-F8BE-AF4C35BA17C2}</FileHash>
+</SoundBanksInfo>

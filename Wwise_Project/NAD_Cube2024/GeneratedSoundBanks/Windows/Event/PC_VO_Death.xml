@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1909705819" Type="Event" GUID="{8FC3ACAE-8425-4CBA-8EF4-2E533D9A091C}" Language="SFX" Hash="{C704A16F-5248-AA85-C6E4-A9311C9719C8}">
+			<ObjectPath>PC_VO_Death</ObjectPath>
+			<ShortName>PC_VO_Death</ShortName>
+			<Path>Event/PC_VO_Death.bnk</Path>
+			<Media>
+				<File Id="11673767" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Voice_lines\VO_Player_Death\VO_Player_Death_3.wav</ShortName>
+					<Path>Media/11673767.wem</Path>
+					<CachePath>SFX/Voice_lines/VO_Player_Death/VO_Player_Death_3_A0B66B6B.wem</CachePath>
+				</File>
+				<File Id="56597547" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Voice_lines\VO_Player_Death\VO_Player_Death_2.wav</ShortName>
+					<Path>Media/56597547.wem</Path>
+					<CachePath>SFX/Voice_lines/VO_Player_Death/VO_Player_Death_2_22FD8DDE.wem</CachePath>
+				</File>
+				<File Id="101363656" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Voice_lines\VO_Player_Death\VO_Player_Death_4.wav</ShortName>
+					<Path>Media/101363656.wem</Path>
+					<CachePath>SFX/Voice_lines/VO_Player_Death/VO_Player_Death_4_26BCC4AB.wem</CachePath>
+				</File>
+				<File Id="143878762" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Voice_lines\VO_Player_Death\VO_Player_Death_1.wav</ShortName>
+					<Path>Media/143878762.wem</Path>
+					<CachePath>SFX/Voice_lines/VO_Player_Death/VO_Player_Death_1_59AB9460.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="3550485865" Name="Sidechain_SFX_Player" ObjectPath="\Effects\Default Work Unit\Sidechain_SFX_Player" GUID="{865B9898-411B-4EE5-A064-7B7ECC430BEA}" LibName="Wwise Meter" LibId="8454147"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="1909705819" Name="PC_VO_Death" ObjectPath="\Events\SFX WU\Player_Events_WU\PC_VO_Death" GUID="{8FC3ACAE-8425-4CBA-8EF4-2E533D9A091C}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="0.43957695" DurationMax="0.7283536">
+					<MediaRefs>
+						<MediaRef Id="11673767"/>
+						<MediaRef Id="56597547"/>
+						<MediaRef Id="101363656"/>
+						<MediaRef Id="143878762"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3550485865"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{A25C7B63-C021-46B1-A02E-C81CEEFE5613}</FileHash>
+</SoundBanksInfo>

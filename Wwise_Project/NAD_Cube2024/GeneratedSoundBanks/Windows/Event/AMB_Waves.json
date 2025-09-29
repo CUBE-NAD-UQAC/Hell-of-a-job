@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "735601780",
+    "Type": "Event",
+    "GUID": "{DB6ABB18-7C27-4C84-812E-E141CA02DC73}",
+    "Language": "SFX",
+    "Hash": "{99736441-4AA7-FEE4-D620-6995335A0931}",
+    "ObjectPath": "AMB_Waves",
+    "ShortName": "AMB_Waves",
+    "Path": "Event/AMB_Waves.bnk",
+    "Events": [
+     {
+      "Id": "735601780",
+      "Name": "AMB_Waves",
+      "ObjectPath": "\\Events\\AMB WU\\AMB_Waves",
+      "GUID": "{DB6ABB18-7C27-4C84-812E-E141CA02DC73}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8DE12852-C72C-DCC5-E8C8-CCBB1B289693}"
+ }
+}

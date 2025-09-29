@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "897919856",
+    "Type": "Event",
+    "GUID": "{1B0CEAE4-845B-4851-A068-8733A1B2BCB5}",
+    "Language": "SFX",
+    "Hash": "{1B60C6B4-3CBE-193D-13CF-12B87A642FFD}",
+    "ObjectPath": "Prop_Collectible_Stack",
+    "ShortName": "Prop_Collectible_Stack",
+    "Path": "Event/Prop_Collectible_Stack.bnk",
+    "Events": [
+     {
+      "Id": "897919856",
+      "Name": "Prop_Collectible_Stack",
+      "ObjectPath": "\\Events\\SFX WU\\Objects_Events_WU\\Collectibles\\Prop_Collectible_Stack",
+      "GUID": "{1B0CEAE4-845B-4851-A068-8733A1B2BCB5}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7FF6C045-CD70-93DD-B869-24E8B3D46C4F}"
+ }
+}

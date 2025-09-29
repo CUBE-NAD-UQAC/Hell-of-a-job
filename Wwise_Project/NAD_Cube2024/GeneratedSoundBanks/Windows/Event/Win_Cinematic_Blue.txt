@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1426696890	Win_Cinematic_Blue			\Cinematic\Win_Cinematic_Blue	
+

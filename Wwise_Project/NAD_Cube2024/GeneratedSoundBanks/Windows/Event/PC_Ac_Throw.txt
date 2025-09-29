@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4286512364	PC_Ac_Throw			\SFX WU\Player_Events_WU\PC_Ac_Throw	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3550485865	Sidechain_SFX_Player	Wwise Meter			
+

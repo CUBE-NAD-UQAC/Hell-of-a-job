@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3363241134" Type="Event" GUID="{C5F250D0-C6F9-4A1E-AE3D-31F84590E4EA}" Language="SFX" Hash="{ABAAA458-09B5-73B8-D690-D792133FEC34}">
+			<ObjectPath>Prop_Portal_Out</ObjectPath>
+			<ShortName>Prop_Portal_Out</ShortName>
+			<Path>Event/Prop_Portal_Out.bnk</Path>
+			<Media>
+				<File Id="659783951" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bounce\Portal\SFX_Object_Portal_Out.wav</ShortName>
+					<Path>Media/659783951.wem</Path>
+					<CachePath>SFX/Bounce/Portal/SFX_Object_Portal_Out_88A72084.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3363241134" Name="Prop_Portal_Out" ObjectPath="\Events\SFX WU\Objects_Events_WU\Prop_Portal_Out" GUID="{C5F250D0-C6F9-4A1E-AE3D-31F84590E4EA}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="1.6236075" DurationMax="1.6236075">
+					<MediaRefs>
+						<MediaRef Id="659783951"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{2615D0D7-CFA2-5558-41DF-842F28A833BC}</FileHash>
+</SoundBanksInfo>

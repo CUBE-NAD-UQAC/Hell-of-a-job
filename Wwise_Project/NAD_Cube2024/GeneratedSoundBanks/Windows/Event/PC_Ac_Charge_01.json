@@ -1,0 +1,145 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2278720430",
+    "Type": "Event",
+    "GUID": "{24ACB986-697F-4493-832E-BB0822855BF2}",
+    "Language": "SFX",
+    "Hash": "{1C5069C4-53D6-54B4-0FDC-EAE97B922613}",
+    "ObjectPath": "PC_Ac_Charge_01",
+    "ShortName": "PC_Ac_Charge_01",
+    "Path": "Event/PC_Ac_Charge_01.bnk",
+    "Media": [
+     {
+      "Id": "86569017",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_PC_ChargeThrow_Rise_Wood_1.wav",
+      "Path": "Media/86569017.wem",
+      "CachePath": "SFX/Cube_PC_ChargeThrow_Rise_Wood_1_818F3B66.wem"
+     },
+     {
+      "Id": "140448809",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_PC_ChargeThrow_Rise_Sine.wav",
+      "Path": "Media/140448809.wem",
+      "CachePath": "SFX/Cube_PC_ChargeThrow_Rise_Sine_818F3B66.wem"
+     },
+     {
+      "Id": "169566982",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_PC_ChargeThrow_Rise_Leather_3.wav",
+      "Path": "Media/169566982.wem",
+      "CachePath": "SFX/Cube_PC_ChargeThrow_Rise_Leather_3_818F3B66.wem"
+     },
+     {
+      "Id": "207382487",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_PC_ChargeThrow_Rise_Boop.wav",
+      "Path": "Media/207382487.wem",
+      "CachePath": "SFX/Cube_PC_ChargeThrow_Rise_Boop_818F3B66.wem"
+     },
+     {
+      "Id": "228602254",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_PC_ChargeThrow_Rise_Wood_4.wav",
+      "Path": "Media/228602254.wem",
+      "CachePath": "SFX/Cube_PC_ChargeThrow_Rise_Wood_4_818F3B66.wem"
+     },
+     {
+      "Id": "304243096",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_PC_ChargeThrow_Rise_Wood_2.wav",
+      "Path": "Media/304243096.wem",
+      "CachePath": "SFX/Cube_PC_ChargeThrow_Rise_Wood_2_818F3B66.wem"
+     },
+     {
+      "Id": "653598964",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_PC_ChargeThrow_Rise_Leather_2.wav",
+      "Path": "Media/653598964.wem",
+      "CachePath": "SFX/Cube_PC_ChargeThrow_Rise_Leather_2_818F3B66.wem"
+     },
+     {
+      "Id": "937437109",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_PC_ChargeThrow_Rise_Wood_3.wav",
+      "Path": "Media/937437109.wem",
+      "CachePath": "SFX/Cube_PC_ChargeThrow_Rise_Wood_3_818F3B66.wem"
+     },
+     {
+      "Id": "1055799209",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_PC_ChargeThrow_Rise_Leather_1.wav",
+      "Path": "Media/1055799209.wem",
+      "CachePath": "SFX/Cube_PC_ChargeThrow_Rise_Leather_1_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2278720430",
+      "Name": "PC_Ac_Charge_01",
+      "ObjectPath": "\\Events\\SFX WU\\Player_Events_WU\\PC_Ac_Charge\\PC_Ac_Charge_01",
+      "GUID": "{24ACB986-697F-4493-832E-BB0822855BF2}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7286264",
+      "DurationMax": "1.9453062",
+      "MediaRefs": [
+       {
+        "Id": "86569017"
+       },
+       {
+        "Id": "140448809"
+       },
+       {
+        "Id": "169566982"
+       },
+       {
+        "Id": "207382487"
+       },
+       {
+        "Id": "228602254"
+       },
+       {
+        "Id": "304243096"
+       },
+       {
+        "Id": "653598964"
+       },
+       {
+        "Id": "937437109"
+       },
+       {
+        "Id": "1055799209"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{4DCE864F-FAAE-0583-EA36-E29E3D047083}"
+ }
+}

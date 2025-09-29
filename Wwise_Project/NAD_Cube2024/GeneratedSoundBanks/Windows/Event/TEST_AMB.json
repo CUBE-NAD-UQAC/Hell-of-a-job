@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3060491804",
+    "Type": "Event",
+    "GUID": "{5F8D433F-04EF-4D44-B2FD-DF075B9D81D8}",
+    "Language": "SFX",
+    "Hash": "{36100E34-E521-60B5-9C33-973490D5F50A}",
+    "ObjectPath": "TEST_AMB",
+    "ShortName": "TEST_AMB",
+    "Path": "Event/TEST_AMB.bnk",
+    "Media": [
+     {
+      "Id": "721834710",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Ambience_Rain1.wav",
+      "Path": "Media/721834710.wem",
+      "CachePath": "SFX/SFX_Ambience_Rain1_97133334.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3060491804",
+      "Name": "TEST_AMB",
+      "ObjectPath": "\\Events\\AMB WU\\TEST_AMB",
+      "GUID": "{5F8D433F-04EF-4D44-B2FD-DF075B9D81D8}",
+      "MaxAttenuation": "4500",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "721834710"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8F18411C-EA32-E88E-0AA1-4D3132158407}"
+ }
+}

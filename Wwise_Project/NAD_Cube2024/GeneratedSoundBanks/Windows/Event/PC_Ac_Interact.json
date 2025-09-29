@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3604309382",
+    "Type": "Event",
+    "GUID": "{40F25EE9-4F5D-4235-B899-84A70690728D}",
+    "Language": "SFX",
+    "Hash": "{813E2066-EAE1-F0E2-C920-60C245CC41B1}",
+    "ObjectPath": "PC_Ac_Interact",
+    "ShortName": "PC_Ac_Interact",
+    "Path": "Event/PC_Ac_Interact.bnk",
+    "Events": [
+     {
+      "Id": "3604309382",
+      "Name": "PC_Ac_Interact",
+      "ObjectPath": "\\Events\\SFX WU\\Player_Events_WU\\PC_Ac_Interact",
+      "GUID": "{40F25EE9-4F5D-4235-B899-84A70690728D}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{6ADAEB5A-FAE8-AFBE-0412-9B021366C6ED}"
+ }
+}

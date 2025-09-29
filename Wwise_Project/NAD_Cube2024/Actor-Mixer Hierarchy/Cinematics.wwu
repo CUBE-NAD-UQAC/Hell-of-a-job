@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4FFC08EE-721E-4238-96F2-3911B32F014A}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Cinematics" ID="{4FFC08EE-721E-4238-96F2-3911B32F014A}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="7"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Cinematic_Win" ID="{D6115B16-DF15-4090-962B-3FDF7E8DC8C3}" ShortID="1021810739">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Cinematic BUS" ID="{1E4F76C7-C245-4894-AF83-A8AFDA214D3D}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Cinematic_Win" ID="{007E1BDD-3E54-4BA9-9CF9-ED5CA5B93283}" ShortID="49112484">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cinematic_Win" ID="{4FEE69CE-AA87-4FB8-B302-960FB51CE212}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.241713823767179"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.409054163298304"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Cinematic_Win.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="322615170"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cinematic_Win" ID="{4FEE69CE-AA87-4FB8-B302-960FB51CE212}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<BlendContainer Name="BdC_Blue_Win_Stack" ID="{E87B5832-D3DF-4BED-9AF2-62D84B408500}" ShortID="504347326">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="SFX_Blue_Win_Stack" ID="{43F3A207-85EC-45F7-BAC7-C270D59FE076}" ShortID="924417791">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Blue_Win_Stack_01" ID="{7A994832-413A-47C3-B4CF-12161B234269}" ShortID="169928657">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Blue_Win_Stack_01" ID="{3972E074-92DA-45FF-92E4-D1A3B654B32E}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.218270008084074"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.141875505254648"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>SFX_Blue_Win_Stack_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="500247310"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Blue_Win_Stack_01" ID="{3972E074-92DA-45FF-92E4-D1A3B654B32E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Blue_Win_Stack_02" ID="{42DC6F44-9306-4B75-B70C-94F972CDEBD4}" ShortID="964162816">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Blue_Win_Stack_02" ID="{B8E460DB-4AE2-4CBE-BC7A-A50780F0B8E4}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.298112267582862"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.36435943815683"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>SFX_Blue_Win_Stack_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="294284458"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Blue_Win_Stack_02" ID="{B8E460DB-4AE2-4CBE-BC7A-A50780F0B8E4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Cinematic_Blue_Win" ID="{99C27BF7-6484-408B-A0AD-581EB0731671}" ShortID="352619629">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cinematic_Blue_Win" ID="{FBB16514-A429-4F4C-BDDF-38CD4CCB3AD0}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.278900565885206"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Cinematic_Blue_Win.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="123529788"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Cinematic_Win_Blue" ID="{7AEFC9E0-E5D1-4878-B7F9-1A1FBBE59C27}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.580113177041227"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2"/>
+												<Property Name="TrimEnd" Type="Real64" Value="25.0251333872272"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Cinematic_Win_Blue.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="52703667"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Cinematic_Win_Blue" ID="{7AEFC9E0-E5D1-4878-B7F9-1A1FBBE59C27}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="BdC_Green_Win_Stack" ID="{DDFC0436-6A29-4D8C-A9DE-F02675D17EEE}" ShortID="155010414">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="RdC_Green_Win_Stack" ID="{54A932CB-BC6A-48D7-BEA1-C6CE1694B428}" ShortID="450210324">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Green_Win_Stack_01" ID="{AE31312E-CE00-40FB-AD60-7809783190F5}" ShortID="368664542">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Green_Win_Stack_01" ID="{31C34446-6FDC-46C5-B6B7-F51B4A1104C7}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.229183508488278"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.240097008892482"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>SFX_Green_Win_Stack_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="963231674"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Green_Win_Stack_01" ID="{31C34446-6FDC-46C5-B6B7-F51B4A1104C7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Green_Win_Stack_02" ID="{2B1C82A9-F30B-49FF-916B-38D5FA11D0AA}" ShortID="65209433">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Green_Win_Stack_02" ID="{F3BE0A1B-75AF-4870-BF4D-18FB41C6BB91}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.218270008084074"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.185529506871463"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>SFX_Green_Win_Stack_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="238513824"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Green_Win_Stack_02" ID="{F3BE0A1B-75AF-4870-BF4D-18FB41C6BB91}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Cinematic_Green_Win" ID="{954396F3-09E1-46A5-B3F8-C87649A8DC93}" ShortID="110469761">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cinematic_Green_Win" ID="{62018E94-9353-4CA9-823C-3B477F51921F}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.167340339531124"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Cinematic_Green_Win.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1018908723"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Cinematic_Win_Green" ID="{4DF947F1-F2E2-4058-A070-1D4C4EE8191D}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.758609539207761"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2"/>
+												<Property Name="TrimEnd" Type="Real64" Value="26.3951495553759"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Cinematic_Win_Green.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="542311118"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Cinematic_Win_Green" ID="{4DF947F1-F2E2-4058-A070-1D4C4EE8191D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="AnimatiqueAudio" ID="{766A816C-7E36-46DF-97CB-F6A5A94AFF1A}" ShortID="853303361">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Cube_Animatique_AUDIO" ID="{C8A4799B-1691-4E07-9514-53003DF6A4A1}" ShortID="86256792">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C25EB72A-31CF-415D-8E9A-21F0FDE18B0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cube_Animatique_AUDIO" ID="{D0E5D5A7-AE6B-4AE1-A9BD-08F66B2AE219}">
+									<Language>SFX</Language>
+									<AudioFile>Cube_Animatique_AUDIO.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="621147370"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cube_Animatique_AUDIO" ID="{D0E5D5A7-AE6B-4AE1-A9BD-08F66B2AE219}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

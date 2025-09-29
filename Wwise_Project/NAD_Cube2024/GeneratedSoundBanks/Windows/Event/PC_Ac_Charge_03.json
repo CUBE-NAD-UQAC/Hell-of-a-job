@@ -1,0 +1,145 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2278720428",
+    "Type": "Event",
+    "GUID": "{D4CB6590-7B0A-42F8-9ECA-3A00A40A41D6}",
+    "Language": "SFX",
+    "Hash": "{504EB392-10AA-2CCA-F851-ACCCF22E682A}",
+    "ObjectPath": "PC_Ac_Charge_03",
+    "ShortName": "PC_Ac_Charge_03",
+    "Path": "Event/PC_Ac_Charge_03.bnk",
+    "Media": [
+     {
+      "Id": "58002539",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_PC_ChargeThrow_Clic2_Boop.wav",
+      "Path": "Media/58002539.wem",
+      "CachePath": "SFX/Cube_PC_ChargeThrow_Clic2_Boop_818F3B66.wem"
+     },
+     {
+      "Id": "100622680",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_PC_ChargeThrow_Clic2_Wood_Long_4.wav",
+      "Path": "Media/100622680.wem",
+      "CachePath": "SFX/Cube_PC_ChargeThrow_Clic2_Wood_Long_4_818F3B66.wem"
+     },
+     {
+      "Id": "101964624",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_PC_ChargeThrow_Clic2_Wood_Short_3.wav",
+      "Path": "Media/101964624.wem",
+      "CachePath": "SFX/Cube_PC_ChargeThrow_Clic2_Wood_Short_3_818F3B66.wem"
+     },
+     {
+      "Id": "201520888",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_PC_ChargeThrow_Clic2_Wood_Short_2.wav",
+      "Path": "Media/201520888.wem",
+      "CachePath": "SFX/Cube_PC_ChargeThrow_Clic2_Wood_Short_2_818F3B66.wem"
+     },
+     {
+      "Id": "515145782",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_PC_ChargeThrow_Clic2_Wood_Long_3.wav",
+      "Path": "Media/515145782.wem",
+      "CachePath": "SFX/Cube_PC_ChargeThrow_Clic2_Wood_Long_3_818F3B66.wem"
+     },
+     {
+      "Id": "681600369",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_PC_ChargeThrow_Clic2_Wood_Short_1.wav",
+      "Path": "Media/681600369.wem",
+      "CachePath": "SFX/Cube_PC_ChargeThrow_Clic2_Wood_Short_1_818F3B66.wem"
+     },
+     {
+      "Id": "726088290",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_PC_ChargeThrow_Clic2_Wood_Short_4.wav",
+      "Path": "Media/726088290.wem",
+      "CachePath": "SFX/Cube_PC_ChargeThrow_Clic2_Wood_Short_4_818F3B66.wem"
+     },
+     {
+      "Id": "759049421",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_PC_ChargeThrow_Clic2_Wood_Long_2.wav",
+      "Path": "Media/759049421.wem",
+      "CachePath": "SFX/Cube_PC_ChargeThrow_Clic2_Wood_Long_2_818F3B66.wem"
+     },
+     {
+      "Id": "894257243",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_PC_ChargeThrow_Clic2_Wood_Long_1.wav",
+      "Path": "Media/894257243.wem",
+      "CachePath": "SFX/Cube_PC_ChargeThrow_Clic2_Wood_Long_1_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2278720428",
+      "Name": "PC_Ac_Charge_03",
+      "ObjectPath": "\\Events\\SFX WU\\Player_Events_WU\\PC_Ac_Charge\\PC_Ac_Charge_03",
+      "GUID": "{D4CB6590-7B0A-42F8-9ECA-3A00A40A41D6}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0183518",
+      "DurationMax": "1.1430613",
+      "MediaRefs": [
+       {
+        "Id": "58002539"
+       },
+       {
+        "Id": "100622680"
+       },
+       {
+        "Id": "101964624"
+       },
+       {
+        "Id": "201520888"
+       },
+       {
+        "Id": "515145782"
+       },
+       {
+        "Id": "681600369"
+       },
+       {
+        "Id": "726088290"
+       },
+       {
+        "Id": "759049421"
+       },
+       {
+        "Id": "894257243"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{6EF3B3DC-10DE-CAB5-81CE-B7B12F2A4426}"
+ }
+}

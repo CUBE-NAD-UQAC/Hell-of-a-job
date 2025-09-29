@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="903290744" Type="Event" GUID="{EB5705B3-9A21-4E03-B1D5-0B4541C236EE}" Language="SFX" Hash="{9BC884FC-A737-B12F-55A7-E604069A2D8C}">
+			<ObjectPath>AMB_Lava</ObjectPath>
+			<ShortName>AMB_Lava</ShortName>
+			<Path>Event/AMB_Lava.bnk</Path>
+			<Events>
+				<Event Id="903290744" Name="AMB_Lava" ObjectPath="\Events\AMB WU\AMB_Lava" GUID="{EB5705B3-9A21-4E03-B1D5-0B4541C236EE}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{BD2B121B-8DBC-8E8E-0235-A0EB09C63D6D}</FileHash>
+</SoundBanksInfo>

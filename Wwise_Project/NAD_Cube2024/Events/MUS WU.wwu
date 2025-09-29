@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8A738ED8-635D-41A2-AE46-146017022389}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="MUS WU" ID="{8A738ED8-635D-41A2-AE46-146017022389}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="16"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="StartMus" ID="{1FC3EB83-5BE8-42CA-B32C-24BCA239F891}">
+					<ChildrenList>
+						<Action Name="" ID="{2C2115F6-C530-41CE-9DE2-1921FAB1F5CE}" ShortID="134328085">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicSwitch" ID="{758C55A8-05E6-4E4E-A0EC-7D7DD63003BC}" WorkUnitID="{A366BCAA-6F95-4745-B839-01567FAFBCE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4C3B8897-0019-4B9A-9485-F302B1660927}" ShortID="689452623">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="-32.4324324324324"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Stinger_Ducking" ID="{72F45571-BA9C-4148-9DA2-FFAE8D2110C2}" WorkUnitID="{775D7E34-CBAF-473A-934B-8F28C4C7C44E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{39D24F45-ECDF-4F56-8EB2-8EE1983FD6B8}" ShortID="359822971">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Intensity" ID="{1ABC1240-75DB-4211-B62B-CE652C048DA0}" WorkUnitID="{775D7E34-CBAF-473A-934B-8F28C4C7C44E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LvlEnd_Start" ID="{DF5A1FC2-B144-4550-9030-5D3B4D07FE36}">
+					<ChildrenList>
+						<Action Name="" ID="{E99A2AC7-AE1D-48D3-809E-181B2E6210D0}" ShortID="764937372">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Start" ID="{94C5C768-ADD8-4F21-8A6A-1A04748EDDC4}" WorkUnitID="{C26AB768-0151-4676-9F2D-9D2BFFD89E0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LvlEnd_BuildUp" ID="{AE2BDCDA-884F-4794-B2D7-35AF2CAF72C2}">
+					<ChildrenList>
+						<Action Name="" ID="{6B75F122-661E-4233-B9A5-B6782B0BEA51}" ShortID="696322379">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BuildUp" ID="{C7715DA3-0A2B-487F-ACB7-5506BC6011B4}" WorkUnitID="{C26AB768-0151-4676-9F2D-9D2BFFD89E0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LvlEnd_End" ID="{067F73CF-7343-4B65-9C17-A2226F6401BC}">
+					<ChildrenList>
+						<Action Name="" ID="{C9AABDED-38C1-4723-815A-959378BD8D2D}" ShortID="1017921104">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="End" ID="{EAF696A7-1238-48EC-8AC5-AD066A257A76}" WorkUnitID="{C26AB768-0151-4676-9F2D-9D2BFFD89E0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Lvl_Stinger_DuckStart_old" ID="{B1C757B9-6A09-4A3A-BF88-B72FE4DD0932}">
+					<ChildrenList>
+						<Action Name="" ID="{3EF3A45A-5C66-4669-940A-075C7DB0630B}" ShortID="365392705">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Stinger_Ducking" ID="{72F45571-BA9C-4148-9DA2-FFAE8D2110C2}" WorkUnitID="{775D7E34-CBAF-473A-934B-8F28C4C7C44E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Lvl_Stinger_DuckEnd_old" ID="{8EF9AF46-9220-4E1B-B9F4-F8A0EAA1632E}">
+					<ChildrenList>
+						<Action Name="" ID="{8A30D7E8-D00B-4D3B-8117-AEEBFD4F160C}" ShortID="626707821">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="-32.4324324324324"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Stinger_Ducking" ID="{72F45571-BA9C-4148-9DA2-FFAE8D2110C2}" WorkUnitID="{775D7E34-CBAF-473A-934B-8F28C4C7C44E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Lvl_Last10S" ID="{4CA016E2-0A5F-4AF5-B50C-43E5F6859F43}">
+					<ChildrenList>
+						<Action Name="" ID="{713FBD38-735B-495D-8228-BC3AFEEB57FD}" ShortID="671325614">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cube_SFX_Last10Sec_Stinger" ID="{15167785-5D74-44A7-8AE9-658854D0A73D}" WorkUnitID="{91B8B446-CB95-4BFE-AAD8-BB81A4C88C66}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CE473E54-EB58-432F-A6FD-1D08376A607A}" ShortID="540352645">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="29"/>
+								<Property Name="FadeTime" Type="Real64" Value="10"/>
+								<Property Name="Highpass" Type="int16" Value="20"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUSIC_BUS" ID="{F9BFB4C6-29BC-41A1-9103-2A4144F05BC4}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{58103638-B226-4A73-8D05-232745471C6E}" ShortID="324812587">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="29"/>
+								<Property Name="Delay" Type="Real64" Value="10"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUSIC_BUS" ID="{F9BFB4C6-29BC-41A1-9103-2A4144F05BC4}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

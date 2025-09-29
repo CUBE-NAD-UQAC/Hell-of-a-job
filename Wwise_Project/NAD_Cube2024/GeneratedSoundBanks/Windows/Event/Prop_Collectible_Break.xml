@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3329746189" Type="Event" GUID="{F6CDB533-AE90-4F62-A088-FAB1E9577B37}" Language="SFX" Hash="{ABBA4CED-355D-2137-43EA-BEA7E6A387FE}">
+			<ObjectPath>Prop_Collectible_Break</ObjectPath>
+			<ShortName>Prop_Collectible_Break</ShortName>
+			<Path>Event/Prop_Collectible_Break.bnk</Path>
+			<Media>
+				<File Id="150720868" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Collectibles\SFX_Prop_Collectible_Destroy_02.wav</ShortName>
+					<Path>Media/150720868.wem</Path>
+					<CachePath>SFX/Collectibles/SFX_Prop_Collectible_Destroy_02_4FFA1A20.wem</CachePath>
+				</File>
+				<File Id="479943323" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Collectibles\SFX_Prop_Collectible_Destroy_06.wav</ShortName>
+					<Path>Media/479943323.wem</Path>
+					<CachePath>SFX/Collectibles/SFX_Prop_Collectible_Destroy_06_08FF7D28.wem</CachePath>
+				</File>
+				<File Id="656897203" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Collectibles\SFX_Prop_Collectible_Destroy_01.wav</ShortName>
+					<Path>Media/656897203.wem</Path>
+					<CachePath>SFX/Collectibles/SFX_Prop_Collectible_Destroy_01_DF16256E.wem</CachePath>
+				</File>
+				<File Id="929191789" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Collectibles\SFX_Prop_Collectible_Destroy_04.wav</ShortName>
+					<Path>Media/929191789.wem</Path>
+					<CachePath>SFX/Collectibles/SFX_Prop_Collectible_Destroy_04_60C3F34A.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3329746189" Name="Prop_Collectible_Break" ObjectPath="\Events\SFX WU\Objects_Events_WU\Collectibles\Prop_Collectible_Break" GUID="{F6CDB533-AE90-4F62-A088-FAB1E9577B37}" DurationType="OneShot" DurationMin="0.90966237" DurationMax="1.9028269">
+					<MediaRefs>
+						<MediaRef Id="150720868"/>
+						<MediaRef Id="479943323"/>
+						<MediaRef Id="656897203"/>
+						<MediaRef Id="929191789"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{8CAEA076-5962-B94B-FAD1-40DECD226E53}</FileHash>
+</SoundBanksInfo>

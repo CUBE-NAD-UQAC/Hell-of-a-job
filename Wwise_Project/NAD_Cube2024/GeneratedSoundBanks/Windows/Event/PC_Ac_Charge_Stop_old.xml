@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1060934777" Type="Event" GUID="{A50FB888-9C4C-47D8-9348-BBA58EA7D838}" Language="SFX" Hash="{EE68E37A-7804-A93C-8250-BD3AEAFA1FA6}">
+			<ObjectPath>PC_Ac_Charge_Stop_old</ObjectPath>
+			<ShortName>PC_Ac_Charge_Stop_old</ShortName>
+			<Path>Event/PC_Ac_Charge_Stop_old.bnk</Path>
+			<Events>
+				<Event Id="1060934777" Name="PC_Ac_Charge_Stop_old" ObjectPath="\Events\SFX WU\Player_Events_WU\PC_Ac_Charge_Stop_old" GUID="{A50FB888-9C4C-47D8-9348-BBA58EA7D838}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{C638CCEE-BD3D-05CB-6917-F274593A0A17}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,27 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2291972081	AMB_Base			\AMB WU\AMB_Base	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1045871717	GameStatus			\Default Work Unit\GameStatus	
+
+State	ID	Name	State Group			Notes
+	136448968	InGame_Ending	GameStatus			
+	161398697	InGame_Pause	GameStatus			
+	748895195	None	GameStatus			
+	966734798	GameMenu	GameStatus			
+	1862095286	InGame_Lvl1	GameStatus			
+	3573931707	Loading	GameStatus			
+	3604647259	MainMenu	GameStatus			
+	4075332698	Beach	GameStatus			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2835450985	CameraDistance			\Default Work Unit\CameraDistance	1 = caméra proche des PC 100 = caméra loin des PC
+
+Effect plug-ins	ID	Name	Type				Notes
+	911967538	Parametric EQ (Custom)	Wwise Parametric EQ			
+	926917454	Compressor (Custom)	Wwise Compressor			
+	3894244893	FX_Verb_AMB_Lava	Wwise RoomVerb			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	427150303	Silence	Wwise Silence		\Actor-Mixer Hierarchy\AMB_WU\AMB_2D\Ambiances\Amb_Silence\Silence	
+

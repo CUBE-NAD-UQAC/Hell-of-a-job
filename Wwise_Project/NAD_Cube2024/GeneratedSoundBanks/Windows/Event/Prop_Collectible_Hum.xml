@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3410528690" Type="Event" GUID="{11D8B906-9527-4F9C-9E13-CC01CB5B4A54}" Language="SFX" Hash="{5E440429-C62D-40BC-C3DB-A5AA057C873D}">
+			<ObjectPath>Prop_Collectible_Hum</ObjectPath>
+			<ShortName>Prop_Collectible_Hum</ShortName>
+			<Path>Event/Prop_Collectible_Hum.bnk</Path>
+			<Media>
+				<File Id="134562296" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Collectibles\SFX_Collectible_Loop.wav</ShortName>
+					<Path>Media/134562296.wem</Path>
+					<CachePath>SFX/Collectibles/SFX_Collectible_Loop_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3410528690" Name="Prop_Collectible_Hum" ObjectPath="\Events\SFX WU\Objects_Events_WU\Collectibles\Prop_Collectible_Hum" GUID="{11D8B906-9527-4F9C-9E13-CC01CB5B4A54}" MaxAttenuation="2000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="134562296"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{C934A099-BC4D-BC6C-BB36-2DCAFA4B2770}</FileHash>
+</SoundBanksInfo>

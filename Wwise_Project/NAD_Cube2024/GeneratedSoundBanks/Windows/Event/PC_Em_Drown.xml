@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3497908160" Type="Event" GUID="{A405F044-B76D-493F-8682-9E5108A18819}" Language="SFX" Hash="{DEC17622-DCA1-D31C-22E3-1AF765889DAD}">
+			<ObjectPath>PC_Em_Drown</ObjectPath>
+			<ShortName>PC_Em_Drown</ShortName>
+			<Path>Event/PC_Em_Drown.bnk</Path>
+			<Events>
+				<Event Id="3497908160" Name="PC_Em_Drown" ObjectPath="\Events\SFX WU\Player_Events_WU\Emotes\PC_Em_Drown" GUID="{A405F044-B76D-493F-8682-9E5108A18819}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{F12EB599-ED1F-A490-C2E5-540B9B16E2A1}</FileHash>
+</SoundBanksInfo>

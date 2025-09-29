@@ -1,0 +1,104 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "859052727",
+    "Type": "Event",
+    "GUID": "{52D19F4C-1702-4151-9907-46827CC0B319}",
+    "Language": "SFX",
+    "Hash": "{F30446EF-5422-281C-53D7-72D6781B9299}",
+    "ObjectPath": "AMB_Beach",
+    "ShortName": "AMB_Beach",
+    "Path": "Event/AMB_Beach.bnk",
+    "Media": [
+     {
+      "Id": "79650856",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Beach.wav",
+      "Path": "Media/79650856.wem",
+      "CachePath": "SFX/AMB_Beach_C825EF6B.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "859052727",
+      "Name": "AMB_Beach",
+      "ObjectPath": "\\Events\\AMB WU\\AMB_Beach",
+      "GUID": "{52D19F4C-1702-4151-9907-46827CC0B319}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "79650856"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1045871717",
+      "Name": "GameStatus",
+      "ObjectPath": "\\States\\Default Work Unit\\GameStatus",
+      "GUID": "{7D6F9397-A79E-40FE-B5E9-98EDF4F34EDE}",
+      "States": [
+       {
+        "Id": "136448968",
+        "Name": "InGame_Ending",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\InGame_Ending",
+        "GUID": "{450175B8-BC5B-468C-8DA0-3427C1146D59}"
+       },
+       {
+        "Id": "161398697",
+        "Name": "InGame_Pause",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\InGame_Pause",
+        "GUID": "{E4F69771-C9B8-4E29-A675-3910AB78E134}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\None",
+        "GUID": "{5E792DF5-0830-43CD-B95B-39437647AAAC}"
+       },
+       {
+        "Id": "966734798",
+        "Name": "GameMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\GameMenu",
+        "GUID": "{61B9A9E5-B14A-42FF-AC8C-F548574E6172}"
+       },
+       {
+        "Id": "1862095286",
+        "Name": "InGame_Lvl1",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\InGame_Lvl1",
+        "GUID": "{A5F1AF65-D5B4-45E0-9835-1BCC4E3A7117}"
+       },
+       {
+        "Id": "3573931707",
+        "Name": "Loading",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\Loading",
+        "GUID": "{1DD02C6A-2CE8-4691-A283-B7271BDEFE70}"
+       },
+       {
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\MainMenu",
+        "GUID": "{0FB1CB68-DAA1-4F0B-A308-CB5D0BA9E9D5}"
+       },
+       {
+        "Id": "4075332698",
+        "Name": "Beach",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\Beach",
+        "GUID": "{B2A1CC93-F6FB-462F-9482-B291CF8347B4}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{34CA5B0D-D291-60CA-1AE1-E58A9F6F6800}"
+ }
+}

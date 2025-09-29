@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2024222415" Type="Event" GUID="{45ED8CE5-5C51-46D4-9815-F5B14EA5A700}" Language="SFX" Hash="{232CFAC0-989A-3513-CEFB-E85F4D72B4AE}">
+			<ObjectPath>UI_Back</ObjectPath>
+			<ShortName>UI_Back</ShortName>
+			<Path>Event/UI_Back.bnk</Path>
+			<Media>
+				<File Id="879142672" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bounce\UI\SFX_UI_Back.wav</ShortName>
+					<Path>Media/879142672.wem</Path>
+					<CachePath>SFX/Bounce/UI/SFX_UI_Back_AC400946.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2024222415" Name="UI_Back" ObjectPath="\Events\SFX WU\UI_Events_WU\UI_Back" GUID="{45ED8CE5-5C51-46D4-9815-F5B14EA5A700}" MaxAttenuation="2000" DurationType="OneShot" DurationMin="0.07982381" DurationMax="0.07982381">
+					<MediaRefs>
+						<MediaRef Id="879142672"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{4E80673A-458D-A9C7-E6FB-3793C650C749}</FileHash>
+</SoundBanksInfo>

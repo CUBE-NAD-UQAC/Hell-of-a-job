@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2267038174",
+    "Type": "Event",
+    "GUID": "{5F782BDA-56DB-4FF0-BACF-4954C7839FFC}",
+    "Language": "SFX",
+    "Hash": "{0EAD86A5-15A7-133C-89E8-BD630E706626}",
+    "ObjectPath": "KillAll",
+    "ShortName": "KillAll",
+    "Path": "Event/KillAll.bnk",
+    "Events": [
+     {
+      "Id": "2267038174",
+      "Name": "KillAll",
+      "ObjectPath": "\\Events\\MISC_WU\\KillAll",
+      "GUID": "{5F782BDA-56DB-4FF0-BACF-4954C7839FFC}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F5B59401-0433-091B-B452-B0CB0FAF2F3E}"
+ }
+}

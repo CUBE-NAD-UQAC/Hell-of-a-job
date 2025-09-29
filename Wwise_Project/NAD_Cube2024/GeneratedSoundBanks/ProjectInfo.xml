@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="NAD_Cube2024" GUID="{B87C929C-FA7E-43F2-900D-C2E0F8D69716}" Generator="2023.1.7.8574"/>
+	<CacheRoot>../.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{F87255AA-7B39-4601-A7D1-7E3C311E5842}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{F328C310-8DAF-4736-95D4-4590DE6648A0}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{3AC1AD5C-E0FC-D68B-808C-CA217DAF6015}</FileHash>
+</ProjectInfo>

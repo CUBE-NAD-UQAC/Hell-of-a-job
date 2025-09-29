@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2891409319	GameBoot			\MISC_WU\GameBoot	
+

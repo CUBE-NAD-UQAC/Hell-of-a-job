@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3570444412	PC_Em_Vic			\SFX WU\Player_Events_WU\Emotes\PC_Em_Vic	
+

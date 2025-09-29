@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1395583770" Type="Event" GUID="{08DC9A1A-81DA-491F-A5A6-9FA14C26868F}" Language="SFX" Hash="{92962D22-549A-6DDC-AFCC-CE91B7A22792}">
+			<ObjectPath>Prop_Envi_Fence_Down_old</ObjectPath>
+			<ShortName>Prop_Envi_Fence_Down_old</ShortName>
+			<Path>Event/Prop_Envi_Fence_Down_old.bnk</Path>
+			<Events>
+				<Event Id="1395583770" Name="Prop_Envi_Fence_Down_old" ObjectPath="\Events\SFX WU\Objects_Events_WU\_old\Prop_Envi_Fence_Down_old" GUID="{08DC9A1A-81DA-491F-A5A6-9FA14C26868F}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{7F916630-62A8-C595-BAF3-6B68E10A0F13}</FileHash>
+</SoundBanksInfo>

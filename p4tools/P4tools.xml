@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--perforce-xml-version=1.0-->
+<CustomToolDefList varName="customtooldeflist">
+ <CustomToolDef>
+  <Definition>
+   <Name>Sync, Generate and Build Project</Name>
+   <Command>F:\Dev\Unreal\YourProjectName\syncGenerateAndBuildProject.bat</Command>
+   <Shortcut></Shortcut>
+   <InitDir>F:\Dev\Unreal\YourProjectName</InitDir>
+  </Definition>
+  <Console>
+   <CloseOnExit>false</CloseOnExit>
+  </Console>
+  <AddToContext>true</AddToContext>
+  <Refresh>true</Refresh>
+ </CustomToolDef>
+</CustomToolDefList>

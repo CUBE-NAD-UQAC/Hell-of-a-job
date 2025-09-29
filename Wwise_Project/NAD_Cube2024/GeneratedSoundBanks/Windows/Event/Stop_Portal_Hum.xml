@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3317505025" Type="Event" GUID="{7FDA5A0B-5DC4-42BC-B598-4335AA7D5AF8}" Language="SFX" Hash="{F99A073E-7018-8DB4-C00A-410F09D3B826}">
+			<ObjectPath>Stop_Portal_Hum</ObjectPath>
+			<ShortName>Stop_Portal_Hum</ShortName>
+			<Path>Event/Stop_Portal_Hum.bnk</Path>
+			<Events>
+				<Event Id="3317505025" Name="Stop_Portal_Hum" ObjectPath="\Events\SFX WU\Objects_Events_WU\Stop_Portal_Hum" GUID="{7FDA5A0B-5DC4-42BC-B598-4335AA7D5AF8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{D7B570ED-9CA0-0513-1098-5B56053C616C}</FileHash>
+</SoundBanksInfo>

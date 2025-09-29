@@ -1,0 +1,140 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "4244289489",
+    "Type": "Event",
+    "GUID": "{D1C7428F-97B6-41FA-B2F9-17BE14303430}",
+    "Language": "SFX",
+    "Hash": "{244359BE-584E-DFA0-BCC2-12D7FC9BFBD7}",
+    "ObjectPath": "PC_Drown",
+    "ShortName": "PC_Drown",
+    "Path": "Event/PC_Drown.bnk",
+    "Media": [
+     {
+      "Id": "264722",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PC_Drown\\VO_PC_Drown_04.wav",
+      "Path": "Media/264722.wem",
+      "CachePath": "SFX/PC_Drown/VO_PC_Drown_04_818F3B66.wem"
+     },
+     {
+      "Id": "359381524",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PC_Drown\\VO_PC_Drown_03.wav",
+      "Path": "Media/359381524.wem",
+      "CachePath": "SFX/PC_Drown/VO_PC_Drown_03_818F3B66.wem"
+     },
+     {
+      "Id": "440697444",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PC_Drown\\VO_PC_Drown_02.wav",
+      "Path": "Media/440697444.wem",
+      "CachePath": "SFX/PC_Drown/VO_PC_Drown_02_818F3B66.wem"
+     },
+     {
+      "Id": "535276901",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PC_Drown\\VO_PC_Drown_01.wav",
+      "Path": "Media/535276901.wem",
+      "CachePath": "SFX/PC_Drown/VO_PC_Drown_01_56300C51.wem"
+     },
+     {
+      "Id": "676647536",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PC_Drown\\VO_PC_Drown_05.wav",
+      "Path": "Media/676647536.wem",
+      "CachePath": "SFX/PC_Drown/VO_PC_Drown_05_818F3B66.wem"
+     },
+     {
+      "Id": "766498538",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PC_Drown\\SFX_PC_Drowning.wav",
+      "Path": "Media/766498538.wem",
+      "CachePath": "SFX/PC_Drown/SFX_PC_Drowning_818F3B66.wem"
+     },
+     {
+      "Id": "790682514",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PC_Drown\\VO_PC_Drown_06.wav",
+      "Path": "Media/790682514.wem",
+      "CachePath": "SFX/PC_Drown/VO_PC_Drown_06_818F3B66.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "3550485865",
+       "Name": "Sidechain_SFX_Player",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Sidechain_SFX_Player",
+       "GUID": "{865B9898-411B-4EE5-A064-7B7ECC430BEA}",
+       "LibName": "Wwise Meter",
+       "LibId": "8454147"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "4244289489",
+      "Name": "PC_Drown",
+      "ObjectPath": "\\Events\\SFX WU\\Player_Events_WU\\PC_Drown",
+      "GUID": "{D1C7428F-97B6-41FA-B2F9-17BE14303430}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "3.3107765",
+      "DurationMax": "3.5076458",
+      "MediaRefs": [
+       {
+        "Id": "264722"
+       },
+       {
+        "Id": "359381524"
+       },
+       {
+        "Id": "440697444"
+       },
+       {
+        "Id": "535276901"
+       },
+       {
+        "Id": "676647536"
+       },
+       {
+        "Id": "766498538"
+       },
+       {
+        "Id": "790682514"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3550485865"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B796880F-D35A-9F28-7AB8-D055F5EE6053}"
+ }
+}

@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1648562661	PC_Stat_Hit			\SFX WU\Player_Events_WU\PC_Stat_Hit	
+	1663388922	PC_VO_Hit			\SFX WU\Player_Events_WU\PC_VO_Hit	
+	3329746189	Prop_Collectible_Break			\SFX WU\Objects_Events_WU\Collectibles\Prop_Collectible_Break	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3550485865	Sidechain_SFX_Player	Wwise Meter			
+

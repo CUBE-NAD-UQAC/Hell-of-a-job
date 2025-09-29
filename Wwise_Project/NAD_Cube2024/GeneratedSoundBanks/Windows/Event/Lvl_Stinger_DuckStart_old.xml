@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1683154748" Type="Event" GUID="{B1C757B9-6A09-4A3A-BF88-B72FE4DD0932}" Language="SFX" Hash="{725C4A8B-F2AA-2A67-8C19-08F284FF8419}">
+			<ObjectPath>Lvl_Stinger_DuckStart_old</ObjectPath>
+			<ShortName>Lvl_Stinger_DuckStart_old</ShortName>
+			<Path>Event/Lvl_Stinger_DuckStart_old.bnk</Path>
+			<Events>
+				<Event Id="1683154748" Name="Lvl_Stinger_DuckStart_old" ObjectPath="\Events\MUS WU\Lvl_Stinger_DuckStart_old" GUID="{B1C757B9-6A09-4A3A-BF88-B72FE4DD0932}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{A44530A4-759E-B966-4745-EF22E33DC856}</FileHash>
+</SoundBanksInfo>

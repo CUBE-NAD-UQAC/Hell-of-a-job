@@ -1,0 +1,32 @@
+Event	ID	Name			Wwise Object Path	Notes
+	247881108	StartMus			\MUS WU\StartMus	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	568686771	LevelStatus			\Default Work Unit\LevelStatus	
+	1045871717	GameStatus			\Default Work Unit\GameStatus	
+	3514626634	MUS_VictorySeq			\Default Work Unit\MUS_VictorySeq	
+
+State	ID	Name	State Group			Notes
+	748895195	None	LevelStatus			
+	1160234136	Normal	LevelStatus			
+	2326237925	Last10Sec	LevelStatus			
+	136448968	InGame_Ending	GameStatus			
+	161398697	InGame_Pause	GameStatus			
+	748895195	None	GameStatus			
+	966734798	GameMenu	GameStatus			
+	1862095286	InGame_Lvl1	GameStatus			
+	3573931707	Loading	GameStatus			
+	3604647259	MainMenu	GameStatus			
+	4075332698	Beach	GameStatus			
+	529726532	End	MUS_VictorySeq			
+	748895195	None	MUS_VictorySeq			
+	1281810935	Start	MUS_VictorySeq			
+	2149848048	BuildUp	MUS_VictorySeq			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	872999148	Music_Intensity			\Default Work Unit\Music_Intensity	
+	2537816454	Music_Speed			\Default Work Unit\Music_Speed\Music_Speed	
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	779278001	Death			\Default Work Unit\Death	
+

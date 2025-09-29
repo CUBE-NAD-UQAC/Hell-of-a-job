@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3497908160",
+    "Type": "Event",
+    "GUID": "{A405F044-B76D-493F-8682-9E5108A18819}",
+    "Language": "SFX",
+    "Hash": "{DEC17622-DCA1-D31C-22E3-1AF765889DAD}",
+    "ObjectPath": "PC_Em_Drown",
+    "ShortName": "PC_Em_Drown",
+    "Path": "Event/PC_Em_Drown.bnk",
+    "Events": [
+     {
+      "Id": "3497908160",
+      "Name": "PC_Em_Drown",
+      "ObjectPath": "\\Events\\SFX WU\\Player_Events_WU\\Emotes\\PC_Em_Drown",
+      "GUID": "{A405F044-B76D-493F-8682-9E5108A18819}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B8057CA8-EDAB-C8AF-DEC0-95017171546E}"
+ }
+}

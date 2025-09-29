@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2905885869" Type="Event" GUID="{FCDA8A88-45F5-4000-8ED5-E8502FBF7BAC}" Language="SFX" Hash="{B14314C1-D948-5664-14FC-2C404F670ADD}">
+			<ObjectPath>AMB_Brazier</ObjectPath>
+			<ShortName>AMB_Brazier</ShortName>
+			<Path>Event/AMB_Brazier.bnk</Path>
+			<Media>
+				<File Id="5444238" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bounce\Ambiences\AMB_3D_Brasier.wav</ShortName>
+					<Path>Media/5444238.wem</Path>
+					<CachePath>SFX/Bounce/Ambiences/AMB_3D_Brasier_3B8BCD5C.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="168049331" Name="Compressor (Custom)" ObjectPath="\Actor-Mixer Hierarchy\AMB_WU\AMB_3D\AMB_Brazier\AMB_3D_Brazier\[Effect Slot [1]: (Compressor)]\Compressor (Custom)" GUID="{F1ECF39D-1695-4A79-8659-FECB7F6AFB21}" LibName="Wwise Compressor" LibId="7077891"/>
+					<Plugin Id="963882312" Name="Parametric EQ (Custom)" ObjectPath="\Actor-Mixer Hierarchy\AMB_WU\AMB_3D\AMB_Brazier\AMB_3D_Brazier\[Effect Slot [0]: (Parametric EQ)]\Parametric EQ (Custom)" GUID="{3E3989F2-79BF-42E2-A5F3-C4E9B32077A9}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="2905885869" Name="AMB_Brazier" ObjectPath="\Events\AMB WU\AMB_Brazier" GUID="{FCDA8A88-45F5-4000-8ED5-E8502FBF7BAC}" MaxAttenuation="3000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="5444238"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="168049331"/>
+							<PluginRef Id="963882312"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{32CB393A-DAEF-B553-ECDD-AD3702F67C12}</FileHash>
+</SoundBanksInfo>

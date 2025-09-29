@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2024222415",
+    "Type": "Event",
+    "GUID": "{45ED8CE5-5C51-46D4-9815-F5B14EA5A700}",
+    "Language": "SFX",
+    "Hash": "{232CFAC0-989A-3513-CEFB-E85F4D72B4AE}",
+    "ObjectPath": "UI_Back",
+    "ShortName": "UI_Back",
+    "Path": "Event/UI_Back.bnk",
+    "Media": [
+     {
+      "Id": "879142672",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bounce\\UI\\SFX_UI_Back.wav",
+      "Path": "Media/879142672.wem",
+      "CachePath": "SFX/Bounce/UI/SFX_UI_Back_AC400946.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2024222415",
+      "Name": "UI_Back",
+      "ObjectPath": "\\Events\\SFX WU\\UI_Events_WU\\UI_Back",
+      "GUID": "{45ED8CE5-5C51-46D4-9815-F5B14EA5A700}",
+      "MaxAttenuation": "2000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.07982381",
+      "DurationMax": "0.07982381",
+      "MediaRefs": [
+       {
+        "Id": "879142672"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B10B3A6A-6F3B-4298-8173-77EF22410348}"
+ }
+}

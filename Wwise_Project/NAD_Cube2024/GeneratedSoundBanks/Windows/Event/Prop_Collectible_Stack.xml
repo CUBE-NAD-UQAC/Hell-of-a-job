@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="897919856" Type="Event" GUID="{1B0CEAE4-845B-4851-A068-8733A1B2BCB5}" Language="SFX" Hash="{1B60C6B4-3CBE-193D-13CF-12B87A642FFD}">
+			<ObjectPath>Prop_Collectible_Stack</ObjectPath>
+			<ShortName>Prop_Collectible_Stack</ShortName>
+			<Path>Event/Prop_Collectible_Stack.bnk</Path>
+			<Events>
+				<Event Id="897919856" Name="Prop_Collectible_Stack" ObjectPath="\Events\SFX WU\Objects_Events_WU\Collectibles\Prop_Collectible_Stack" GUID="{1B0CEAE4-845B-4851-A068-8733A1B2BCB5}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{0EBB14A1-57D7-CC7A-C307-C2F8833502A9}</FileHash>
+</SoundBanksInfo>

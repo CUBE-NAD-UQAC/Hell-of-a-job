@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6CC8C9AB-3DF9-4F3C-85B1-045A2D9F3D42}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="SFX_WU" ID="{6CC8C9AB-3DF9-4F3C-85B1-045A2D9F3D42}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="15"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="Player_WU" ID="{F783C58A-C7F3-44DC-9BDB-2B33640573EE}" PersistMode="Reference"/>
+				<WorkUnit Name="Objects_WU" ID="{32D2CF00-6698-40FD-806B-29F07F6D4BA3}" PersistMode="Reference"/>
+				<WorkUnit Name="UI_WU" ID="{FB2C8840-45B8-4E6D-8307-300128466D09}" PersistMode="Reference"/>
+				<WorkUnit Name="MISC_WU" ID="{91B8B446-CB95-4BFE-AAD8-BB81A4C88C66}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

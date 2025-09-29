@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3887629727	PC_VO_Grunt			\SFX WU\Player_Events_WU\PC_VO_Grunt	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3550485865	Sidechain_SFX_Player	Wwise Meter			
+

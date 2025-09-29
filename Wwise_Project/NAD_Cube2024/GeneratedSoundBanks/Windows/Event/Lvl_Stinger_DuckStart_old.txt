@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1683154748	Lvl_Stinger_DuckStart_old			\MUS WU\Lvl_Stinger_DuckStart_old	
+

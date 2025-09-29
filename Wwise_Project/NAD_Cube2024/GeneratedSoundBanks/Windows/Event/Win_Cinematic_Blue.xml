@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1426696890" Type="Event" GUID="{BC570B92-7A57-4496-80EB-8AB6982F322F}" Language="SFX" Hash="{4226682F-5D16-67E5-63FD-35C695B07232}">
+			<ObjectPath>Win_Cinematic_Blue</ObjectPath>
+			<ShortName>Win_Cinematic_Blue</ShortName>
+			<Path>Event/Win_Cinematic_Blue.bnk</Path>
+			<Media>
+				<File Id="52703667" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Cinematic_Win_Blue.wav</ShortName>
+					<Path>Media/52703667.wem</Path>
+					<CachePath>SFX/Cinematic_Win_Blue_6B453ACC.wem</CachePath>
+				</File>
+				<File Id="294284458" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Blue_Win_Stack_02.wav</ShortName>
+					<Path>Media/294284458.wem</Path>
+					<CachePath>SFX/SFX_Blue_Win_Stack_02_E5BA1E73.wem</CachePath>
+				</File>
+				<File Id="322615170" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Cinematic_Win.wav</ShortName>
+					<Path>Media/322615170.wem</Path>
+					<CachePath>SFX/Cinematic_Win_9258CCD0.wem</CachePath>
+				</File>
+				<File Id="500247310" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Blue_Win_Stack_01.wav</ShortName>
+					<Path>Media/500247310.wem</Path>
+					<CachePath>SFX/SFX_Blue_Win_Stack_01_F2C7E067.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1426696890" Name="Win_Cinematic_Blue" ObjectPath="\Events\Cinematic\Win_Cinematic_Blue" GUID="{BC570B92-7A57-4496-80EB-8AB6982F322F}" DurationType="OneShot" DurationMin="25.6" DurationMax="25.6">
+					<MediaRefs>
+						<MediaRef Id="52703667"/>
+						<MediaRef Id="294284458"/>
+						<MediaRef Id="322615170"/>
+						<MediaRef Id="500247310"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{2A052539-CEF3-00F7-BD99-7872DD8EDA6E}</FileHash>
+</SoundBanksInfo>

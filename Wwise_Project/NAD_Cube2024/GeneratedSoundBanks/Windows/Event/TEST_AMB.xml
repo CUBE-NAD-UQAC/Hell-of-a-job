@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3060491804" Type="Event" GUID="{5F8D433F-04EF-4D44-B2FD-DF075B9D81D8}" Language="SFX" Hash="{36100E34-E521-60B5-9C33-973490D5F50A}">
+			<ObjectPath>TEST_AMB</ObjectPath>
+			<ShortName>TEST_AMB</ShortName>
+			<Path>Event/TEST_AMB.bnk</Path>
+			<Media>
+				<File Id="721834710" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Ambience_Rain1.wav</ShortName>
+					<Path>Media/721834710.wem</Path>
+					<CachePath>SFX/SFX_Ambience_Rain1_97133334.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3060491804" Name="TEST_AMB" ObjectPath="\Events\AMB WU\TEST_AMB" GUID="{5F8D433F-04EF-4D44-B2FD-DF075B9D81D8}" MaxAttenuation="4500" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="721834710"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{E16CA05D-F8FF-4C00-FA77-B33B2D539D41}</FileHash>
+</SoundBanksInfo>

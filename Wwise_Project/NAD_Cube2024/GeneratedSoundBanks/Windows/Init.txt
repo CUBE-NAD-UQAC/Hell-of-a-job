@@ -1,0 +1,67 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	568686771	LevelStatus			\Default Work Unit\LevelStatus	
+	1045871717	GameStatus			\Default Work Unit\GameStatus	
+	3514626634	MUS_VictorySeq			\Default Work Unit\MUS_VictorySeq	
+
+State	ID	Name	State Group			Notes
+	748895195	None	LevelStatus			
+	1160234136	Normal	LevelStatus			
+	2326237925	Last10Sec	LevelStatus			
+	136448968	InGame_Ending	GameStatus			
+	161398697	InGame_Pause	GameStatus			
+	748895195	None	GameStatus			
+	966734798	GameMenu	GameStatus			
+	1862095286	InGame_Lvl1	GameStatus			
+	3573931707	Loading	GameStatus			
+	3604647259	MainMenu	GameStatus			
+	4075332698	Beach	GameStatus			
+	529726532	End	MUS_VictorySeq			
+	748895195	None	MUS_VictorySeq			
+	1281810935	Start	MUS_VictorySeq			
+	2149848048	BuildUp	MUS_VictorySeq			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
+	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
+	841620460	Concrete			\Factory Acoustic Textures\Textures\Concrete	
+	1050949862	SFX_Bus_Volume			\Default Work Unit\SFX_Bus_Volume	
+	1168681430	MASTER_BUS_Vol			\Default Work Unit\Volume_Sliders\MASTER_BUS_Vol	
+	1755085759	Wood_Deep			\Factory Acoustic Textures\Textures\Wood_Deep	
+	1873957695	Anechoic			\Factory Acoustic Textures\Textures\Anechoic	
+	1970351858	Fabric			\Factory Acoustic Textures\Textures\Fabric	
+	2058049674	Wood			\Factory Acoustic Textures\Textures\Wood	
+	2412606308	Carpet			\Factory Acoustic Textures\Textures\Carpet	
+	2637588553	Tile			\Factory Acoustic Textures\Textures\Tile	
+	2835450985	CameraDistance			\Default Work Unit\CameraDistance	1 = caméra proche des PC 100 = caméra loin des PC
+	2928161104	Curtains			\Factory Acoustic Textures\Textures\Curtains	
+	3195498748	Cork_Tiles			\Factory Acoustic Textures\Textures\Cork_Tiles	
+	3550485865	Sidechain_SFX_Player			\Default Work Unit\Sidechain_SFX_Player	
+	3670307564	Drywall			\Factory Acoustic Textures\Textures\Drywall	
+	3938257877	Music_Stinger_Ducking			\Default Work Unit\Music_Stinger_Ducking	
+	4168643977	Acoustic_Banner			\Factory Acoustic Textures\Textures\Acoustic_Banner	
+	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	213475909	SFX_BUS			\Default Work Unit\Master Audio Bus\SFX_BUS	
+	408383873	Main_Bus			\Default Work Unit\Master Audio Bus\MUSIC_BUS\Main_Bus	
+	1138681361	Player_Bus			\Default Work Unit\Master Audio Bus\SFX_BUS\Player_Bus	
+	1228381002	Cinematic BUS			\Default Work Unit\Master Audio Bus\Cinematic BUS	
+	1534528548	VO			\Default Work Unit\Master Audio Bus\SFX_BUS\Player_Bus\VO	
+	2144674087	Stingers_Bus			\Default Work Unit\Master Audio Bus\MUSIC_BUS\Stingers_Bus	
+	2337546123	3D_Bus			\Default Work Unit\Master Audio Bus\AMB_BUS\3D_Bus	
+	2680856269	MUSIC_BUS			\Default Work Unit\Master Audio Bus\MUSIC_BUS	
+	3247222208	UI_Bus			\Default Work Unit\Master Audio Bus\SFX_BUS\UI_Bus	
+	3319158528	AMB_BUS			\Default Work Unit\Master Audio Bus\AMB_BUS	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3914220840	Objects_Bus			\Default Work Unit\Master Audio Bus\SFX_BUS\Objects_Bus	
+	4156105884	2D_Bus			\Default Work Unit\Master Audio Bus\AMB_BUS\2D_Bus	
+
+Effect plug-ins	ID	Name	Type				Notes
+	212873195	Meter (Custom)	Wwise Meter			
+	855959824	Meter (Custom)	Wwise Meter			
+	3550485865	Sidechain_SFX_Player	Wwise Meter			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

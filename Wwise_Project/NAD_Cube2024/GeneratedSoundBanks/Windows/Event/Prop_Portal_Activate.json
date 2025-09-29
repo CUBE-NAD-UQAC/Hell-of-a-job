@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2956050845",
+    "Type": "Event",
+    "GUID": "{ADF8CE16-4BA9-4029-84CD-05EC1132DE83}",
+    "Language": "SFX",
+    "Hash": "{CCFD9E72-A31C-0EFF-12E8-A5FBBE31C266}",
+    "ObjectPath": "Prop_Portal_Activate",
+    "ShortName": "Prop_Portal_Activate",
+    "Path": "Event/Prop_Portal_Activate.bnk",
+    "Media": [
+     {
+      "Id": "277392190",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bounce\\Portal\\SFX_Object_Portal_Activate.wav",
+      "Path": "Media/277392190.wem",
+      "CachePath": "SFX/Bounce/Portal/SFX_Object_Portal_Activate_A29A3D8F.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2956050845",
+      "Name": "Prop_Portal_Activate",
+      "ObjectPath": "\\Events\\SFX WU\\Objects_Events_WU\\Prop_Portal_Activate",
+      "GUID": "{ADF8CE16-4BA9-4029-84CD-05EC1132DE83}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.071020834",
+      "DurationMax": "0.071020834",
+      "MediaRefs": [
+       {
+        "Id": "277392190"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1F809B8D-BE52-32A2-6851-7064E7E467D4}"
+ }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2969289918" Type="Event" GUID="{4CA016E2-0A5F-4AF5-B50C-43E5F6859F43}" Language="SFX" Hash="{70EF4D6B-6852-8811-CBDB-826871A60759}">
+			<ObjectPath>Lvl_Last10S</ObjectPath>
+			<ShortName>Lvl_Last10S</ShortName>
+			<Path>Event/Lvl_Last10S.bnk</Path>
+			<Media>
+				<File Id="422583641" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Cube_SFX_Last10Sec_Stinger.wav</ShortName>
+					<Path>Media/422583641.wem</Path>
+					<CachePath>SFX/Cube_SFX_Last10Sec_Stinger_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2969289918" Name="Lvl_Last10S" ObjectPath="\Events\MUS WU\Lvl_Last10S" GUID="{4CA016E2-0A5F-4AF5-B50C-43E5F6859F43}" DurationType="OneShot" DurationMin="17.5" DurationMax="17.5">
+					<MediaRefs>
+						<MediaRef Id="422583641"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{055D4667-D2A4-4650-7F8A-8F1459C14396}</FileHash>
+</SoundBanksInfo>

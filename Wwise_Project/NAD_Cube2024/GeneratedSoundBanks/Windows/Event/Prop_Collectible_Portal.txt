@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	736385962	Prop_Collectible_Portal			\SFX WU\Objects_Events_WU\Collectibles\Prop_Collectible_Portal	
+

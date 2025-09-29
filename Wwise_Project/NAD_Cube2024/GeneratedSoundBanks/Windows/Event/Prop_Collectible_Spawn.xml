@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1730664413" Type="Event" GUID="{7201C1BA-99FD-4C3C-AE3B-D4DB1988C75D}" Language="SFX" Hash="{CFBBC841-6465-599F-001E-534950D663F5}">
+			<ObjectPath>Prop_Collectible_Spawn</ObjectPath>
+			<ShortName>Prop_Collectible_Spawn</ShortName>
+			<Path>Event/Prop_Collectible_Spawn.bnk</Path>
+			<Media>
+				<File Id="56447798" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Collectible_Spawn_04.wav</ShortName>
+					<Path>Media/56447798.wem</Path>
+					<CachePath>SFX/SFX_Collectible_Spawn_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="134562296" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Collectibles\SFX_Collectible_Loop.wav</ShortName>
+					<Path>Media/134562296.wem</Path>
+					<CachePath>SFX/Collectibles/SFX_Collectible_Loop_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="769548581" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Collectible_Spawn_01.wav</ShortName>
+					<Path>Media/769548581.wem</Path>
+					<CachePath>SFX/SFX_Collectible_Spawn_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="928470425" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Collectible_Spawn_03.wav</ShortName>
+					<Path>Media/928470425.wem</Path>
+					<CachePath>SFX/SFX_Collectible_Spawn_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1072873759" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Collectible_Spawn_02.wav</ShortName>
+					<Path>Media/1072873759.wem</Path>
+					<CachePath>SFX/SFX_Collectible_Spawn_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3410528690" Name="Prop_Collectible_Hum" ObjectPath="\Events\SFX WU\Objects_Events_WU\Collectibles\Prop_Collectible_Hum" GUID="{11D8B906-9527-4F9C-9E13-CC01CB5B4A54}" MaxAttenuation="2000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="134562296"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1730664413" Name="Prop_Collectible_Spawn" ObjectPath="\Events\SFX WU\Objects_Events_WU\Collectibles\Prop_Collectible_Spawn" GUID="{7201C1BA-99FD-4C3C-AE3B-D4DB1988C75D}" MaxAttenuation="2000" DurationType="OneShot" DurationMin="2.6925979" DurationMax="2.8527083">
+					<MediaRefs>
+						<MediaRef Id="56447798"/>
+						<MediaRef Id="769548581"/>
+						<MediaRef Id="928470425"/>
+						<MediaRef Id="1072873759"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3410528690" Name="Prop_Collectible_Hum" ObjectPath="\Events\SFX WU\Objects_Events_WU\Collectibles\Prop_Collectible_Hum" GUID="{11D8B906-9527-4F9C-9E13-CC01CB5B4A54}"/>
+					</ActionPostEvent>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{C6370E64-DBEB-8572-AD70-B83674F815B5}</FileHash>
+</SoundBanksInfo>

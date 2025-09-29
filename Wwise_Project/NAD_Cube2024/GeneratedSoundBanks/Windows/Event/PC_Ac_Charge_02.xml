@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2278720429" Type="Event" GUID="{5EC9716E-92E0-47FD-B1CE-E43579635D6F}" Language="SFX" Hash="{DA1CF7F3-73E8-0494-88F7-6820613CB517}">
+			<ObjectPath>PC_Ac_Charge_02</ObjectPath>
+			<ShortName>PC_Ac_Charge_02</ShortName>
+			<Path>Event/PC_Ac_Charge_02.bnk</Path>
+			<Media>
+				<File Id="18834295" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Cube_PC_ChargeThrow_Clic1_Wood_Short_1.wav</ShortName>
+					<Path>Media/18834295.wem</Path>
+					<CachePath>SFX/Cube_PC_ChargeThrow_Clic1_Wood_Short_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="472052305" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Cube_PC_ChargeThrow_Clic1_Boop.wav</ShortName>
+					<Path>Media/472052305.wem</Path>
+					<CachePath>SFX/Cube_PC_ChargeThrow_Clic1_Boop_818F3B66.wem</CachePath>
+				</File>
+				<File Id="535682887" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Cube_PC_ChargeThrow_Clic1_Wood_Short_2.wav</ShortName>
+					<Path>Media/535682887.wem</Path>
+					<CachePath>SFX/Cube_PC_ChargeThrow_Clic1_Wood_Short_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="544568387" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Cube_PC_ChargeThrow_Clic1_Wood_Long_1.wav</ShortName>
+					<Path>Media/544568387.wem</Path>
+					<CachePath>SFX/Cube_PC_ChargeThrow_Clic1_Wood_Long_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="579724801" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Cube_PC_ChargeThrow_Clic1_Wood_Long_4.wav</ShortName>
+					<Path>Media/579724801.wem</Path>
+					<CachePath>SFX/Cube_PC_ChargeThrow_Clic1_Wood_Long_4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="624748276" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Cube_PC_ChargeThrow_Clic1_Wood_Long_3.wav</ShortName>
+					<Path>Media/624748276.wem</Path>
+					<CachePath>SFX/Cube_PC_ChargeThrow_Clic1_Wood_Long_3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="664240627" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Cube_PC_ChargeThrow_Clic1_Wood_Long_2.wav</ShortName>
+					<Path>Media/664240627.wem</Path>
+					<CachePath>SFX/Cube_PC_ChargeThrow_Clic1_Wood_Long_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="936208900" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Cube_PC_ChargeThrow_Clic1_Wood_Short_3.wav</ShortName>
+					<Path>Media/936208900.wem</Path>
+					<CachePath>SFX/Cube_PC_ChargeThrow_Clic1_Wood_Short_3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1030099893" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Cube_PC_ChargeThrow_Clic1_Wood_Short_4.wav</ShortName>
+					<Path>Media/1030099893.wem</Path>
+					<CachePath>SFX/Cube_PC_ChargeThrow_Clic1_Wood_Short_4_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2278720429" Name="PC_Ac_Charge_02" ObjectPath="\Events\SFX WU\Player_Events_WU\PC_Ac_Charge\PC_Ac_Charge_02" GUID="{5EC9716E-92E0-47FD-B1CE-E43579635D6F}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="1.0153619" DurationMax="1.1397052">
+					<MediaRefs>
+						<MediaRef Id="18834295"/>
+						<MediaRef Id="472052305"/>
+						<MediaRef Id="535682887"/>
+						<MediaRef Id="544568387"/>
+						<MediaRef Id="579724801"/>
+						<MediaRef Id="624748276"/>
+						<MediaRef Id="664240627"/>
+						<MediaRef Id="936208900"/>
+						<MediaRef Id="1030099893"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{D4EEA890-D33C-B796-6A10-0D003083E8BF}</FileHash>
+</SoundBanksInfo>

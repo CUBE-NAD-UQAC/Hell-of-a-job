@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1465336131",
+    "Type": "Event",
+    "GUID": "{3BA8A4D0-4288-40E6-837E-C6F0C03E2A2B}",
+    "Language": "SFX",
+    "Hash": "{42CF2CE3-CFBF-22FA-3CA3-C75CC0AB4B57}",
+    "ObjectPath": "Game_Resume",
+    "ShortName": "Game_Resume",
+    "Path": "Event/Game_Resume.bnk",
+    "Events": [
+     {
+      "Id": "1465336131",
+      "Name": "Game_Resume",
+      "ObjectPath": "\\Events\\MISC_WU\\Game_Resume",
+      "GUID": "{3BA8A4D0-4288-40E6-837E-C6F0C03E2A2B}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E001ABA8-F9D1-72D2-67A0-8B9D0141B0A2}"
+ }
+}

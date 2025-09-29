@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "903290744",
+    "Type": "Event",
+    "GUID": "{EB5705B3-9A21-4E03-B1D5-0B4541C236EE}",
+    "Language": "SFX",
+    "Hash": "{9BC884FC-A737-B12F-55A7-E604069A2D8C}",
+    "ObjectPath": "AMB_Lava",
+    "ShortName": "AMB_Lava",
+    "Path": "Event/AMB_Lava.bnk",
+    "Events": [
+     {
+      "Id": "903290744",
+      "Name": "AMB_Lava",
+      "ObjectPath": "\\Events\\AMB WU\\AMB_Lava",
+      "GUID": "{EB5705B3-9A21-4E03-B1D5-0B4541C236EE}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F95E21FD-2873-AC49-6C00-997FB9A2AF0F}"
+ }
+}

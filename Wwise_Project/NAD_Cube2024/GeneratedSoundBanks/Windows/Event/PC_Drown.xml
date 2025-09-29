@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="4244289489" Type="Event" GUID="{D1C7428F-97B6-41FA-B2F9-17BE14303430}" Language="SFX" Hash="{244359BE-584E-DFA0-BCC2-12D7FC9BFBD7}">
+			<ObjectPath>PC_Drown</ObjectPath>
+			<ShortName>PC_Drown</ShortName>
+			<Path>Event/PC_Drown.bnk</Path>
+			<Media>
+				<File Id="264722" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>PC_Drown\VO_PC_Drown_04.wav</ShortName>
+					<Path>Media/264722.wem</Path>
+					<CachePath>SFX/PC_Drown/VO_PC_Drown_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="359381524" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>PC_Drown\VO_PC_Drown_03.wav</ShortName>
+					<Path>Media/359381524.wem</Path>
+					<CachePath>SFX/PC_Drown/VO_PC_Drown_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="440697444" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>PC_Drown\VO_PC_Drown_02.wav</ShortName>
+					<Path>Media/440697444.wem</Path>
+					<CachePath>SFX/PC_Drown/VO_PC_Drown_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="535276901" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>PC_Drown\VO_PC_Drown_01.wav</ShortName>
+					<Path>Media/535276901.wem</Path>
+					<CachePath>SFX/PC_Drown/VO_PC_Drown_01_56300C51.wem</CachePath>
+				</File>
+				<File Id="676647536" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>PC_Drown\VO_PC_Drown_05.wav</ShortName>
+					<Path>Media/676647536.wem</Path>
+					<CachePath>SFX/PC_Drown/VO_PC_Drown_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="766498538" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>PC_Drown\SFX_PC_Drowning.wav</ShortName>
+					<Path>Media/766498538.wem</Path>
+					<CachePath>SFX/PC_Drown/SFX_PC_Drowning_818F3B66.wem</CachePath>
+				</File>
+				<File Id="790682514" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>PC_Drown\VO_PC_Drown_06.wav</ShortName>
+					<Path>Media/790682514.wem</Path>
+					<CachePath>SFX/PC_Drown/VO_PC_Drown_06_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="3550485865" Name="Sidechain_SFX_Player" ObjectPath="\Effects\Default Work Unit\Sidechain_SFX_Player" GUID="{865B9898-411B-4EE5-A064-7B7ECC430BEA}" LibName="Wwise Meter" LibId="8454147"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="4244289489" Name="PC_Drown" ObjectPath="\Events\SFX WU\Player_Events_WU\PC_Drown" GUID="{D1C7428F-97B6-41FA-B2F9-17BE14303430}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="3.3107765" DurationMax="3.5076458">
+					<MediaRefs>
+						<MediaRef Id="264722"/>
+						<MediaRef Id="359381524"/>
+						<MediaRef Id="440697444"/>
+						<MediaRef Id="535276901"/>
+						<MediaRef Id="676647536"/>
+						<MediaRef Id="766498538"/>
+						<MediaRef Id="790682514"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3550485865"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{78D90485-A5B7-32D8-7133-00845ABC2F29}</FileHash>
+</SoundBanksInfo>

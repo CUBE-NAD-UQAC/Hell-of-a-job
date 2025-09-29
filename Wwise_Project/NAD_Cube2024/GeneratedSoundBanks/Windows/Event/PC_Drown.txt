@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4244289489	PC_Drown			\SFX WU\Player_Events_WU\PC_Drown	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3550485865	Sidechain_SFX_Player	Wwise Meter			
+

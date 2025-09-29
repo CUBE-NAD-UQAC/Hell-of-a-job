@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3067029096	PC_FS			\SFX WU\Player_Events_WU\PC_FS	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	63790334	SurfaceType			\Default Work Unit\SurfaceType	
+
+Switch	ID	Name	Switch Group			Notes
+	2144363834	Rock	SurfaceType			
+	2185786256	Gravel	SurfaceType			
+	2637588553	Tile	SurfaceType			
+
+Effect plug-ins	ID	Name	Type				Notes
+	3158203991	EQ_Footsteps	Wwise Parametric EQ			
+

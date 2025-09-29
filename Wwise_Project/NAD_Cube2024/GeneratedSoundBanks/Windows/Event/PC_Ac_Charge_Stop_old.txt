@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1060934777	PC_Ac_Charge_Stop_old			\SFX WU\Player_Events_WU\PC_Ac_Charge_Stop_old	
+

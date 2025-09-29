@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="4117858986" Type="Event" GUID="{13311B9D-386D-49C1-908F-3D94820FE645}" Language="SFX" Hash="{1BC97B8F-DDE8-3CE5-D5FD-CC99728D257A}">
+			<ObjectPath>PC_Taunt_Spin</ObjectPath>
+			<ShortName>PC_Taunt_Spin</ShortName>
+			<Path>Event/PC_Taunt_Spin.bnk</Path>
+			<Media>
+				<File Id="81107258" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_PC_Taunt_Spin.wav</ShortName>
+					<Path>Media/81107258.wem</Path>
+					<CachePath>SFX/SFX_PC_Taunt_Spin_4F6473E2.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4117858986" Name="PC_Taunt_Spin" ObjectPath="\Events\SFX WU\Player_Events_WU\Emotes\PC_Taunt_Spin" GUID="{13311B9D-386D-49C1-908F-3D94820FE645}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="1.499875" DurationMax="1.499875">
+					<MediaRefs>
+						<MediaRef Id="81107258"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{33BDEDF4-33A6-02A3-BE06-8A3BFB8E1725}</FileHash>
+</SoundBanksInfo>

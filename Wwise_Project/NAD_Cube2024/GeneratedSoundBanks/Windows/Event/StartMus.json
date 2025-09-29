@@ -1,0 +1,2182 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "247881108",
+    "Type": "Event",
+    "GUID": "{1FC3EB83-5BE8-42CA-B32C-24BCA239F891}",
+    "Language": "SFX",
+    "Hash": "{436E09FE-5616-51BB-47E7-EA565883C9AA}",
+    "ObjectPath": "StartMus",
+    "ShortName": "StartMus",
+    "Path": "Event/StartMus.bnk",
+    "Media": [
+     {
+      "Id": "24360973",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_Beach_108bpm_Intro_1pre_2post_MELS_Ukulele.wav",
+      "Path": "Media/24360973.wem",
+      "CachePath": "SFX/Cube_MUS_Beach_108bpm_Intro_1pre_2post_MELS_Ukulele_FBC78EF0.wem"
+     },
+     {
+      "Id": "25950625",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_B_1pre_2post_INT3_CORE.wav",
+      "Path": "Media/25950625.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_B_1pre_2post_INT3_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "36623098",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_B1_1pre_2post_Piano Mel.wav",
+      "Path": "Media/36623098.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_B1_1pre_2post_Piano Mel_FBC78EF0.wem"
+     },
+     {
+      "Id": "36872028",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_C1_1pre_2post_MELS_Dulcimer.wav",
+      "Path": "Media/36872028.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_C1_1pre_2post_MELS_Dulcimer_FBC78EF0.wem"
+     },
+     {
+      "Id": "50288933",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_INT2_CORE.wav",
+      "Path": "Media/50288933.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_INT2_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "92804707",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_B1_1pre_2post_ALL_DRUMS.wav",
+      "Path": "Media/92804707.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_B1_1pre_2post_ALL_DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "94636878",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_INT2_ALL_DRUMS.wav",
+      "Path": "Media/94636878.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_INT2_ALL_DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "103443013",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Static_1pre_2post_MELS_Glockenspiel 8va.wav",
+      "Path": "Media/103443013.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Static_1pre_2post_MELS_Glockenspiel 8va_FBC78EF0.wem"
+     },
+     {
+      "Id": "103501847",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_A1_1pre_2post_Piano Mel.wav",
+      "Path": "Media/103501847.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_A1_1pre_2post_Piano Mel_FBC78EF0.wem"
+     },
+     {
+      "Id": "104746321",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Static_1pre_2post_Piano Harm.wav",
+      "Path": "Media/104746321.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Static_1pre_2post_Piano Harm_FBC78EF0.wem"
+     },
+     {
+      "Id": "108793402",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_B_1pre_2post_MELS_Harpsichord 8va.wav",
+      "Path": "Media/108793402.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_B_1pre_2post_MELS_Harpsichord 8va_FBC78EF0.wem"
+     },
+     {
+      "Id": "112884275",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_D1_1pre_2post_MELS_Vibraphone.wav",
+      "Path": "Media/112884275.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_D1_1pre_2post_MELS_Vibraphone_FBC78EF0.wem"
+     },
+     {
+      "Id": "124616348",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_A2_1pre_2post_Glockenspiel.wav",
+      "Path": "Media/124616348.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_A2_1pre_2post_Glockenspiel_FBC78EF0.wem"
+     },
+     {
+      "Id": "126207116",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_D1_1pre_2post_MELS_Dulcimer.wav",
+      "Path": "Media/126207116.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_D1_1pre_2post_MELS_Dulcimer_FBC78EF0.wem"
+     },
+     {
+      "Id": "127648218",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_MELS_Vibraphone.wav",
+      "Path": "Media/127648218.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_MELS_Vibraphone_FBC78EF0.wem"
+     },
+     {
+      "Id": "134445831",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Rise_1pre_2post_ALL_DRUMS.wav",
+      "Path": "Media/134445831.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Rise_1pre_2post_ALL_DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "156015136",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_C1_1pre_2post_MELS_Vibraphone.wav",
+      "Path": "Media/156015136.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_C1_1pre_2post_MELS_Vibraphone_FBC78EF0.wem"
+     },
+     {
+      "Id": "159362123",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_A_1pre_2post_MELS_Glockenspiel 8va.wav",
+      "Path": "Media/159362123.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_A_1pre_2post_MELS_Glockenspiel 8va_FBC78EF0.wem"
+     },
+     {
+      "Id": "172877889",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_A_1pre_2post_MELS_Harpsichord 8va.wav",
+      "Path": "Media/172877889.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_A_1pre_2post_MELS_Harpsichord 8va_FBC78EF0.wem"
+     },
+     {
+      "Id": "185088706",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_MELS_Harpsichord.wav",
+      "Path": "Media/185088706.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_MELS_Harpsichord_FBC78EF0.wem"
+     },
+     {
+      "Id": "192278264",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Static_1pre_2post_Glockenspiel.wav",
+      "Path": "Media/192278264.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Static_1pre_2post_Glockenspiel_FBC78EF0.wem"
+     },
+     {
+      "Id": "193828817",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Static_1pre_2post_MELS_Harpsichord 8va.wav",
+      "Path": "Media/193828817.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Static_1pre_2post_MELS_Harpsichord 8va_FBC78EF0.wem"
+     },
+     {
+      "Id": "202210414",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Static_1pre_2post_INT2_CORE.wav",
+      "Path": "Media/202210414.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Static_1pre_2post_INT2_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "204304223",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_A_1pre_2post_MELS_Glockenspiel.wav",
+      "Path": "Media/204304223.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_A_1pre_2post_MELS_Glockenspiel_FBC78EF0.wem"
+     },
+     {
+      "Id": "232559764",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_Beach_108bpm_A_1pre_2post_MELS_Ukulele.wav",
+      "Path": "Media/232559764.wem",
+      "CachePath": "SFX/Cube_MUS_Beach_108bpm_A_1pre_2post_MELS_Ukulele_FBC78EF0.wem"
+     },
+     {
+      "Id": "232986750",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_C1_1pre_2post_INT2_CORE.wav",
+      "Path": "Media/232986750.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_C1_1pre_2post_INT2_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "242702369",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Static_1pre_2post_Dulcimer.wav",
+      "Path": "Media/242702369.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Static_1pre_2post_Dulcimer_FBC78EF0.wem"
+     },
+     {
+      "Id": "250104787",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_A_1pre_2post_INT3_ALL DRUMS.wav",
+      "Path": "Media/250104787.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_A_1pre_2post_INT3_ALL DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "259609216",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_Beach_108bpm_A_1pre_2post_MELS_Glockenspiel 8va.wav",
+      "Path": "Media/259609216.wem",
+      "CachePath": "SFX/Cube_MUS_Beach_108bpm_A_1pre_2post_MELS_Glockenspiel 8va_FBC78EF0.wem"
+     },
+     {
+      "Id": "259816490",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_B1_1pre_2post_Harpsichord.wav",
+      "Path": "Media/259816490.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_B1_1pre_2post_Harpsichord_FBC78EF0.wem"
+     },
+     {
+      "Id": "266649685",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_Beach_108bpm_A_1pre_2post_MELS_Dulcimer.wav",
+      "Path": "Media/266649685.wem",
+      "CachePath": "SFX/Cube_MUS_Beach_108bpm_A_1pre_2post_MELS_Dulcimer_FBC78EF0.wem"
+     },
+     {
+      "Id": "266980546",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_D1_1pre_2post_INT2_ALL_DRUMS.wav",
+      "Path": "Media/266980546.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_D1_1pre_2post_INT2_ALL_DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "269499195",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Stinger6_2bpre_2post.wav",
+      "Path": "Media/269499195.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Stinger6_2bpre_2post_FBC78EF0.wem"
+     },
+     {
+      "Id": "288130002",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_C1_1pre_2post_MELS_Glockenspiel 8va.wav",
+      "Path": "Media/288130002.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_C1_1pre_2post_MELS_Glockenspiel 8va_FBC78EF0.wem"
+     },
+     {
+      "Id": "312034928",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_B1_1pre_2post_Piano Harm.wav",
+      "Path": "Media/312034928.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_B1_1pre_2post_Piano Harm_FBC78EF0.wem"
+     },
+     {
+      "Id": "314566562",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_Beach_108bpm_B_1pre_2post_MELS_Dulcimer.wav",
+      "Path": "Media/314566562.wem",
+      "CachePath": "SFX/Cube_MUS_Beach_108bpm_B_1pre_2post_MELS_Dulcimer_FBC78EF0.wem"
+     },
+     {
+      "Id": "315431334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_C1_1pre_2post_INT1_CORE.wav",
+      "Path": "Media/315431334.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_C1_1pre_2post_INT1_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "315535314",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_Beach_108bpm_B_1pre_2post_MELS_Glockenspiel 8va.wav",
+      "Path": "Media/315535314.wem",
+      "CachePath": "SFX/Cube_MUS_Beach_108bpm_B_1pre_2post_MELS_Glockenspiel 8va_FBC78EF0.wem"
+     },
+     {
+      "Id": "319596801",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_A1_1pre_2post_CORE.wav",
+      "Path": "Media/319596801.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_A1_1pre_2post_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "321359870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_Beach_108bpm_Intro_1pre_2post_MELS_Glockenspiel 8va.wav",
+      "Path": "Media/321359870.wem",
+      "CachePath": "SFX/Cube_MUS_Beach_108bpm_Intro_1pre_2post_MELS_Glockenspiel 8va_FBC78EF0.wem"
+     },
+     {
+      "Id": "321584106",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_Beach_108bpm_B_1pre_2post_MELS_Ukulele.wav",
+      "Path": "Media/321584106.wem",
+      "CachePath": "SFX/Cube_MUS_Beach_108bpm_B_1pre_2post_MELS_Ukulele_FBC78EF0.wem"
+     },
+     {
+      "Id": "328165104",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_C1_1pre_2post_INT1_ALL_DRUMS.wav",
+      "Path": "Media/328165104.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_C1_1pre_2post_INT1_ALL_DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "328559119",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_B1_1pre_2post_Dulcimer.wav",
+      "Path": "Media/328559119.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_B1_1pre_2post_Dulcimer_FBC78EF0.wem"
+     },
+     {
+      "Id": "337413908",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube25_MUS_105bpm_LvlEnd_Start_1pre_2post.wav",
+      "Path": "Media/337413908.wem",
+      "CachePath": "SFX/Cube25_MUS_105bpm_LvlEnd_Start_1pre_2post_FBC78EF0.wem"
+     },
+     {
+      "Id": "341680634",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_A2_1pre_2post_Piano Harm.wav",
+      "Path": "Media/341680634.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_A2_1pre_2post_Piano Harm_FBC78EF0.wem"
+     },
+     {
+      "Id": "350584728",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Rise_1pre_2post_Piano Harm.wav",
+      "Path": "Media/350584728.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Rise_1pre_2post_Piano Harm_FBC78EF0.wem"
+     },
+     {
+      "Id": "350863297",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_B1_1pre_2post_Vibraphone.wav",
+      "Path": "Media/350863297.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_B1_1pre_2post_Vibraphone_FBC78EF0.wem"
+     },
+     {
+      "Id": "354707915",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Static_1pre_2post_Piano Mel.wav",
+      "Path": "Media/354707915.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Static_1pre_2post_Piano Mel_FBC78EF0.wem"
+     },
+     {
+      "Id": "355429159",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Rise_1pre_2post_Vibraphone.wav",
+      "Path": "Media/355429159.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Rise_1pre_2post_Vibraphone_FBC78EF0.wem"
+     },
+     {
+      "Id": "357358920",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_A_1pre_2post_MELS_Harpsichord.wav",
+      "Path": "Media/357358920.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_A_1pre_2post_MELS_Harpsichord_FBC78EF0.wem"
+     },
+     {
+      "Id": "357491887",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_Beach_108bpm_Intro_1pre_2post_INT1_CORE.wav",
+      "Path": "Media/357491887.wem",
+      "CachePath": "SFX/Cube_MUS_Beach_108bpm_Intro_1pre_2post_INT1_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "358051555",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_MELS_Dulcimer.wav",
+      "Path": "Media/358051555.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_MELS_Dulcimer_FBC78EF0.wem"
+     },
+     {
+      "Id": "364554459",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_Beach_108bpm_Static_1pre_2post_INT1_ALL_DRUMS.wav",
+      "Path": "Media/364554459.wem",
+      "CachePath": "SFX/Cube_MUS_Beach_108bpm_Static_1pre_2post_INT1_ALL_DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "382497106",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Intro_1pre_2post_Vibraphone.wav",
+      "Path": "Media/382497106.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Intro_1pre_2post_Vibraphone_FBC78EF0.wem"
+     },
+     {
+      "Id": "395728116",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Intro_1pre_2post_ALL_DRUMS.wav",
+      "Path": "Media/395728116.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Intro_1pre_2post_ALL_DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "396928522",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_A2_1pre_2post_ALL_DRUMS.wav",
+      "Path": "Media/396928522.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_A2_1pre_2post_ALL_DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "398671618",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Rise_1pre_2post_Harpsichord.wav",
+      "Path": "Media/398671618.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Rise_1pre_2post_Harpsichord_FBC78EF0.wem"
+     },
+     {
+      "Id": "400251783",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Static_1pre_2post_MELS_Harpsichord.wav",
+      "Path": "Media/400251783.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Static_1pre_2post_MELS_Harpsichord_FBC78EF0.wem"
+     },
+     {
+      "Id": "412227829",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_INT1_ALL_DRUMS.wav",
+      "Path": "Media/412227829.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_INT1_ALL_DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "419194179",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_D1_1pre_2post_INT1_CORE.wav",
+      "Path": "Media/419194179.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_D1_1pre_2post_INT1_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "423403490",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_A_1pre_2post_INT1_CORE.wav",
+      "Path": "Media/423403490.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_A_1pre_2post_INT1_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "423820576",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_D1_1pre_2post_INT1_ALL_DRUMS.wav",
+      "Path": "Media/423820576.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_D1_1pre_2post_INT1_ALL_DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "425607928",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Static_1pre_2post_MELS_Dulcimer.wav",
+      "Path": "Media/425607928.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Static_1pre_2post_MELS_Dulcimer_FBC78EF0.wem"
+     },
+     {
+      "Id": "436212497",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_A_1pre_2post_INT3_CORE.wav",
+      "Path": "Media/436212497.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_A_1pre_2post_INT3_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "438745728",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Intro_1pre_2post_Piano Harm.wav",
+      "Path": "Media/438745728.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Intro_1pre_2post_Piano Harm_FBC78EF0.wem"
+     },
+     {
+      "Id": "454578963",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_A2_1pre_2post_Harpsichord.wav",
+      "Path": "Media/454578963.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_A2_1pre_2post_Harpsichord_FBC78EF0.wem"
+     },
+     {
+      "Id": "466741743",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Static_1pre_2post_CORE.wav",
+      "Path": "Media/466741743.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Static_1pre_2post_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "467014213",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Static_1pre_2post_INT2_ALL_DRUMS.wav",
+      "Path": "Media/467014213.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Static_1pre_2post_INT2_ALL_DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "487728540",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Static_1pre_2post_INT1_CORE.wav",
+      "Path": "Media/487728540.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Static_1pre_2post_INT1_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "488116444",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_D1_1pre_2post_MELS_Harpsichord 8va.wav",
+      "Path": "Media/488116444.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_D1_1pre_2post_MELS_Harpsichord 8va_FBC78EF0.wem"
+     },
+     {
+      "Id": "497178349",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_B_1pre_2post_INT1_ALL_DRUMS.wav",
+      "Path": "Media/497178349.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_B_1pre_2post_INT1_ALL_DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "506065467",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_MELS_Glockenspiel 8va.wav",
+      "Path": "Media/506065467.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_MELS_Glockenspiel 8va_FBC78EF0.wem"
+     },
+     {
+      "Id": "530152580",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Static_1pre_2post_MELS_Glockenspiel.wav",
+      "Path": "Media/530152580.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Static_1pre_2post_MELS_Glockenspiel_FBC78EF0.wem"
+     },
+     {
+      "Id": "535511520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_A2_1pre_2post_Piano Mel.wav",
+      "Path": "Media/535511520.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_A2_1pre_2post_Piano Mel_FBC78EF0.wem"
+     },
+     {
+      "Id": "551424111",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_B_1pre_2post_MELS_Glockenspiel 8va.wav",
+      "Path": "Media/551424111.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_B_1pre_2post_MELS_Glockenspiel 8va_FBC78EF0.wem"
+     },
+     {
+      "Id": "562105756",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_A1_1pre_2post_Vibraphone.wav",
+      "Path": "Media/562105756.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_A1_1pre_2post_Vibraphone_FBC78EF0.wem"
+     },
+     {
+      "Id": "573055176",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_Beach_108bpm_Intro_1pre_2post_INT1_ALL_DRUMS.wav",
+      "Path": "Media/573055176.wem",
+      "CachePath": "SFX/Cube_MUS_Beach_108bpm_Intro_1pre_2post_INT1_ALL_DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "575763741",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_INT1_CORE.wav",
+      "Path": "Media/575763741.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_INT1_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "579138034",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_C1_1pre_2post_INT2_ALL_DRUMS.wav",
+      "Path": "Media/579138034.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_C1_1pre_2post_INT2_ALL_DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "579458889",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_B_1pre_2post_MELS_Harpsichord.wav",
+      "Path": "Media/579458889.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_B_1pre_2post_MELS_Harpsichord_FBC78EF0.wem"
+     },
+     {
+      "Id": "590883200",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Stinger7_2bpre_2post.wav",
+      "Path": "Media/590883200.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Stinger7_2bpre_2post_FBC78EF0.wem"
+     },
+     {
+      "Id": "591240570",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Intro_1pre_2post_Glockenspiel.wav",
+      "Path": "Media/591240570.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Intro_1pre_2post_Glockenspiel_FBC78EF0.wem"
+     },
+     {
+      "Id": "594388941",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_D1_1pre_2post_INT3_CORE.wav",
+      "Path": "Media/594388941.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_D1_1pre_2post_INT3_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "596310036",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_D1_1pre_2post_INT2_CORE.wav",
+      "Path": "Media/596310036.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_D1_1pre_2post_INT2_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "596568752",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_C1_1pre_2post_MELS_Glockenspiel.wav",
+      "Path": "Media/596568752.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_C1_1pre_2post_MELS_Glockenspiel_FBC78EF0.wem"
+     },
+     {
+      "Id": "601332402",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_B_1pre_2post_INT3_ALL DRUMS.wav",
+      "Path": "Media/601332402.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_B_1pre_2post_INT3_ALL DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "606095581",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Rise_1pre_2post_CORE.wav",
+      "Path": "Media/606095581.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Rise_1pre_2post_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "611681845",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_C1_1pre_2post_MELS_Harpsichord.wav",
+      "Path": "Media/611681845.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_C1_1pre_2post_MELS_Harpsichord_FBC78EF0.wem"
+     },
+     {
+      "Id": "622727473",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_Beach_108bpm_Intro_1pre_2post_MELS_Dulcimer.wav",
+      "Path": "Media/622727473.wem",
+      "CachePath": "SFX/Cube_MUS_Beach_108bpm_Intro_1pre_2post_MELS_Dulcimer_FBC78EF0.wem"
+     },
+     {
+      "Id": "631010729",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_B_1pre_2post_INT2_ALL_DRUMS.wav",
+      "Path": "Media/631010729.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_B_1pre_2post_INT2_ALL_DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "635006464",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Static_1pre_2post_INT1_ALL_DRUMS.wav",
+      "Path": "Media/635006464.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Static_1pre_2post_INT1_ALL_DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "638474551",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Rise_1pre_2post_Piano Mel.wav",
+      "Path": "Media/638474551.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Rise_1pre_2post_Piano Mel_FBC78EF0.wem"
+     },
+     {
+      "Id": "649172129",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_D1_1pre_2post_MELS_Glockenspiel.wav",
+      "Path": "Media/649172129.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_D1_1pre_2post_MELS_Glockenspiel_FBC78EF0.wem"
+     },
+     {
+      "Id": "661082280",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Rise_1pre_2post_Dulcimer.wav",
+      "Path": "Media/661082280.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Rise_1pre_2post_Dulcimer_FBC78EF0.wem"
+     },
+     {
+      "Id": "668224883",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_A1_1pre_2post_Piano Harm.wav",
+      "Path": "Media/668224883.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_A1_1pre_2post_Piano Harm_FBC78EF0.wem"
+     },
+     {
+      "Id": "672193665",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube25_MUS_105bpm_LvlEnd_BuildUp_1pre_2post.wav",
+      "Path": "Media/672193665.wem",
+      "CachePath": "SFX/Cube25_MUS_105bpm_LvlEnd_BuildUp_1pre_2post_FBC78EF0.wem"
+     },
+     {
+      "Id": "682857709",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_A2_1pre_2post_CORE.wav",
+      "Path": "Media/682857709.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_A2_1pre_2post_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "688509365",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Stinger5_2bpre_2post.wav",
+      "Path": "Media/688509365.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Stinger5_2bpre_2post_FBC78EF0.wem"
+     },
+     {
+      "Id": "697052785",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Static_1pre_2post_INT3_CORE.wav",
+      "Path": "Media/697052785.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Static_1pre_2post_INT3_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "700429084",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Static_1pre_2post_Vibraphone.wav",
+      "Path": "Media/700429084.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Static_1pre_2post_Vibraphone_FBC78EF0.wem"
+     },
+     {
+      "Id": "708220664",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_D1_1pre_2post_INT3_ALL DRUMS.wav",
+      "Path": "Media/708220664.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_D1_1pre_2post_INT3_ALL DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "716963123",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Stinger4_2bpre_2post.wav",
+      "Path": "Media/716963123.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Stinger4_2bpre_2post_FBC78EF0.wem"
+     },
+     {
+      "Id": "717479593",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_A2_1pre_2post_Dulcimer.wav",
+      "Path": "Media/717479593.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_A2_1pre_2post_Dulcimer_FBC78EF0.wem"
+     },
+     {
+      "Id": "718374616",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_INT3_ALL DRUMS.wav",
+      "Path": "Media/718374616.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_INT3_ALL DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "721993111",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_A2_1pre_2post_Vibraphone.wav",
+      "Path": "Media/721993111.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_A2_1pre_2post_Vibraphone_FBC78EF0.wem"
+     },
+     {
+      "Id": "728938415",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube25_MUS_105bpm_LvlEnd_End_1pre_2post.wav",
+      "Path": "Media/728938415.wem",
+      "CachePath": "SFX/Cube25_MUS_105bpm_LvlEnd_End_1pre_2post_FBC78EF0.wem"
+     },
+     {
+      "Id": "735650498",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_Beach_108bpm_A_1pre_2post_INT1_CORE.wav",
+      "Path": "Media/735650498.wem",
+      "CachePath": "SFX/Cube_MUS_Beach_108bpm_A_1pre_2post_INT1_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "738236355",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Static_1pre_2post_INT3_ALL DRUMS.wav",
+      "Path": "Media/738236355.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Static_1pre_2post_INT3_ALL DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "739684234",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_MELS_Harpsichord 8va.wav",
+      "Path": "Media/739684234.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_MELS_Harpsichord 8va_FBC78EF0.wem"
+     },
+     {
+      "Id": "741134465",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_A_1pre_2post_INT1_ALL_DRUMS.wav",
+      "Path": "Media/741134465.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_A_1pre_2post_INT1_ALL_DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "767563783",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_D1_1pre_2post_MELS_Glockenspiel 8va.wav",
+      "Path": "Media/767563783.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_D1_1pre_2post_MELS_Glockenspiel 8va_FBC78EF0.wem"
+     },
+     {
+      "Id": "767777980",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_B_1pre_2post_MELS_Vibraphone.wav",
+      "Path": "Media/767777980.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_B_1pre_2post_MELS_Vibraphone_FBC78EF0.wem"
+     },
+     {
+      "Id": "769681558",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_B1_1pre_2post_CORE.wav",
+      "Path": "Media/769681558.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_B1_1pre_2post_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "775280356",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_A1_1pre_2post_Harpsichord.wav",
+      "Path": "Media/775280356.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_A1_1pre_2post_Harpsichord_FBC78EF0.wem"
+     },
+     {
+      "Id": "781336248",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_Beach_108bpm_B_1pre_2post_INT1_CORE.wav",
+      "Path": "Media/781336248.wem",
+      "CachePath": "SFX/Cube_MUS_Beach_108bpm_B_1pre_2post_INT1_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "781486925",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_A_1pre_2post_MELS_Dulcimer.wav",
+      "Path": "Media/781486925.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_A_1pre_2post_MELS_Dulcimer_FBC78EF0.wem"
+     },
+     {
+      "Id": "783020468",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_C1_1pre_2post_INT3_ALL DRUMS.wav",
+      "Path": "Media/783020468.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_C1_1pre_2post_INT3_ALL DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "789633460",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_A1_1pre_2post_ALL_DRUMS.wav",
+      "Path": "Media/789633460.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_A1_1pre_2post_ALL_DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "789800528",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_Beach_108bpm_Static_1pre_2post_INT1_CORE.wav",
+      "Path": "Media/789800528.wem",
+      "CachePath": "SFX/Cube_MUS_Beach_108bpm_Static_1pre_2post_INT1_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "801976158",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_A_1pre_2post_INT2_ALL_DRUMS.wav",
+      "Path": "Media/801976158.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_A_1pre_2post_INT2_ALL_DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "813755083",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_Beach_108bpm_A_1pre_2post_INT1_ALL_DRUMS.wav",
+      "Path": "Media/813755083.wem",
+      "CachePath": "SFX/Cube_MUS_Beach_108bpm_A_1pre_2post_INT1_ALL_DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "833466286",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_D1_1pre_2post_MELS_Harpsichord.wav",
+      "Path": "Media/833466286.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_D1_1pre_2post_MELS_Harpsichord_FBC78EF0.wem"
+     },
+     {
+      "Id": "837393138",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_B_1pre_2post_MELS_Dulcimer.wav",
+      "Path": "Media/837393138.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_B_1pre_2post_MELS_Dulcimer_FBC78EF0.wem"
+     },
+     {
+      "Id": "845840044",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Intro_1pre_2post_Piano Mel.wav",
+      "Path": "Media/845840044.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Intro_1pre_2post_Piano Mel_FBC78EF0.wem"
+     },
+     {
+      "Id": "857048363",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_A1_1pre_2post_Glockenspiel.wav",
+      "Path": "Media/857048363.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_A1_1pre_2post_Glockenspiel_FBC78EF0.wem"
+     },
+     {
+      "Id": "874310512",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Intro_1pre_2post_Dulcimer.wav",
+      "Path": "Media/874310512.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Intro_1pre_2post_Dulcimer_FBC78EF0.wem"
+     },
+     {
+      "Id": "911297484",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Intro_1pre_2post_CORE.wav",
+      "Path": "Media/911297484.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Intro_1pre_2post_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "913328023",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Static_1pre_2post_MELS_Vibraphone.wav",
+      "Path": "Media/913328023.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Static_1pre_2post_MELS_Vibraphone_FBC78EF0.wem"
+     },
+     {
+      "Id": "919931986",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Intro_1pre_2post_Harpsichord.wav",
+      "Path": "Media/919931986.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Intro_1pre_2post_Harpsichord_FBC78EF0.wem"
+     },
+     {
+      "Id": "945349684",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_C1_1pre_2post_MELS_Harpsichord 8va.wav",
+      "Path": "Media/945349684.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_C1_1pre_2post_MELS_Harpsichord 8va_FBC78EF0.wem"
+     },
+     {
+      "Id": "965595966",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Static_1pre_2post_Harpsichord.wav",
+      "Path": "Media/965595966.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Static_1pre_2post_Harpsichord_FBC78EF0.wem"
+     },
+     {
+      "Id": "996574858",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_B_1pre_2post_INT2_CORE.wav",
+      "Path": "Media/996574858.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_B_1pre_2post_INT2_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "1013059184",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Static_1pre_2post_ALL_DRUMS.wav",
+      "Path": "Media/1013059184.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Static_1pre_2post_ALL_DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "1013894997",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_Rise_1pre_2post_Glockenspiel.wav",
+      "Path": "Media/1013894997.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_Rise_1pre_2post_Glockenspiel_FBC78EF0.wem"
+     },
+     {
+      "Id": "1017071179",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_B_1pre_2post_MELS_Glockenspiel.wav",
+      "Path": "Media/1017071179.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_B_1pre_2post_MELS_Glockenspiel_FBC78EF0.wem"
+     },
+     {
+      "Id": "1023687563",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_B1_1pre_2post_Glockenspiel.wav",
+      "Path": "Media/1023687563.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_B1_1pre_2post_Glockenspiel_FBC78EF0.wem"
+     },
+     {
+      "Id": "1025964852",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_84bpm_A1_1pre_2post_Dulcimer.wav",
+      "Path": "Media/1025964852.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_84bpm_A1_1pre_2post_Dulcimer_FBC78EF0.wem"
+     },
+     {
+      "Id": "1027351903",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_INT3_CORE.wav",
+      "Path": "Media/1027351903.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_INT3_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "1039313053",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_MELS_Glockenspiel.wav",
+      "Path": "Media/1039313053.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_Intro_1pre_2post_MELS_Glockenspiel_FBC78EF0.wem"
+     },
+     {
+      "Id": "1043562577",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_C1_1pre_2post_INT3_CORE.wav",
+      "Path": "Media/1043562577.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_C1_1pre_2post_INT3_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "1045869274",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_Beach_108bpm_B_1pre_2post_INT1_ALL_DRUMS.wav",
+      "Path": "Media/1045869274.wem",
+      "CachePath": "SFX/Cube_MUS_Beach_108bpm_B_1pre_2post_INT1_ALL_DRUMS_FBC78EF0.wem"
+     },
+     {
+      "Id": "1062098989",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_A_1pre_2post_MELS_Vibraphone.wav",
+      "Path": "Media/1062098989.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_A_1pre_2post_MELS_Vibraphone_FBC78EF0.wem"
+     },
+     {
+      "Id": "1064324448",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_B_1pre_2post_INT1_CORE.wav",
+      "Path": "Media/1064324448.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_B_1pre_2post_INT1_CORE_FBC78EF0.wem"
+     },
+     {
+      "Id": "1071612995",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cube_MUS_MainMenu_130bpm_A_1pre_2post_INT2_CORE.wav",
+      "Path": "Media/1071612995.wem",
+      "CachePath": "SFX/Cube_MUS_MainMenu_130bpm_A_1pre_2post_INT2_CORE_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "247881108",
+      "Name": "StartMus",
+      "ObjectPath": "\\Events\\MUS WU\\StartMus",
+      "GUID": "{1FC3EB83-5BE8-42CA-B32C-24BCA239F891}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1045871717",
+         "Id": "1862095286",
+         "GUID": "{A5F1AF65-D5B4-45E0-9835-1BCC4E3A7117}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "25950625"
+         },
+         {
+          "Id": "36872028"
+         },
+         {
+          "Id": "50288933"
+         },
+         {
+          "Id": "94636878"
+         },
+         {
+          "Id": "103443013"
+         },
+         {
+          "Id": "108793402"
+         },
+         {
+          "Id": "112884275"
+         },
+         {
+          "Id": "126207116"
+         },
+         {
+          "Id": "127648218"
+         },
+         {
+          "Id": "156015136"
+         },
+         {
+          "Id": "159362123"
+         },
+         {
+          "Id": "172877889"
+         },
+         {
+          "Id": "185088706"
+         },
+         {
+          "Id": "193828817"
+         },
+         {
+          "Id": "202210414"
+         },
+         {
+          "Id": "204304223"
+         },
+         {
+          "Id": "232986750"
+         },
+         {
+          "Id": "250104787"
+         },
+         {
+          "Id": "266980546"
+         },
+         {
+          "Id": "269499195"
+         },
+         {
+          "Id": "288130002"
+         },
+         {
+          "Id": "315431334"
+         },
+         {
+          "Id": "328165104"
+         },
+         {
+          "Id": "357358920"
+         },
+         {
+          "Id": "358051555"
+         },
+         {
+          "Id": "400251783"
+         },
+         {
+          "Id": "412227829"
+         },
+         {
+          "Id": "419194179"
+         },
+         {
+          "Id": "423403490"
+         },
+         {
+          "Id": "423820576"
+         },
+         {
+          "Id": "425607928"
+         },
+         {
+          "Id": "436212497"
+         },
+         {
+          "Id": "467014213"
+         },
+         {
+          "Id": "487728540"
+         },
+         {
+          "Id": "488116444"
+         },
+         {
+          "Id": "497178349"
+         },
+         {
+          "Id": "506065467"
+         },
+         {
+          "Id": "530152580"
+         },
+         {
+          "Id": "551424111"
+         },
+         {
+          "Id": "575763741"
+         },
+         {
+          "Id": "579138034"
+         },
+         {
+          "Id": "579458889"
+         },
+         {
+          "Id": "590883200"
+         },
+         {
+          "Id": "594388941"
+         },
+         {
+          "Id": "596310036"
+         },
+         {
+          "Id": "596568752"
+         },
+         {
+          "Id": "601332402"
+         },
+         {
+          "Id": "611681845"
+         },
+         {
+          "Id": "631010729"
+         },
+         {
+          "Id": "635006464"
+         },
+         {
+          "Id": "649172129"
+         },
+         {
+          "Id": "688509365"
+         },
+         {
+          "Id": "697052785"
+         },
+         {
+          "Id": "708220664"
+         },
+         {
+          "Id": "716963123"
+         },
+         {
+          "Id": "718374616"
+         },
+         {
+          "Id": "738236355"
+         },
+         {
+          "Id": "739684234"
+         },
+         {
+          "Id": "741134465"
+         },
+         {
+          "Id": "767563783"
+         },
+         {
+          "Id": "767777980"
+         },
+         {
+          "Id": "781486925"
+         },
+         {
+          "Id": "783020468"
+         },
+         {
+          "Id": "801976158"
+         },
+         {
+          "Id": "833466286"
+         },
+         {
+          "Id": "837393138"
+         },
+         {
+          "Id": "913328023"
+         },
+         {
+          "Id": "945349684"
+         },
+         {
+          "Id": "996574858"
+         },
+         {
+          "Id": "1017071179"
+         },
+         {
+          "Id": "1027351903"
+         },
+         {
+          "Id": "1039313053"
+         },
+         {
+          "Id": "1043562577"
+         },
+         {
+          "Id": "1062098989"
+         },
+         {
+          "Id": "1064324448"
+         },
+         {
+          "Id": "1071612995"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1045871717",
+         "Id": "3604647259",
+         "GUID": "{0FB1CB68-DAA1-4F0B-A308-CB5D0BA9E9D5}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "36623098"
+         },
+         {
+          "Id": "92804707"
+         },
+         {
+          "Id": "103501847"
+         },
+         {
+          "Id": "104746321"
+         },
+         {
+          "Id": "124616348"
+         },
+         {
+          "Id": "134445831"
+         },
+         {
+          "Id": "192278264"
+         },
+         {
+          "Id": "242702369"
+         },
+         {
+          "Id": "259816490"
+         },
+         {
+          "Id": "312034928"
+         },
+         {
+          "Id": "319596801"
+         },
+         {
+          "Id": "328559119"
+         },
+         {
+          "Id": "341680634"
+         },
+         {
+          "Id": "350584728"
+         },
+         {
+          "Id": "350863297"
+         },
+         {
+          "Id": "354707915"
+         },
+         {
+          "Id": "355429159"
+         },
+         {
+          "Id": "382497106"
+         },
+         {
+          "Id": "395728116"
+         },
+         {
+          "Id": "396928522"
+         },
+         {
+          "Id": "398671618"
+         },
+         {
+          "Id": "438745728"
+         },
+         {
+          "Id": "454578963"
+         },
+         {
+          "Id": "466741743"
+         },
+         {
+          "Id": "535511520"
+         },
+         {
+          "Id": "562105756"
+         },
+         {
+          "Id": "591240570"
+         },
+         {
+          "Id": "606095581"
+         },
+         {
+          "Id": "638474551"
+         },
+         {
+          "Id": "661082280"
+         },
+         {
+          "Id": "668224883"
+         },
+         {
+          "Id": "682857709"
+         },
+         {
+          "Id": "700429084"
+         },
+         {
+          "Id": "717479593"
+         },
+         {
+          "Id": "721993111"
+         },
+         {
+          "Id": "769681558"
+         },
+         {
+          "Id": "775280356"
+         },
+         {
+          "Id": "789633460"
+         },
+         {
+          "Id": "845840044"
+         },
+         {
+          "Id": "857048363"
+         },
+         {
+          "Id": "874310512"
+         },
+         {
+          "Id": "911297484"
+         },
+         {
+          "Id": "919931986"
+         },
+         {
+          "Id": "965595966"
+         },
+         {
+          "Id": "1013059184"
+         },
+         {
+          "Id": "1013894997"
+         },
+         {
+          "Id": "1023687563"
+         },
+         {
+          "Id": "1025964852"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1045871717",
+         "Id": "136448968",
+         "GUID": "{450175B8-BC5B-468C-8DA0-3427C1146D59}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "State",
+           "GroupId": "3514626634",
+           "Id": "1281810935",
+           "GUID": "{94C5C768-ADD8-4F21-8A6A-1A04748EDDC4}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "337413908"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "State",
+           "GroupId": "3514626634",
+           "Id": "529726532",
+           "GUID": "{EAF696A7-1238-48EC-8AC5-AD066A257A76}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "728938415"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "State",
+           "GroupId": "3514626634",
+           "Id": "2149848048",
+           "GUID": "{C7715DA3-0A2B-487F-ACB7-5506BC6011B4}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "672193665"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1045871717",
+         "Id": "4075332698",
+         "GUID": "{B2A1CC93-F6FB-462F-9482-B291CF8347B4}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "24360973"
+         },
+         {
+          "Id": "232559764"
+         },
+         {
+          "Id": "259609216"
+         },
+         {
+          "Id": "266649685"
+         },
+         {
+          "Id": "314566562"
+         },
+         {
+          "Id": "315535314"
+         },
+         {
+          "Id": "321359870"
+         },
+         {
+          "Id": "321584106"
+         },
+         {
+          "Id": "357491887"
+         },
+         {
+          "Id": "364554459"
+         },
+         {
+          "Id": "573055176"
+         },
+         {
+          "Id": "622727473"
+         },
+         {
+          "Id": "735650498"
+         },
+         {
+          "Id": "781336248"
+         },
+         {
+          "Id": "789800528"
+         },
+         {
+          "Id": "813755083"
+         },
+         {
+          "Id": "1045869274"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1045871717",
+         "Id": "161398697",
+         "GUID": "{E4F69771-C9B8-4E29-A675-3910AB78E134}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "25950625"
+         },
+         {
+          "Id": "36872028"
+         },
+         {
+          "Id": "50288933"
+         },
+         {
+          "Id": "94636878"
+         },
+         {
+          "Id": "103443013"
+         },
+         {
+          "Id": "108793402"
+         },
+         {
+          "Id": "112884275"
+         },
+         {
+          "Id": "126207116"
+         },
+         {
+          "Id": "127648218"
+         },
+         {
+          "Id": "156015136"
+         },
+         {
+          "Id": "159362123"
+         },
+         {
+          "Id": "172877889"
+         },
+         {
+          "Id": "185088706"
+         },
+         {
+          "Id": "193828817"
+         },
+         {
+          "Id": "202210414"
+         },
+         {
+          "Id": "204304223"
+         },
+         {
+          "Id": "232986750"
+         },
+         {
+          "Id": "250104787"
+         },
+         {
+          "Id": "266980546"
+         },
+         {
+          "Id": "269499195"
+         },
+         {
+          "Id": "288130002"
+         },
+         {
+          "Id": "315431334"
+         },
+         {
+          "Id": "328165104"
+         },
+         {
+          "Id": "357358920"
+         },
+         {
+          "Id": "358051555"
+         },
+         {
+          "Id": "400251783"
+         },
+         {
+          "Id": "412227829"
+         },
+         {
+          "Id": "419194179"
+         },
+         {
+          "Id": "423403490"
+         },
+         {
+          "Id": "423820576"
+         },
+         {
+          "Id": "425607928"
+         },
+         {
+          "Id": "436212497"
+         },
+         {
+          "Id": "467014213"
+         },
+         {
+          "Id": "487728540"
+         },
+         {
+          "Id": "488116444"
+         },
+         {
+          "Id": "497178349"
+         },
+         {
+          "Id": "506065467"
+         },
+         {
+          "Id": "530152580"
+         },
+         {
+          "Id": "551424111"
+         },
+         {
+          "Id": "575763741"
+         },
+         {
+          "Id": "579138034"
+         },
+         {
+          "Id": "579458889"
+         },
+         {
+          "Id": "590883200"
+         },
+         {
+          "Id": "594388941"
+         },
+         {
+          "Id": "596310036"
+         },
+         {
+          "Id": "596568752"
+         },
+         {
+          "Id": "601332402"
+         },
+         {
+          "Id": "611681845"
+         },
+         {
+          "Id": "631010729"
+         },
+         {
+          "Id": "635006464"
+         },
+         {
+          "Id": "649172129"
+         },
+         {
+          "Id": "688509365"
+         },
+         {
+          "Id": "697052785"
+         },
+         {
+          "Id": "708220664"
+         },
+         {
+          "Id": "716963123"
+         },
+         {
+          "Id": "718374616"
+         },
+         {
+          "Id": "738236355"
+         },
+         {
+          "Id": "739684234"
+         },
+         {
+          "Id": "741134465"
+         },
+         {
+          "Id": "767563783"
+         },
+         {
+          "Id": "767777980"
+         },
+         {
+          "Id": "781486925"
+         },
+         {
+          "Id": "783020468"
+         },
+         {
+          "Id": "801976158"
+         },
+         {
+          "Id": "833466286"
+         },
+         {
+          "Id": "837393138"
+         },
+         {
+          "Id": "913328023"
+         },
+         {
+          "Id": "945349684"
+         },
+         {
+          "Id": "996574858"
+         },
+         {
+          "Id": "1017071179"
+         },
+         {
+          "Id": "1027351903"
+         },
+         {
+          "Id": "1039313053"
+         },
+         {
+          "Id": "1043562577"
+         },
+         {
+          "Id": "1062098989"
+         },
+         {
+          "Id": "1064324448"
+         },
+         {
+          "Id": "1071612995"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "872999148",
+      "Name": "Music_Intensity",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Music_Intensity",
+      "GUID": "{1ABC1240-75DB-4211-B62B-CE652C048DA0}"
+     },
+     {
+      "Id": "2537816454",
+      "Name": "Music_Speed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Music_Speed\\Music_Speed",
+      "GUID": "{01655F38-F17C-47C7-A606-982EB9C9D06F}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1045871717",
+      "Name": "GameStatus",
+      "ObjectPath": "\\States\\Default Work Unit\\GameStatus",
+      "GUID": "{7D6F9397-A79E-40FE-B5E9-98EDF4F34EDE}",
+      "States": [
+       {
+        "Id": "136448968",
+        "Name": "InGame_Ending",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\InGame_Ending",
+        "GUID": "{450175B8-BC5B-468C-8DA0-3427C1146D59}"
+       },
+       {
+        "Id": "161398697",
+        "Name": "InGame_Pause",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\InGame_Pause",
+        "GUID": "{E4F69771-C9B8-4E29-A675-3910AB78E134}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\None",
+        "GUID": "{5E792DF5-0830-43CD-B95B-39437647AAAC}"
+       },
+       {
+        "Id": "966734798",
+        "Name": "GameMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\GameMenu",
+        "GUID": "{61B9A9E5-B14A-42FF-AC8C-F548574E6172}"
+       },
+       {
+        "Id": "1862095286",
+        "Name": "InGame_Lvl1",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\InGame_Lvl1",
+        "GUID": "{A5F1AF65-D5B4-45E0-9835-1BCC4E3A7117}"
+       },
+       {
+        "Id": "3573931707",
+        "Name": "Loading",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\Loading",
+        "GUID": "{1DD02C6A-2CE8-4691-A283-B7271BDEFE70}"
+       },
+       {
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\MainMenu",
+        "GUID": "{0FB1CB68-DAA1-4F0B-A308-CB5D0BA9E9D5}"
+       },
+       {
+        "Id": "4075332698",
+        "Name": "Beach",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\Beach",
+        "GUID": "{B2A1CC93-F6FB-462F-9482-B291CF8347B4}"
+       }
+      ]
+     },
+     {
+      "Id": "3514626634",
+      "Name": "MUS_VictorySeq",
+      "ObjectPath": "\\States\\Default Work Unit\\MUS_VictorySeq",
+      "GUID": "{58BE40E9-2BED-4AF7-B555-EF55EC9AD47F}",
+      "States": [
+       {
+        "Id": "529726532",
+        "Name": "End",
+        "ObjectPath": "\\States\\Default Work Unit\\MUS_VictorySeq\\End",
+        "GUID": "{EAF696A7-1238-48EC-8AC5-AD066A257A76}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\MUS_VictorySeq\\None",
+        "GUID": "{9D0FF694-CDAD-42EA-A4C4-D2C273D19412}"
+       },
+       {
+        "Id": "1281810935",
+        "Name": "Start",
+        "ObjectPath": "\\States\\Default Work Unit\\MUS_VictorySeq\\Start",
+        "GUID": "{94C5C768-ADD8-4F21-8A6A-1A04748EDDC4}"
+       },
+       {
+        "Id": "2149848048",
+        "Name": "BuildUp",
+        "ObjectPath": "\\States\\Default Work Unit\\MUS_VictorySeq\\BuildUp",
+        "GUID": "{C7715DA3-0A2B-487F-ACB7-5506BC6011B4}"
+       }
+      ]
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "779278001",
+      "Name": "Death",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\Death",
+      "GUID": "{AB763D14-4F39-42B8-9BA9-B2E8E9E19B7E}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B105617E-E0C1-52CE-32E9-D9FC40145DE9}"
+ }
+}
