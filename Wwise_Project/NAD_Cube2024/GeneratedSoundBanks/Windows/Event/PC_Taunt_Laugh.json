@@ -1,0 +1,61 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "475232621",
+    "Type": "Event",
+    "GUID": "{9F01B37C-A337-483F-B3A7-4802615503E2}",
+    "Language": "SFX",
+    "Hash": "{5B8D7F3C-C94F-C1C2-9A45-0C6E9E08DAB8}",
+    "ObjectPath": "PC_Taunt_Laugh",
+    "ShortName": "PC_Taunt_Laugh",
+    "Path": "Event/PC_Taunt_Laugh.bnk",
+    "Media": [
+     {
+      "Id": "583588668",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Taunt_Laugh_Var_2.wav",
+      "Path": "Media/583588668.wem",
+      "CachePath": "SFX/VO_Taunt_Laugh_Var_2_8CE217A3.wem"
+     },
+     {
+      "Id": "826109656",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Taunt_Laugh_Var_1.wav",
+      "Path": "Media/826109656.wem",
+      "CachePath": "SFX/VO_Taunt_Laugh_Var_1_7F982318.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "475232621",
+      "Name": "PC_Taunt_Laugh",
+      "ObjectPath": "\\Events\\SFX WU\\Player_Events_WU\\Emotes\\PC_Taunt_Laugh",
+      "GUID": "{9F01B37C-A337-483F-B3A7-4802615503E2}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.217875",
+      "DurationMax": "1.217875",
+      "MediaRefs": [
+       {
+        "Id": "583588668"
+       },
+       {
+        "Id": "826109656"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CA3C856D-000B-839F-9F63-F24FA16EF9FB}"
+ }
+}

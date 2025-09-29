@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="475232621" Type="Event" GUID="{9F01B37C-A337-483F-B3A7-4802615503E2}" Language="SFX" Hash="{5B8D7F3C-C94F-C1C2-9A45-0C6E9E08DAB8}">
+			<ObjectPath>PC_Taunt_Laugh</ObjectPath>
+			<ShortName>PC_Taunt_Laugh</ShortName>
+			<Path>Event/PC_Taunt_Laugh.bnk</Path>
+			<Media>
+				<File Id="583588668" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>VO_Taunt_Laugh_Var_2.wav</ShortName>
+					<Path>Media/583588668.wem</Path>
+					<CachePath>SFX/VO_Taunt_Laugh_Var_2_8CE217A3.wem</CachePath>
+				</File>
+				<File Id="826109656" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>VO_Taunt_Laugh_Var_1.wav</ShortName>
+					<Path>Media/826109656.wem</Path>
+					<CachePath>SFX/VO_Taunt_Laugh_Var_1_7F982318.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="475232621" Name="PC_Taunt_Laugh" ObjectPath="\Events\SFX WU\Player_Events_WU\Emotes\PC_Taunt_Laugh" GUID="{9F01B37C-A337-483F-B3A7-4802615503E2}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="1.217875" DurationMax="1.217875">
+					<MediaRefs>
+						<MediaRef Id="583588668"/>
+						<MediaRef Id="826109656"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{A54E4A8E-0178-AB0B-6854-AFD123E2B891}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2082375054" Type="Event" GUID="{5066B1D8-3D03-4B8B-A31D-D59920BD9061}" Language="SFX" Hash="{B601A6E6-FAD4-A7E5-C2CB-FF8A92D44235}">
+			<ObjectPath>Prop_Envi_Pillar_Falling</ObjectPath>
+			<ShortName>Prop_Envi_Pillar_Falling</ShortName>
+			<Path>Event/Prop_Envi_Pillar_Falling.bnk</Path>
+			<Media>
+				<File Id="352854349" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>OBJ_Projectile_Impact_03.wav</ShortName>
+					<Path>Media/352854349.wem</Path>
+					<CachePath>SFX/OBJ_Projectile_Impact_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="626559871" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>OBJ_Projectile_Impact_05_1.wav</ShortName>
+					<Path>Media/626559871.wem</Path>
+					<CachePath>SFX/OBJ_Projectile_Impact_05_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="806734318" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>OBJ_Projectile_Impact_01_1.wav</ShortName>
+					<Path>Media/806734318.wem</Path>
+					<CachePath>SFX/OBJ_Projectile_Impact_01_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="915003243" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>OBJ_Projectile_Impact_04_1.wav</ShortName>
+					<Path>Media/915003243.wem</Path>
+					<CachePath>SFX/OBJ_Projectile_Impact_04_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1007472599" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>OBJ_Projectile_Impact_03_1.wav</ShortName>
+					<Path>Media/1007472599.wem</Path>
+					<CachePath>SFX/OBJ_Projectile_Impact_03_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1047285972" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>OBJ_Projectile_Impact_01.wav</ShortName>
+					<Path>Media/1047285972.wem</Path>
+					<CachePath>SFX/OBJ_Projectile_Impact_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1071457433" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>OBJ_Projectile_Impact_02_1.wav</ShortName>
+					<Path>Media/1071457433.wem</Path>
+					<CachePath>SFX/OBJ_Projectile_Impact_02_1_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2082375054" Name="Prop_Envi_Pillar_Falling" ObjectPath="\Events\SFX WU\Objects_Events_WU\Envi\Prop_Envi_Pillar_Falling" GUID="{5066B1D8-3D03-4B8B-A31D-D59920BD9061}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="0.9166667" DurationMax="1.2541667">
+					<MediaRefs>
+						<MediaRef Id="352854349"/>
+						<MediaRef Id="626559871"/>
+						<MediaRef Id="806734318"/>
+						<MediaRef Id="915003243"/>
+						<MediaRef Id="1007472599"/>
+						<MediaRef Id="1047285972"/>
+						<MediaRef Id="1071457433"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{33E59B99-35DE-04FA-4D91-51A3B1ECB858}</FileHash>
+</SoundBanksInfo>

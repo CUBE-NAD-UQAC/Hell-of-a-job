@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	475232621	PC_Taunt_Laugh			\SFX WU\Player_Events_WU\Emotes\PC_Taunt_Laugh	
+

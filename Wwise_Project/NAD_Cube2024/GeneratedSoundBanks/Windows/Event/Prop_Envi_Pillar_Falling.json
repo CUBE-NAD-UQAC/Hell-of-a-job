@@ -1,0 +1,121 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2082375054",
+    "Type": "Event",
+    "GUID": "{5066B1D8-3D03-4B8B-A31D-D59920BD9061}",
+    "Language": "SFX",
+    "Hash": "{B601A6E6-FAD4-A7E5-C2CB-FF8A92D44235}",
+    "ObjectPath": "Prop_Envi_Pillar_Falling",
+    "ShortName": "Prop_Envi_Pillar_Falling",
+    "Path": "Event/Prop_Envi_Pillar_Falling.bnk",
+    "Media": [
+     {
+      "Id": "352854349",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "OBJ_Projectile_Impact_03.wav",
+      "Path": "Media/352854349.wem",
+      "CachePath": "SFX/OBJ_Projectile_Impact_03_818F3B66.wem"
+     },
+     {
+      "Id": "626559871",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "OBJ_Projectile_Impact_05_1.wav",
+      "Path": "Media/626559871.wem",
+      "CachePath": "SFX/OBJ_Projectile_Impact_05_1_818F3B66.wem"
+     },
+     {
+      "Id": "806734318",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "OBJ_Projectile_Impact_01_1.wav",
+      "Path": "Media/806734318.wem",
+      "CachePath": "SFX/OBJ_Projectile_Impact_01_1_818F3B66.wem"
+     },
+     {
+      "Id": "915003243",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "OBJ_Projectile_Impact_04_1.wav",
+      "Path": "Media/915003243.wem",
+      "CachePath": "SFX/OBJ_Projectile_Impact_04_1_818F3B66.wem"
+     },
+     {
+      "Id": "1007472599",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "OBJ_Projectile_Impact_03_1.wav",
+      "Path": "Media/1007472599.wem",
+      "CachePath": "SFX/OBJ_Projectile_Impact_03_1_818F3B66.wem"
+     },
+     {
+      "Id": "1047285972",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "OBJ_Projectile_Impact_01.wav",
+      "Path": "Media/1047285972.wem",
+      "CachePath": "SFX/OBJ_Projectile_Impact_01_818F3B66.wem"
+     },
+     {
+      "Id": "1071457433",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "OBJ_Projectile_Impact_02_1.wav",
+      "Path": "Media/1071457433.wem",
+      "CachePath": "SFX/OBJ_Projectile_Impact_02_1_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2082375054",
+      "Name": "Prop_Envi_Pillar_Falling",
+      "ObjectPath": "\\Events\\SFX WU\\Objects_Events_WU\\Envi\\Prop_Envi_Pillar_Falling",
+      "GUID": "{5066B1D8-3D03-4B8B-A31D-D59920BD9061}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.9166667",
+      "DurationMax": "1.2541667",
+      "MediaRefs": [
+       {
+        "Id": "352854349"
+       },
+       {
+        "Id": "626559871"
+       },
+       {
+        "Id": "806734318"
+       },
+       {
+        "Id": "915003243"
+       },
+       {
+        "Id": "1007472599"
+       },
+       {
+        "Id": "1047285972"
+       },
+       {
+        "Id": "1071457433"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{33CF5623-5C93-A754-EEEB-85ED6D94EAD9}"
+ }
+}
