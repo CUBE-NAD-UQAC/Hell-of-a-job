@@ -1,0 +1,123 @@
+# P4IGNORE template for Wwise Project
+#
+# If you do not yet have a .p4ignore file configured:
+# 1. Create a new Wwise project in a P4 workspace.
+# 2. From the command line, execute the following command (make sure to use the proper path): p4 set P4IGNORE=PATH_TO\.p4ignore
+#
+# If you already have a .p4ignore file configured:
+# 1. Copy-paste the content of this current file into your .p4ignore file.
+# 
+# For more information on how to use p4ignore files, please refer to the p4 documentation: #https://www.perforce.com/manuals/cmdref/Content/CmdRef/P4IGNORE.html
+
+Wwise_Project/.backup/
+Wwise_Project/.cache/
+*.akd
+*.prof
+*.validationcache
+*.wsettings
+Wwise_Project/AkWwiseProjectData.asset
+Wwise_Project/IncrementalSoundBankData.xml
+
+# To use a private .p4ignore file, uncomment the following line (it will ignore itself).
+#.p4ignore
+
+#
+# P4IGNORE For Unreal specific 
+# source : https://github.com/mattmarcin/ue4-perforce/blob/master/.p4ignore
+#
+
+Saved/
+LocalBuilds/
+*.csproj.*
+.vs/*
+*.pdb
+*.suo
+*.opensdf
+*.sdf
+*.tmp
+*.mdb
+*/obj/*
+*.vcxproj
+*.sln
+*-Debug.*
+/FileOpenOrder/
+*.xcworkspace
+*.xcodeproj
+./Makefile
+./CMakeLists.txt
+.ue4dependencies
+Samples/*
+FeaturePacks/*
+Engine/Documentation/*
+.git/*
+*.csprojAssemblyReference.cache
+
+#Linux Debug Files
+*.sym
+*.debug
+
+# Engine intermediates
+Engine/Intermediate/*
+Intermediate/*
+
+# Intermediate folders for programs should not be checked in
+Engine\Programs\*\Intermediate\*
+
+# Intermediate folders created for various C# programs
+Engine\Source\Programs\*\obj\*
+
+# Saved folders for programs should not be checked in
+Engine\Programs\*\Saved\*
+Engine\Programs\UnrealBuildTool\*
+
+# Derived data cache should never be checked in
+Engine/DerivedDataCache/*
+
+# Ignore any build receipts
+Engine/Build/Receipts/*
+
+# Ignore Unix backup files
+*~
+
+# Ignore Mac desktop services store files
+.DS_Store
+
+# Ignore crash reports
+crashinfo--*
+
+# Ignore linux project files.
+*.user
+*.pro
+*.pri
+*.kdev4
+
+# Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Ignore documentation generated for C# tools
+Engine/Binaries/DotNET/UnrealBuildTool.xml
+Engine/Binaries/DotNET/AutomationScripts/BuildGraph.Automation.xml
+
+# Ignore version files in the Engine/Binaries directory created by UBT
+/Engine/Binaries/**/*.version
+
+# Ignore exp files in the the Engine/Binaries directory as they aren't C/C++ source files
+/Engine/Binaries/**/*.exp
+
+# Ignore Swarm local save files
+Engine/Binaries/DotNET/SwarmAgent.DeveloperOptions.xml
+Engine/Binaries/DotNET/SwarmAgent.Options.xml
+
+# Intermediary Files
+*.target.xml
+*.exe.config
+*.exe.manifest
+
+# Ignore project-specific files
+GAMEPROJECT/Build/Receipts/*
+GAMEPROJECT/DerivedDataCache/*
+GAMEPROJECT/Binaries/*-Shipping.*
+GAMEPROJECT/Intermediate/*
