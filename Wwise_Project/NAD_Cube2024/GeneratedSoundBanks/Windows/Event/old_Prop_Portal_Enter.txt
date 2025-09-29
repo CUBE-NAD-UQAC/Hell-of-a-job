@@ -1,0 +1,4 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2010839542	old_Prop_Portal_Enter			\SFX WU\Objects_Events_WU\_old\old_Prop_Portal_Enter	
+	3317505025	Stop_Portal_Hum			\SFX WU\Objects_Events_WU\Stop_Portal_Hum	
+

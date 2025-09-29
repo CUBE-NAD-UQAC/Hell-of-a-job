@@ -1,0 +1,127 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1417032155",
+    "Type": "Event",
+    "GUID": "{819A057F-B549-4A24-8E5B-17BD993C5488}",
+    "Language": "SFX",
+    "Hash": "{A3A35DCC-5A80-5CCE-1D3B-580031314A69}",
+    "ObjectPath": "Prop_Collectible_Contact_Crit",
+    "ShortName": "Prop_Collectible_Contact_Crit",
+    "Path": "Event/Prop_Collectible_Contact_Crit.bnk",
+    "Media": [
+     {
+      "Id": "480258192",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Porp_Collectible_Crit-002.wav",
+      "Path": "Media/480258192.wem",
+      "CachePath": "SFX/SFX_Porp_Collectible_Crit-002_86647BDC.wem"
+     },
+     {
+      "Id": "614881823",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Porp_Collectible_Crit-005.wav",
+      "Path": "Media/614881823.wem",
+      "CachePath": "SFX/SFX_Porp_Collectible_Crit-005_3E35B3CA.wem"
+     },
+     {
+      "Id": "838131394",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Porp_Collectible_Crit-006.wav",
+      "Path": "Media/838131394.wem",
+      "CachePath": "SFX/SFX_Porp_Collectible_Crit-006_48354323.wem"
+     },
+     {
+      "Id": "896002447",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Porp_Collectible_Crit-004.wav",
+      "Path": "Media/896002447.wem",
+      "CachePath": "SFX/SFX_Porp_Collectible_Crit-004_45BC18F7.wem"
+     },
+     {
+      "Id": "957501732",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Porp_Collectible_Crit-001.wav",
+      "Path": "Media/957501732.wem",
+      "CachePath": "SFX/SFX_Porp_Collectible_Crit-001_8CA3CDEC.wem"
+     },
+     {
+      "Id": "1006722675",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Porp_Collectible_Crit-003.wav",
+      "Path": "Media/1006722675.wem",
+      "CachePath": "SFX/SFX_Porp_Collectible_Crit-003_45BC18F7.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1021723311",
+       "Name": "FX_EQ_Collectible",
+       "ObjectPath": "\\Effects\\Default Work Unit\\FX_EQ_Collectible",
+       "GUID": "{FDDD1539-1734-4A50-8B3C-5F1C23562A98}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "1417032155",
+      "Name": "Prop_Collectible_Contact_Crit",
+      "ObjectPath": "\\Events\\SFX WU\\Objects_Events_WU\\Collectibles\\Prop_Collectible_Contact_Crit",
+      "GUID": "{819A057F-B549-4A24-8E5B-17BD993C5488}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7947483",
+      "DurationMax": "1.8040572",
+      "MediaRefs": [
+       {
+        "Id": "480258192"
+       },
+       {
+        "Id": "614881823"
+       },
+       {
+        "Id": "838131394"
+       },
+       {
+        "Id": "896002447"
+       },
+       {
+        "Id": "957501732"
+       },
+       {
+        "Id": "1006722675"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1021723311"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B45EF021-9CF0-8D04-62BD-9DD1946CA08A}"
+ }
+}

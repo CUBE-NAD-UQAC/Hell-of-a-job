@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2082375054	Prop_Envi_Pillar_Falling			\SFX WU\Objects_Events_WU\Envi\Prop_Envi_Pillar_Falling	
+

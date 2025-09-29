@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2169231699	UI_Post_Game_Score_Counter			\SFX WU\UI_Events_WU\UI_Post_Game_Score_Counter	
+

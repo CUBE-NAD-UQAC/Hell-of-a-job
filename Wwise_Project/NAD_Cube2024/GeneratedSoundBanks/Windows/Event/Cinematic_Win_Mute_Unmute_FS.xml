@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="621378612" Type="Event" GUID="{939E06A6-8918-4A5A-9051-965CAC906665}" Language="SFX" Hash="{B90C4E5A-9E99-1687-6EAC-C665423C590B}">
+			<ObjectPath>Cinematic_Win_Mute_Unmute_FS</ObjectPath>
+			<ShortName>Cinematic_Win_Mute_Unmute_FS</ShortName>
+			<Path>Event/Cinematic_Win_Mute_Unmute_FS.bnk</Path>
+			<Events>
+				<Event Id="621378612" Name="Cinematic_Win_Mute_Unmute_FS" ObjectPath="\Events\Cinematic\Cinematic_Win_Mute_Unmute_FS" GUID="{939E06A6-8918-4A5A-9051-965CAC906665}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{D7B0E49E-CB3D-F14B-D8AF-5FD846D29BD7}</FileHash>
+</SoundBanksInfo>

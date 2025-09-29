@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D628E458-2DB0-442F-A278-FE1A28C7A7EA}" SchemaVersion="119">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{D628E458-2DB0-442F-A278-FE1A28C7A7EA}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Level1_Soundcaster" ID="{1ED2FDC5-9814-4206-B293-5ECEA6F15262}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="GameBoot" ID="{5C0C2899-B832-44AD-B640-753470E3611D}" WorkUnitID="{ECA8866C-8288-4997-86EF-51237F703A90}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PC_Ac_Charge_03" ID="{D4CB6590-7B0A-42F8-9ECA-3A00A40A41D6}" WorkUnitID="{C8FAF46F-54A1-4EA8-818E-C346D0C0A392}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Prop_Collectible_Break" ID="{F6CDB533-AE90-4F62-A088-FAB1E9577B37}" WorkUnitID="{97BA7E9A-C1A6-406C-AAE8-9B96959C7342}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Prop_Portal_Ready" ID="{01265BB2-41B3-4DA8-B3ED-E71C388A3B0B}" WorkUnitID="{97BA7E9A-C1A6-406C-AAE8-9B96959C7342}"/>
+							<Position X="0" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="AMB_Base" ID="{DF5AF39F-2629-4FAD-9661-D9C3CE4259D5}" WorkUnitID="{223804A0-9DDA-4117-AD4C-00839DFA545B}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PC_Stat_Spawn" ID="{3BB0B552-3C25-4B9E-878F-95515BCFADA7}" WorkUnitID="{C8FAF46F-54A1-4EA8-818E-C346D0C0A392}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PC_Ac_Throw" ID="{BD349991-DB82-4FD5-8B7C-6FD62496B49B}" WorkUnitID="{C8FAF46F-54A1-4EA8-818E-C346D0C0A392}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Prop_Collectible_Spawn" ID="{7201C1BA-99FD-4C3C-AE3B-D4DB1988C75D}" WorkUnitID="{97BA7E9A-C1A6-406C-AAE8-9B96959C7342}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Prop_Portal_Activate" ID="{ADF8CE16-4BA9-4029-84CD-05EC1132DE83}" WorkUnitID="{97BA7E9A-C1A6-406C-AAE8-9B96959C7342}"/>
+							<Position X="1" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StartMus" ID="{1FC3EB83-5BE8-42CA-B32C-24BCA239F891}" WorkUnitID="{8A738ED8-635D-41A2-AE46-146017022389}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PC_Stat_Death" ID="{53E3341C-C5EA-4DAD-BA99-9C383912E137}" WorkUnitID="{C8FAF46F-54A1-4EA8-818E-C346D0C0A392}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PC_Stat_Hit" ID="{5F9F8AA6-FB7B-44AD-B658-56D7B7531B94}" WorkUnitID="{C8FAF46F-54A1-4EA8-818E-C346D0C0A392}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Prop_Collectible_PickUp" ID="{43E7408A-2341-4BE6-82A5-57B4FE304F2E}" WorkUnitID="{97BA7E9A-C1A6-406C-AAE8-9B96959C7342}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="KillAll" ID="{5F782BDA-56DB-4FF0-BACF-4954C7839FFC}" WorkUnitID="{ECA8866C-8288-4997-86EF-51237F703A90}"/>
+							<Position X="2" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="old_Prop_Portal_Enter" ID="{666FF1B3-D62D-4126-905A-1EA5CCC23B8B}" WorkUnitID="{97BA7E9A-C1A6-406C-AAE8-9B96959C7342}"/>
+							<Position X="2" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PC_FS" ID="{28E9067A-597B-4434-8AA6-B48269ADC949}" WorkUnitID="{C8FAF46F-54A1-4EA8-818E-C346D0C0A392}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Prop_Portal_Out" ID="{C5F250D0-C6F9-4A1E-AE3D-31F84590E4EA}" WorkUnitID="{97BA7E9A-C1A6-406C-AAE8-9B96959C7342}"/>
+							<Position X="3" Y="7"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Music_Intensity" ID="{1ABC1240-75DB-4211-B62B-CE652C048DA0}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SFX_Bus_Volume" ID="{4C9B8BF9-6592-4471-9F39-E71E1A0A4196}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CameraDistance" ID="{FBCF16DF-664E-4ABB-A6E2-EBDBB6675700}"/>
+							<Value>1</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Gravel" ID="{3DB1534D-F3A5-4FA8-8536-78F5CE3824FD}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Collectibles" ID="{752532F5-137F-4132-B165-EB9718915B38}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Prop_Collectible_Spawn" ID="{7201C1BA-99FD-4C3C-AE3B-D4DB1988C75D}" WorkUnitID="{97BA7E9A-C1A6-406C-AAE8-9B96959C7342}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PC_Ac_Charge_ALL" ID="{03D4C276-8806-4859-AF74-A085DD00C0D5}" WorkUnitID="{C8FAF46F-54A1-4EA8-818E-C346D0C0A392}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Prop_Collectible_PickUp" ID="{43E7408A-2341-4BE6-82A5-57B4FE304F2E}" WorkUnitID="{97BA7E9A-C1A6-406C-AAE8-9B96959C7342}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Charge" ID="{43CEAD40-6A47-4FD8-9A24-7BFCE6D60BE1}" WorkUnitID="{C8FAF46F-54A1-4EA8-818E-C346D0C0A392}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PC_Ac_Charge_03" ID="{D4CB6590-7B0A-42F8-9ECA-3A00A40A41D6}" WorkUnitID="{C8FAF46F-54A1-4EA8-818E-C346D0C0A392}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PC_Ac_Throw" ID="{BD349991-DB82-4FD5-8B7C-6FD62496B49B}" WorkUnitID="{C8FAF46F-54A1-4EA8-818E-C346D0C0A392}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Prop_Collectible_Contact" ID="{F3DC9D31-CB17-4CB6-9AED-2F78733AF90B}" WorkUnitID="{97BA7E9A-C1A6-406C-AAE8-9B96959C7342}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Prop_Collectible_Contact_Crit" ID="{819A057F-B549-4A24-8E5B-17BD993C5488}" WorkUnitID="{97BA7E9A-C1A6-406C-AAE8-9B96959C7342}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Music_Stinger_Ducking" ID="{72F45571-BA9C-4148-9DA2-FFAE8D2110C2}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music_Intensity" ID="{1ABC1240-75DB-4211-B62B-CE652C048DA0}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SFX_Bus_Volume" ID="{4C9B8BF9-6592-4471-9F39-E71E1A0A4196}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="AMB_BUS_Vol" ID="{BC93765B-C159-4683-8032-644093F13212}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MUS_BUS_Vol" ID="{CF800346-ED9D-472F-A14C-A9496E1BC665}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music_Speed" ID="{01655F38-F17C-47C7-A606-982EB9C9D06F}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SFX_BUS_Vol" ID="{73A15D09-3A7B-4801-B402-49C378BE6FF8}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Sidechain_SFX_Player" ID="{A8CAF82F-7AB3-4A5A-8D03-2CA4329161BA}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CameraDistance" ID="{FBCF16DF-664E-4ABB-A6E2-EBDBB6675700}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MASTER_BUS_Vol" ID="{83A45E87-C5CE-4CA0-925A-64F2EEC26CE5}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="InGame_Lvl1" ID="{A5F1AF65-D5B4-45E0-9835-1BCC4E3A7117}"/>
+						<CurrentStateRef Name="Normal" ID="{EAD1EAEC-4088-4F70-9C07-3FCFBE3F9200}"/>
+						<CurrentStateRef Name="None" ID="{9D0FF694-CDAD-42EA-A4C4-D2C273D19412}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Gravel" ID="{3DB1534D-F3A5-4FA8-8536-78F5CE3824FD}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Cinematic" ID="{1B299324-9B1F-49AE-8299-596053750178}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Footstpes_Surface" ID="{CE38BF94-FC74-4B88-B9C0-DECC2973A4D8}" WorkUnitID="{F783C58A-C7F3-44DC-9BDB-2B33640573EE}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Cinematic_Win_Mute_Unmute_FS" ID="{939E06A6-8918-4A5A-9051-965CAC906665}" WorkUnitID="{DA13FB2A-4CD7-4C83-BFA9-17F3E4B3AFEA}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Gravel" ID="{3DB1534D-F3A5-4FA8-8536-78F5CE3824FD}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Music_Test" ID="{B5AF4410-1C5A-497F-94DC-E731DE1196D3}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="StartMus" ID="{1FC3EB83-5BE8-42CA-B32C-24BCA239F891}" WorkUnitID="{8A738ED8-635D-41A2-AE46-146017022389}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Animatique_Start" ID="{ADCD7436-AB45-4AF9-B4E6-82E233EEECE2}" WorkUnitID="{ECA8866C-8288-4997-86EF-51237F703A90}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Animatique_End" ID="{50A505CD-BB7F-4CBA-92F6-A7BF4AA3571E}" WorkUnitID="{ECA8866C-8288-4997-86EF-51237F703A90}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Music_Stinger_Ducking" ID="{72F45571-BA9C-4148-9DA2-FFAE8D2110C2}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Loading" ID="{1DD02C6A-2CE8-4691-A283-B7271BDEFE70}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Gravel" ID="{3DB1534D-F3A5-4FA8-8536-78F5CE3824FD}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Sidechain" ID="{D8F4B20F-0DF3-484A-8A20-0B88984E81E2}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="RdC_Collectible_Contact_Crit" ID="{9A55E7AB-6691-4BAD-B416-8616BB6E84F5}" WorkUnitID="{32D2CF00-6698-40FD-806B-29F07F6D4BA3}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Amb_Level1_Blend" ID="{411515B8-122D-40DE-B0EF-2A82F4CD8BE5}" WorkUnitID="{74457123-D75F-4E8F-A395-16DE7294385D}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="AMB_BUS" ID="{F40EAD15-E769-4CAE-A4EF-1A3E43D0AFA3}" WorkUnitID="{F2A5B442-D0FD-48AC-A144-A189423A6C4A}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="SFX_Bus_Volume" ID="{4C9B8BF9-6592-4471-9F39-E71E1A0A4196}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Sidechain_SFX_Player" ID="{A8CAF82F-7AB3-4A5A-8D03-2CA4329161BA}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CameraDistance" ID="{FBCF16DF-664E-4ABB-A6E2-EBDBB6675700}"/>
+							<Value>74.167638483965</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MASTER_BUS_Vol" ID="{83A45E87-C5CE-4CA0-925A-64F2EEC26CE5}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="InGame_Lvl1" ID="{A5F1AF65-D5B4-45E0-9835-1BCC4E3A7117}"/>
+						<CurrentStateRef Name="Normal" ID="{EAD1EAEC-4088-4F70-9C07-3FCFBE3F9200}"/>
+						<CurrentStateRef Name="None" ID="{9D0FF694-CDAD-42EA-A4C4-D2C273D19412}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Gravel" ID="{3DB1534D-F3A5-4FA8-8536-78F5CE3824FD}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Ambiences" ID="{0C6E163A-4A92-4B3D-A73C-396FEDEE231F}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="AMB_3D_Brazier" ID="{01BD0AF8-0F4A-4282-944D-2661E768A990}" WorkUnitID="{74457123-D75F-4E8F-A395-16DE7294385D}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Amb_Beach" ID="{C17C95AE-CA97-4748-BE11-8B03C836B769}" WorkUnitID="{74457123-D75F-4E8F-A395-16DE7294385D}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_AMB_Base" ID="{32070643-9094-4B1B-9250-01861339750C}" WorkUnitID="{223804A0-9DDA-4117-AD4C-00839DFA545B}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

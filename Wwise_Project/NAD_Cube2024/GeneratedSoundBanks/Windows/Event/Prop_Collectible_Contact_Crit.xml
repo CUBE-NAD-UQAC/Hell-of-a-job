@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1417032155" Type="Event" GUID="{819A057F-B549-4A24-8E5B-17BD993C5488}" Language="SFX" Hash="{A3A35DCC-5A80-5CCE-1D3B-580031314A69}">
+			<ObjectPath>Prop_Collectible_Contact_Crit</ObjectPath>
+			<ShortName>Prop_Collectible_Contact_Crit</ShortName>
+			<Path>Event/Prop_Collectible_Contact_Crit.bnk</Path>
+			<Media>
+				<File Id="480258192" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Porp_Collectible_Crit-002.wav</ShortName>
+					<Path>Media/480258192.wem</Path>
+					<CachePath>SFX/SFX_Porp_Collectible_Crit-002_86647BDC.wem</CachePath>
+				</File>
+				<File Id="614881823" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Porp_Collectible_Crit-005.wav</ShortName>
+					<Path>Media/614881823.wem</Path>
+					<CachePath>SFX/SFX_Porp_Collectible_Crit-005_3E35B3CA.wem</CachePath>
+				</File>
+				<File Id="838131394" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Porp_Collectible_Crit-006.wav</ShortName>
+					<Path>Media/838131394.wem</Path>
+					<CachePath>SFX/SFX_Porp_Collectible_Crit-006_48354323.wem</CachePath>
+				</File>
+				<File Id="896002447" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Porp_Collectible_Crit-004.wav</ShortName>
+					<Path>Media/896002447.wem</Path>
+					<CachePath>SFX/SFX_Porp_Collectible_Crit-004_45BC18F7.wem</CachePath>
+				</File>
+				<File Id="957501732" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Porp_Collectible_Crit-001.wav</ShortName>
+					<Path>Media/957501732.wem</Path>
+					<CachePath>SFX/SFX_Porp_Collectible_Crit-001_8CA3CDEC.wem</CachePath>
+				</File>
+				<File Id="1006722675" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Porp_Collectible_Crit-003.wav</ShortName>
+					<Path>Media/1006722675.wem</Path>
+					<CachePath>SFX/SFX_Porp_Collectible_Crit-003_45BC18F7.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1021723311" Name="FX_EQ_Collectible" ObjectPath="\Effects\Default Work Unit\FX_EQ_Collectible" GUID="{FDDD1539-1734-4A50-8B3C-5F1C23562A98}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="1417032155" Name="Prop_Collectible_Contact_Crit" ObjectPath="\Events\SFX WU\Objects_Events_WU\Collectibles\Prop_Collectible_Contact_Crit" GUID="{819A057F-B549-4A24-8E5B-17BD993C5488}" DurationType="OneShot" DurationMin="1.7947483" DurationMax="1.8040572">
+					<MediaRefs>
+						<MediaRef Id="480258192"/>
+						<MediaRef Id="614881823"/>
+						<MediaRef Id="838131394"/>
+						<MediaRef Id="896002447"/>
+						<MediaRef Id="957501732"/>
+						<MediaRef Id="1006722675"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1021723311"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{430FFBFD-8DD0-EA65-02F4-3479792A4C9A}</FileHash>
+</SoundBanksInfo>

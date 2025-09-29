@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1417032155	Prop_Collectible_Contact_Crit			\SFX WU\Objects_Events_WU\Collectibles\Prop_Collectible_Contact_Crit	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1021723311	FX_EQ_Collectible	Wwise Parametric EQ			
+

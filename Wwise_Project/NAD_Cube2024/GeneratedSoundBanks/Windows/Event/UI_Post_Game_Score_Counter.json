@@ -1,0 +1,83 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2169231699",
+    "Type": "Event",
+    "GUID": "{F94FF8F2-4D94-4647-BA1A-FE272C43F91C}",
+    "Language": "SFX",
+    "Hash": "{83E1A4B7-81AF-D64D-571F-50B3D7663199}",
+    "ObjectPath": "UI_Post_Game_Score_Counter",
+    "ShortName": "UI_Post_Game_Score_Counter",
+    "Path": "Event/UI_Post_Game_Score_Counter.bnk",
+    "Media": [
+     {
+      "Id": "201213398",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bounce\\UI\\SFX_UI_Score_Counter_PostGame_3.wav",
+      "Path": "Media/201213398.wem",
+      "CachePath": "SFX/Bounce/UI/SFX_UI_Score_Counter_PostGame_3_D035779F.wem"
+     },
+     {
+      "Id": "321623280",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bounce\\UI\\SFX_UI_Score_Counter_PostGame_4.wav",
+      "Path": "Media/321623280.wem",
+      "CachePath": "SFX/Bounce/UI/SFX_UI_Score_Counter_PostGame_4_B81357D9.wem"
+     },
+     {
+      "Id": "549704689",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bounce\\UI\\SFX_UI_Score_Counter_PostGame_2.wav",
+      "Path": "Media/549704689.wem",
+      "CachePath": "SFX/Bounce/UI/SFX_UI_Score_Counter_PostGame_2_87AE4CAA.wem"
+     },
+     {
+      "Id": "1063699745",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bounce\\UI\\SFX_UI_Score_Counter_PostGame_1.wav",
+      "Path": "Media/1063699745.wem",
+      "CachePath": "SFX/Bounce/UI/SFX_UI_Score_Counter_PostGame_1_858CBD78.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2169231699",
+      "Name": "UI_Post_Game_Score_Counter",
+      "ObjectPath": "\\Events\\SFX WU\\UI_Events_WU\\UI_Post_Game_Score_Counter",
+      "GUID": "{F94FF8F2-4D94-4647-BA1A-FE272C43F91C}",
+      "MaxAttenuation": "2000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "201213398"
+       },
+       {
+        "Id": "321623280"
+       },
+       {
+        "Id": "549704689"
+       },
+       {
+        "Id": "1063699745"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{067C7589-B0B7-43BC-161B-2F054F379038}"
+ }
+}

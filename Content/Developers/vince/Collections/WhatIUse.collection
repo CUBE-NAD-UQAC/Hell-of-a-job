@@ -1,0 +1,17 @@
+FileVersion:2
+Type:Static
+Guid:F07FDC29-43D2-95C2-A717-C7A12EE4F1BF
+ParentGuid:00000000-0000-0000-0000-000000000000
+
+/Game/Blueprints/Camera/BP_DynamicCamera.BP_DynamicCamera
+/Game/Blueprints/Characters/BP_MainCharacter.BP_MainCharacter
+/Game/Blueprints/GameModes/BP_GameInstance.BP_GameInstance
+/Game/Blueprints/GameModes/GM_Scavenger.GM_Scavenger
+/Game/Blueprints/Traps/BP_Temp_Lever.BP_Temp_Lever
+/Game/Maps/GYM_Art/Gym_Victoire.Gym_Victoire
+/Game/Maps/GYM_Designers/MAP_BasicPrototype3.MAP_BasicPrototype3
+/Game/Maps/GYM_Designers/MAP_Tuto.MAP_Tuto
+/Game/Maps/UI/LVL_mainMenu.LVL_mainMenu
+/Game/WwiseAudio/BP_AmbiancePlayer.BP_AmbiancePlayer
+/Game/WwiseAudio/BP_AudioPlayer.BP_AudioPlayer
+/Game/WwiseAudio/BP_MusicPlayer1.BP_MusicPlayer1

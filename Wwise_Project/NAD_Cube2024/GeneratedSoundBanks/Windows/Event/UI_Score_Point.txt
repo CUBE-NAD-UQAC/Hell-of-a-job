@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	847302279	UI_Score_Point			\SFX WU\UI_Events_WU\UI_Score_Point	
+
+Effect plug-ins	ID	Name	Type				Notes
+	669252911	EQ_Score_Point	Wwise Parametric EQ			
+

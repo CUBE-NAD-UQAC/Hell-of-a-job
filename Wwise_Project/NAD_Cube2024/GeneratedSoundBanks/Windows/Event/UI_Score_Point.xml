@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="847302279" Type="Event" GUID="{D461BA11-6265-486C-B61F-5B6F06FFAC81}" Language="SFX" Hash="{FBB2CD56-F469-4665-D126-365CB466021F}">
+			<ObjectPath>UI_Score_Point</ObjectPath>
+			<ShortName>UI_Score_Point</ShortName>
+			<Path>Event/UI_Score_Point.bnk</Path>
+			<Media>
+				<File Id="325379466" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_Score_Point_01.wav</ShortName>
+					<Path>Media/325379466.wem</Path>
+					<CachePath>SFX/UI_Score_Point_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="643235809" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_Score_Point_02.wav</ShortName>
+					<Path>Media/643235809.wem</Path>
+					<CachePath>SFX/UI_Score_Point_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1025727443" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_Score_Point_03.wav</ShortName>
+					<Path>Media/1025727443.wem</Path>
+					<CachePath>SFX/UI_Score_Point_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="669252911" Name="EQ_Score_Point" ObjectPath="\Effects\Default Work Unit\EQ_Score_Point" GUID="{5E47C69B-3D1A-4EEB-979D-9C5BA2FCD035}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="847302279" Name="UI_Score_Point" ObjectPath="\Events\SFX WU\UI_Events_WU\UI_Score_Point" GUID="{D461BA11-6265-486C-B61F-5B6F06FFAC81}" DurationType="OneShot" DurationMin="3.2621875" DurationMax="3.8799167">
+					<MediaRefs>
+						<MediaRef Id="325379466"/>
+						<MediaRef Id="643235809"/>
+						<MediaRef Id="1025727443"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="669252911"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{0E688AF5-552F-3655-837D-AD40ECD8096F}</FileHash>
+</SoundBanksInfo>

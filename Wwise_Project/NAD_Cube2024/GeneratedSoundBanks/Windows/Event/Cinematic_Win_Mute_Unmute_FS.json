@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "621378612",
+    "Type": "Event",
+    "GUID": "{939E06A6-8918-4A5A-9051-965CAC906665}",
+    "Language": "SFX",
+    "Hash": "{B90C4E5A-9E99-1687-6EAC-C665423C590B}",
+    "ObjectPath": "Cinematic_Win_Mute_Unmute_FS",
+    "ShortName": "Cinematic_Win_Mute_Unmute_FS",
+    "Path": "Event/Cinematic_Win_Mute_Unmute_FS.bnk",
+    "Events": [
+     {
+      "Id": "621378612",
+      "Name": "Cinematic_Win_Mute_Unmute_FS",
+      "ObjectPath": "\\Events\\Cinematic\\Cinematic_Win_Mute_Unmute_FS",
+      "GUID": "{939E06A6-8918-4A5A-9051-965CAC906665}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{72565D18-89D2-DEAA-144B-013FB165B40C}"
+ }
+}

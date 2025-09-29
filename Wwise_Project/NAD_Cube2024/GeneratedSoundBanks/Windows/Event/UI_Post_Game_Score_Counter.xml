@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2169231699" Type="Event" GUID="{F94FF8F2-4D94-4647-BA1A-FE272C43F91C}" Language="SFX" Hash="{83E1A4B7-81AF-D64D-571F-50B3D7663199}">
+			<ObjectPath>UI_Post_Game_Score_Counter</ObjectPath>
+			<ShortName>UI_Post_Game_Score_Counter</ShortName>
+			<Path>Event/UI_Post_Game_Score_Counter.bnk</Path>
+			<Media>
+				<File Id="201213398" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bounce\UI\SFX_UI_Score_Counter_PostGame_3.wav</ShortName>
+					<Path>Media/201213398.wem</Path>
+					<CachePath>SFX/Bounce/UI/SFX_UI_Score_Counter_PostGame_3_D035779F.wem</CachePath>
+				</File>
+				<File Id="321623280" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bounce\UI\SFX_UI_Score_Counter_PostGame_4.wav</ShortName>
+					<Path>Media/321623280.wem</Path>
+					<CachePath>SFX/Bounce/UI/SFX_UI_Score_Counter_PostGame_4_B81357D9.wem</CachePath>
+				</File>
+				<File Id="549704689" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bounce\UI\SFX_UI_Score_Counter_PostGame_2.wav</ShortName>
+					<Path>Media/549704689.wem</Path>
+					<CachePath>SFX/Bounce/UI/SFX_UI_Score_Counter_PostGame_2_87AE4CAA.wem</CachePath>
+				</File>
+				<File Id="1063699745" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bounce\UI\SFX_UI_Score_Counter_PostGame_1.wav</ShortName>
+					<Path>Media/1063699745.wem</Path>
+					<CachePath>SFX/Bounce/UI/SFX_UI_Score_Counter_PostGame_1_858CBD78.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2169231699" Name="UI_Post_Game_Score_Counter" ObjectPath="\Events\SFX WU\UI_Events_WU\UI_Post_Game_Score_Counter" GUID="{F94FF8F2-4D94-4647-BA1A-FE272C43F91C}" MaxAttenuation="2000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="201213398"/>
+						<MediaRef Id="321623280"/>
+						<MediaRef Id="549704689"/>
+						<MediaRef Id="1063699745"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{51A8BB70-2379-76D4-47DF-38F146A3BC2E}</FileHash>
+</SoundBanksInfo>

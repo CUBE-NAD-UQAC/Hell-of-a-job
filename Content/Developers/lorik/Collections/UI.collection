@@ -1,0 +1,9 @@
+FileVersion:2
+Type:Static
+Guid:31FCE3D4-4EE7-483B-4155-63A02CAF9D1B
+ParentGuid:00000000-0000-0000-0000-000000000000
+
+/Game/Maps/UI/LVL_mainMenu.LVL_mainMenu
+/Game/Widget/W_MediaPlayer.W_MediaPlayer
+/Game/Widget/W_pause.W_pause
+/Game/Widget/W_settingsMenu.W_settingsMenu

@@ -1,0 +1,4 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1730664413	Prop_Collectible_Spawn			\SFX WU\Objects_Events_WU\Collectibles\Prop_Collectible_Spawn	
+	3410528690	Prop_Collectible_Hum			\SFX WU\Objects_Events_WU\Collectibles\Prop_Collectible_Hum	
+

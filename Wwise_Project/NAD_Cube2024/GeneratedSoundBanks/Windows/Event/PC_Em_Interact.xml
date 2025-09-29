@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3707427020" Type="Event" GUID="{4F52831D-B459-4F99-B4B2-EC2D75B1754A}" Language="SFX" Hash="{8756B367-A097-FB64-6A4D-3AC2462B4BF4}">
+			<ObjectPath>PC_Em_Interact</ObjectPath>
+			<ShortName>PC_Em_Interact</ShortName>
+			<Path>Event/PC_Em_Interact.bnk</Path>
+			<Events>
+				<Event Id="3707427020" Name="PC_Em_Interact" ObjectPath="\Events\SFX WU\Player_Events_WU\Emotes\PC_Em_Interact" GUID="{4F52831D-B459-4F99-B4B2-EC2D75B1754A}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{5A883FD8-AD5B-98A1-8ECB-A117A8E25A35}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1412279167	Animatique_End			\MISC_WU\Animatique_End	
+

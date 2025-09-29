@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2010839542" Type="Event" GUID="{666FF1B3-D62D-4126-905A-1EA5CCC23B8B}" Language="SFX" Hash="{D66A3449-C2D8-DC82-D9A1-404002B9000C}">
+			<ObjectPath>old_Prop_Portal_Enter</ObjectPath>
+			<ShortName>old_Prop_Portal_Enter</ShortName>
+			<Path>Event/old_Prop_Portal_Enter.bnk</Path>
+			<Media>
+				<File Id="895753111" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bounce\Portal\SFX_Object_Portal_Enter.wav</ShortName>
+					<Path>Media/895753111.wem</Path>
+					<CachePath>SFX/Bounce/Portal/SFX_Object_Portal_Enter_2D60718B.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2010839542" Name="old_Prop_Portal_Enter" ObjectPath="\Events\SFX WU\Objects_Events_WU\_old\old_Prop_Portal_Enter" GUID="{666FF1B3-D62D-4126-905A-1EA5CCC23B8B}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="1.31" DurationMax="1.31">
+					<MediaRefs>
+						<MediaRef Id="895753111"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3317505025" Name="Stop_Portal_Hum" ObjectPath="\Events\SFX WU\Objects_Events_WU\Stop_Portal_Hum" GUID="{7FDA5A0B-5DC4-42BC-B598-4335AA7D5AF8}"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3317505025" Name="Stop_Portal_Hum" ObjectPath="\Events\SFX WU\Objects_Events_WU\Stop_Portal_Hum" GUID="{7FDA5A0B-5DC4-42BC-B598-4335AA7D5AF8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{AF669CBC-5674-EBFD-FE17-9097DC2DC0A0}</FileHash>
+</SoundBanksInfo>

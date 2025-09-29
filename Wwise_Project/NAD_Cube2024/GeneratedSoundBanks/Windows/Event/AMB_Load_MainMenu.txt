@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1877570311	AMB_Load_MainMenu			\AMB WU\AMB_Load_MainMenu	
+

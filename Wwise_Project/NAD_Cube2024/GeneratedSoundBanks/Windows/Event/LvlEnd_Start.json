@@ -1,0 +1,76 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "636152781",
+    "Type": "Event",
+    "GUID": "{DF5A1FC2-B144-4550-9030-5D3B4D07FE36}",
+    "Language": "SFX",
+    "Hash": "{B4CD82E0-2F04-BD9C-C21C-E491E2EACFD8}",
+    "ObjectPath": "LvlEnd_Start",
+    "ShortName": "LvlEnd_Start",
+    "Path": "Event/LvlEnd_Start.bnk",
+    "Events": [
+     {
+      "Id": "636152781",
+      "Name": "LvlEnd_Start",
+      "ObjectPath": "\\Events\\MUS WU\\LvlEnd_Start",
+      "GUID": "{DF5A1FC2-B144-4550-9030-5D3B4D07FE36}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "3514626634",
+        "Id": "1281810935",
+        "Name": "Start",
+        "ObjectPath": "\\States\\Default Work Unit\\MUS_VictorySeq\\Start",
+        "GUID": "{94C5C768-ADD8-4F21-8A6A-1A04748EDDC4}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3514626634",
+      "Name": "MUS_VictorySeq",
+      "ObjectPath": "\\States\\Default Work Unit\\MUS_VictorySeq",
+      "GUID": "{58BE40E9-2BED-4AF7-B555-EF55EC9AD47F}",
+      "States": [
+       {
+        "Id": "529726532",
+        "Name": "End",
+        "ObjectPath": "\\States\\Default Work Unit\\MUS_VictorySeq\\End",
+        "GUID": "{EAF696A7-1238-48EC-8AC5-AD066A257A76}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\MUS_VictorySeq\\None",
+        "GUID": "{9D0FF694-CDAD-42EA-A4C4-D2C273D19412}"
+       },
+       {
+        "Id": "1281810935",
+        "Name": "Start",
+        "ObjectPath": "\\States\\Default Work Unit\\MUS_VictorySeq\\Start",
+        "GUID": "{94C5C768-ADD8-4F21-8A6A-1A04748EDDC4}"
+       },
+       {
+        "Id": "2149848048",
+        "Name": "BuildUp",
+        "ObjectPath": "\\States\\Default Work Unit\\MUS_VictorySeq\\BuildUp",
+        "GUID": "{C7715DA3-0A2B-487F-ACB7-5506BC6011B4}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{03AAA6EF-1FD7-4F6A-D076-413DFD89EA46}"
+ }
+}

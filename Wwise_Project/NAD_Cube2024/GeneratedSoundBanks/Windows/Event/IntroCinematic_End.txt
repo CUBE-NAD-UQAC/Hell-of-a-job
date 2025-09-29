@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1703059650	IntroCinematic_End			\MISC_WU\IntroCinematic_End	
+
